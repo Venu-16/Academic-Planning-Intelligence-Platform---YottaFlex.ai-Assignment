@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: academic-planner
+Version: 1.0.0
+Requires-Python: >=3.11
+Requires-Dist: pandas<3,>=2.1
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: scikit-learn<2,>=1.4
+Requires-Dist: ortools<10,>=9.10
+Requires-Dist: streamlit<2,>=1.35
+Requires-Dist: plotly<7,>=5.20
+Requires-Dist: SQLAlchemy<3,>=2.0
+Requires-Dist: psycopg[binary]<4,>=3.1
+Requires-Dist: PyYAML<7,>=6
+Requires-Dist: python-dotenv<2,>=1
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"

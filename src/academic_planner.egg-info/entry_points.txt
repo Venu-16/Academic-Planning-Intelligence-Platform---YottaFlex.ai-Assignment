@@ -1,0 +1,2 @@
+[console_scripts]
+academic-planner = academic_planner.cli:main

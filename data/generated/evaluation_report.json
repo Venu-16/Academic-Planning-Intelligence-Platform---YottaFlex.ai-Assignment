@@ -1,0 +1,41 @@
+{
+  "seed": 20261022,
+  "dataset_rows": {
+    "programs": 10,
+    "courses": 100,
+    "prerequisites": 21,
+    "faculty": 50,
+    "faculty_skills": 257,
+    "availability": 1000,
+    "rooms": 30,
+    "student_plans": 1000,
+    "registration_interests": 3463,
+    "historical_enrollments": 300
+  },
+  "forecast": {
+    "evaluation_term": "2026-FALL",
+    "mae": 8.927776686507935,
+    "rmse": 11.665957714663117,
+    "baseline_mae": 8.36,
+    "courses_forecasted": 100
+  },
+  "solver": {
+    "status": "OPTIMAL",
+    "assigned": 170,
+    "unassigned": 51,
+    "objective_value": 170.0
+  },
+  "allocation": {
+    "sections_proposed": 221,
+    "sections_staffed": 170,
+    "staffing_rate": 0.7692
+  },
+  "unmet_demand": {
+    "total_unmet": 0,
+    "courses_with_unmet": 0
+  },
+  "validation": {
+    "passed": true,
+    "issues": []
+  }
+}
