@@ -1,5 +1,8 @@
 from .optimizer import SECTION_WEEKLY_HOURS
-from .validation import faculty_term_eligibility_issues
+from .validation import (
+    faculty_availability_issues_from_records,
+    faculty_skill_issues_from_records,
+)
 
 
 def diagnose_unstaffed_sections(
@@ -16,7 +19,30 @@ def diagnose_unstaffed_sections(
     availability_rows = {}
     for row in availability.itertuples(index=False):
         key = (row.faculty_id, row.term_id, int(row.day_of_week), row.slot_id)
-        availability_rows.setdefault(key, []).append(bool(row.available))
+        availability_rows.setdefault(key, []).append(row._asdict())
+    skills_by_course = {}
+    for row in skills.itertuples(index=False):
+        skills_by_course.setdefault(row.course_id,{}).setdefault(
+            row.faculty_id, []
+        ).append(row._asdict())
+    availability_by_slot = {}
+    for (faculty_id,term_id,day,slot),records in availability_rows.items():
+        availability_by_slot.setdefault((term_id,day,slot),{})[faculty_id]=records
+    faculty_records=list(faculty.itertuples(index=False))
+    active_faculty={
+        person.faculty_id:person
+        for person in faculty_records if person.employment_status=="ACTIVE"
+    }
+    active_faculty_ids=set(active_faculty)
+    inactive_faculty_count=len(faculty_records)-len(active_faculty)
+    term_dates={}
+    for section in sections.itertuples(index=False):
+        term_dates.setdefault(
+            section.term_id,
+            (section.term_start_date,section.term_end_date),
+        )
+    skill_summaries={}
+    availability_summaries={}
 
     assigned_hours = {}
     occupied_slots = set()
@@ -41,81 +67,119 @@ def diagnose_unstaffed_sections(
                 )
             )
 
+    workload_limited_by_term={}
+    for term_id in sections.term_id.unique():
+        workload_limited_by_term[term_id]={
+            faculty_id for faculty_id,person in active_faculty.items()
+            if assigned_hours.get((faculty_id,term_id),0.0)
+            + SECTION_WEEKLY_HOURS > float(person.max_weekly_hours)
+        }
+    occupied_by_slot={}
+    for faculty_id,term_id,day,slot in occupied_slots:
+        occupied_by_slot.setdefault((term_id,day,slot),set()).add(faculty_id)
+
     section_diagnostics = []
     blocker_counts = {}
     blocker_occurrences = {}
     for section in unstaffed.itertuples(index=False):
         slot = (int(section.day_of_week), section.slot_id)
-        faculty_checks = []
-        section_blockers = set()
+        date_key=term_dates.get(section.term_id)
+        section_context=section._asdict()
+        skill_key=(section.course_id,section.term_id,date_key)
+        if skill_key not in skill_summaries:
+            context={**section_context}
+            skill_counts={}
+            skilled_ids=set()
+            course_faculty=skills_by_course.get(section.course_id,{})
+            present_active_ids=active_faculty_ids.intersection(course_faculty)
+            missing_count=len(active_faculty_ids)-len(present_active_ids)
+            if missing_count:
+                skill_counts["MISSING_SKILL"]=missing_count
+            for faculty_id in present_active_ids:
+                reasons=faculty_skill_issues_from_records(
+                    context,
+                    course_faculty[faculty_id],
+                    {"effective_from","effective_to"}.issubset(skills.columns),
+                )
+                if reasons:
+                    for reason in reasons:
+                        skill_counts[reason]=skill_counts.get(reason,0)+1
+                else:
+                    skilled_ids.add(faculty_id)
+            skill_summaries[skill_key]=(skill_counts,skilled_ids)
 
-        for person in faculty.itertuples(index=False):
-            blockers = []
-            availability_key = (
-                person.faculty_id,
-                section.term_id,
-                slot[0],
-                slot[1],
+        availability_key=(section.term_id,slot[0],slot[1],date_key)
+        if availability_key not in availability_summaries:
+            slot_faculty=availability_by_slot.get(
+                (section.term_id,slot[0],slot[1]),{}
             )
-            if person.employment_status != "ACTIVE":
-                blockers.append("FACULTY_NOT_ACTIVE")
-            else:
-                eligibility_issues = faculty_term_eligibility_issues(
-                    person.faculty_id,
-                    section.course_id,
-                    section._asdict(),
-                    skills,
-                    availability,
+            present_active_ids=active_faculty_ids.intersection(slot_faculty)
+            availability_counts={}
+            missing_count=len(active_faculty_ids)-len(present_active_ids)
+            if missing_count:
+                availability_counts["AVAILABILITY_MISSING"]=missing_count
+            available_ids=set()
+            for faculty_id in present_active_ids:
+                reasons=faculty_availability_issues_from_records(
+                    section_context,
+                    slot_faculty[faculty_id],
+                    {"effective_from","effective_to"}.issubset(availability.columns),
                 )
-                if "FACULTY_OUTSIDE_SKILL" in eligibility_issues:
-                    blockers.append("MISSING_SKILL")
-                blockers.extend(
-                    issue for issue in eligibility_issues
-                    if issue not in {"FACULTY_OUTSIDE_SKILL"}
-                )
-
-                current_hours = assigned_hours.get(
-                    (person.faculty_id,section.term_id),0.0
-                )
-                if current_hours + SECTION_WEEKLY_HOURS > float(person.max_weekly_hours):
-                    blockers.append("WORKLOAD_LIMIT")
-
-                if availability_key in occupied_slots:
-                    blockers.append("TIMETABLE_CONFLICT")
-
-            availability_evidence = availability_rows.get(
-                availability_key, []
-            )
-            if blockers:
-                section_blockers.update(blockers)
-                for blocker in blockers:
-                    blocker_occurrences[blocker] = blocker_occurrences.get(blocker, 0) + 1
-            faculty_checks.append(
-                {
-                    "faculty_id": person.faculty_id,
-                    "blockers": blockers,
-                    "current_weekly_hours": round(
-                        assigned_hours.get((person.faculty_id,section.term_id),0.0),2
-                    ),
-                    "weekly_hour_limit": float(person.max_weekly_hours),
-                    "availability_evidence": (
-                        "AVAILABLE"
-                        if any(availability_evidence)
-                        else "MARKED_UNAVAILABLE"
-                        if availability_evidence
-                        else "NO_RECORD"
-                    ),
-                }
+                if reasons:
+                    for reason in reasons:
+                        availability_counts[reason]=availability_counts.get(reason,0)+1
+                else:
+                    available_ids.add(faculty_id)
+            availability_summaries[availability_key]=(
+                availability_counts,available_ids
             )
 
-        feasible_faculty = [
-            item["faculty_id"] for item in faculty_checks if not item["blockers"]
+        skill_counts,skilled_ids=skill_summaries[skill_key]
+        availability_counts,available_ids=availability_summaries[availability_key]
+        section_blocker_counts={}
+        for counts in (skill_counts,availability_counts):
+            for reason,count in counts.items():
+                section_blocker_counts[reason]=section_blocker_counts.get(reason,0)+count
+
+        workload_limited=workload_limited_by_term.get(section.term_id,set())
+        conflicting_faculty=occupied_by_slot.get(
+            (section.term_id,slot[0],slot[1]),set()
+        )
+        if workload_limited:
+            section_blocker_counts["WORKLOAD_LIMIT"]=len(workload_limited)
+        if conflicting_faculty:
+            section_blocker_counts["TIMETABLE_CONFLICT"]=len(conflicting_faculty)
+        if inactive_faculty_count:
+            section_blocker_counts["FACULTY_NOT_ACTIVE"]=inactive_faculty_count
+        section_blockers=set(section_blocker_counts)
+        validation_blockers=[
+            item for item in str(
+                getattr(section,"validation_issues","")
+            ).split(";")
+            if item
         ]
-        if not any(person.employment_status == "ACTIVE" for person in faculty.itertuples(index=False)):
+        if getattr(section,"validation_status",None)=="BLOCKED":
+            section_blockers.update(validation_blockers)
+            for blocker in validation_blockers:
+                section_blocker_counts[blocker]=(
+                    section_blocker_counts.get(blocker,0)+1
+                )
+        if not active_faculty_ids:
             section_blockers.add("NO_ACTIVE_FACULTY")
+        feasible_faculty=sorted(
+            (skilled_ids & available_ids)
+            - workload_limited
+            - conflicting_faculty
+        )
 
-        accounted = not feasible_faculty
-        if feasible_faculty:
+        for blocker,count in section_blocker_counts.items():
+            blocker_occurrences[blocker]=blocker_occurrences.get(blocker,0)+count
+
+        section_blocked=getattr(section,"validation_status",None)=="BLOCKED"
+        accounted = section_blocked or not feasible_faculty
+        if section_blocked:
+            explanation="BLOCKED_BY_SECTION_VALIDATION"
+        elif feasible_faculty:
             explanation = (
                 "SOLVER_DID_NOT_PROVE_OPTIMAL"
                 if solver_status != "OPTIMAL"
@@ -136,8 +200,8 @@ def diagnose_unstaffed_sections(
                 "room_id": section.room_id if hasattr(section, "room_id") else None,
                 "planned_capacity": int(section.planned_capacity),
                 "candidate_blocking_reasons": sorted(section_blockers),
+                "candidate_blocker_counts": section_blocker_counts,
                 "feasible_faculty_ids": feasible_faculty,
-                "faculty_checks": faculty_checks,
                 "accounted": accounted,
                 "diagnosis": explanation,
             }

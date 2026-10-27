@@ -6,6 +6,7 @@ def propose_sections(forecasts,rooms,term_id="2027-SPRING",academic_terms=None):
     active=rooms[rooms["active"]].sort_values("capacity")
     max_room=int(active["capacity"].max()) if not active.empty else 40
     cap=min(40,max_room); rows=[]; room_slots=set()
+    term_year=str(term_id).split("-",1)[0]
     for _,r in forecasts.iterrows():
         n=max(1,math.ceil(int(r.forecast_enrollment)/cap))
         for i in range(1,n+1):
@@ -16,7 +17,7 @@ def propose_sections(forecasts,rooms,term_id="2027-SPRING",academic_terms=None):
             for _,room in candidates.iterrows():
                 if (room.room_id,day,slot) not in room_slots:
                     room_id=room.room_id; room_slots.add((room_id,day,slot)); break
-            rows.append({"section_id":f"SEC-2027-{idx:06d}","course_id":r.course_id,"term_id":term_id,
+            rows.append({"section_id":f"SEC-{term_year}-{idx:06d}","course_id":r.course_id,"term_id":term_id,
                 "section_number":i,"room_id":room_id,"day_of_week":day,"slot_id":slot,
                 "planned_capacity":cap,"forecast_demand":int(r.forecast_enrollment),
                 "status":"PROPOSED" if room_id else "PARTIAL"})
@@ -170,7 +171,7 @@ def calculate_operational_capacity(sections,assignments,rooms,faculty,skills,ava
         assignment_status=(
             assignment.status
             if assignment is not None and "status" in group.columns
-            else "PROPOSED" if assignment is None else "ASSIGNED"
+            else "UNSTAFFED" if assignment is None else "PROPOSED"
         )
         mandatory_blockers=set(blockers)-{"UNSTAFFED"}
         if assignment_status=="REJECTED":
@@ -180,7 +181,7 @@ def calculate_operational_capacity(sections,assignments,rooms,faculty,skills,ava
         elif assignment is not None:
             lifecycle_status="OPERATIONAL"
         else:
-            lifecycle_status="PROPOSED"
+            lifecycle_status="UNSTAFFED"
         try:
             raw_capacity=section.planned_capacity
             planned_capacity=int(raw_capacity)

@@ -65,9 +65,19 @@ python -m academic_planner.cli --no-db --seed 20261022 --output-dir data/demo-20
 
 The pipeline generates source CSV/JSON files, `ground_truth.csv`, `source_manifest.json`, forecast and section outputs, workload assignments, validation reports, allocation diagnostics, operational capacity, unmet demand, and `evaluation_report.json`. Each invocation also archives its artifacts under `runs/<planning_run_id>/`.
 
+The backward-compatible default is the starter scale (10 programs, 100 courses, 50 faculty, and 1,000 student plans). Run the target configuration through the complete pipeline with:
+
+```powershell
+python -m academic_planner.cli --no-db --seed 20261022 --scale target --output-dir reports/target-run
+```
+
+`--scale target` selects 100 programs, 1,000 courses, 500 faculty, and 20,000 student plans. Override individual dimensions with `--programs`, `--courses`, `--faculty`, or `--student-plans`; positive integers are required. The source manifest records the requested scale, seed, row counts, and CSV checksums. The evaluation report records elapsed time and Python allocation peak (it excludes native-library allocations).
+
 The seed controls synthetic source data and the forecasting estimator. CP-SAT allocation uses multiple workers, so do not assume allocations are identical between separate runs. Use the same run's exported data and metrics for reconciliation.
 
-For the seed `20261022`, the Step 6 acceptance run produced 221 proposed sections, 170 operational sections, 8,840 planned seats, 6,800 operational seats, 6,616 forecast demand, 5,416 operationally covered seats, and 1,200 unmet seats across 37 courses. In the 100-observation `2026-FALL` holdout, the Random Forest scored MAE 8.928 / RMSE 11.666; the last-observation baseline scored MAE 8.360 / RMSE 10.723. The baseline performed better on both metrics. These are representative results from one run, not guaranteed allocations or production performance.
+The earlier starter-scale Step 6 acceptance run for seed `20261022` produced 221 proposed sections, 170 operational sections, 8,840 planned seats, 6,800 operational seats, 6,616 forecast demand, 5,416 operationally covered seats, and 1,200 unmet seats across 37 courses. In its 100-observation `2026-FALL` holdout, the Random Forest scored MAE 8.928 / RMSE 11.666; the last-observation baseline scored MAE 8.360 / RMSE 10.723. The baseline performed better on both metrics.
+
+The target-scale remediation acceptance run used the same seed with 100 programs, 1,000 courses, 500 faculty, and 20,000 student plans. It proposed 2,126 sections; 345 were operational, while 1,726 were blocked for missing room assignments and 55 remained unstaffed. Planned capacity was 85,040 seats, operational capacity 13,800, forecast demand 66,408, covered demand 10,974, and unmet demand 55,434 across 850 courses. On its 1,000-observation `2026-FALL` holdout, the Random Forest scored MAE 7.784 / RMSE 9.657 versus baseline MAE 8.683 / RMSE 10.938. These are single-run synthetic evaluation results, not guaranteed allocations or evidence of production forecasting performance. See [the remediation acceptance report](./reports/acceptance_remediation_20261027_182020.md) for reconciliations, validation results, and limitations.
 
 ## Run the dashboard
 
@@ -77,7 +87,7 @@ After generating the default reports:
 streamlit run app_dashboard.py
 ```
 
-The dashboard reads `data/generated` by default. It displays course forecasts, proposals, assignment diagnostics, planned and operational seats, covered demand, unmet demand, and validation information.
+The dashboard reads the configured `OUTPUT_DIR` (default `data/generated`) and can select any report directory under `reports/` that contains an `evaluation_report.json`. It displays the selected run identifier, final section and assignment states, forecasts, diagnostics, planned and operational seats, covered demand, unmet demand, and validation information.
 
 ## Testing
 
@@ -112,9 +122,11 @@ Use temporary test infrastructure and credentials that are not production creden
 1. Run `python -m academic_planner.cli --no-db --seed 20261022`. This refreshes the generated artifacts read by the dashboard.
 2. Inspect `evaluation_report.json` and compare the reported model and baseline MAE/RMSE. A lower error is better; the model is not assumed to beat the baseline.
 3. Open `sections.csv` and `operational_capacity.csv`. A valid allocation has an assignment and `section_status=OPERATIONAL`, with operational seats equal to validated planned seats. For the acceptance run, an example is any row whose `section_status` is `OPERATIONAL`.
-4. The clean baseline is expected to contain no blocked sections. Reproduce a blocked allocation in an isolated synthetic test by running `python -m pytest "tests/test_ground_truth.py::test_pipeline_blocks_invalid_assignment_from_operational_capacity[FACULTY_OUTSIDE_SKILL-FACULTY_OUTSIDE_SKILL]" -q`. That fixture removes the assigned faculty member's course skill; the pipeline reports the rule, rejects the assignment, and gives that section zero operational capacity. The anomaly fixture is not added to baseline data.
+4. Inspect `section_validation.json` and `operational_capacity.csv` for proposals blocked by real generated constraints; the target-scale acceptance run, for example, has blocked sections because room assignments are unavailable. To reproduce a faculty-skill rejection in an isolated synthetic test, run `python -m pytest "tests/test_ground_truth.py::test_pipeline_blocks_invalid_assignment_from_operational_capacity[FACULTY_OUTSIDE_SKILL-FACULTY_OUTSIDE_SKILL]" -q`. That fixture removes the assigned faculty member's course skill; the pipeline reports the rule, rejects the assignment, and gives that section zero operational capacity. The test mutation is not added to baseline data.
 5. Compare `unmet_demand.csv` with the run summary. Unmet demand is calculated separately for each course, so excess seats in another course cannot offset a shortage.
-6. Launch the dashboard with `streamlit run app_dashboard.py` to view the default `data/generated` output set. A custom `--output-dir` is not currently configurable in the dashboard.
+6. Launch the dashboard with `streamlit run app_dashboard.py`. Use the sidebar's **Planning run output** selector to choose the default output or a completed run under `reports/`.
+
+Lifecycle values are finalized in the exports: sections are `OPERATIONAL`, `UNSTAFFED`, `BLOCKED`, or `REJECTED`; accepted assignments are `APPROVED` and invalid/rejected assignments are `REJECTED`. A proposal is not operational until validation and staffing complete. Run-scoped state transitions are exported to `decision_events.json` and persisted when database mode is enabled.
 
 The exact counts and errors depend on the chosen seed and optimizer allocation. Consult the current run's files rather than relying on example numbers.
 

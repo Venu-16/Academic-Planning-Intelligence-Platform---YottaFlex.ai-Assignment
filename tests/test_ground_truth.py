@@ -275,9 +275,11 @@ def test_pipeline_reports_capacity_shortfall_as_existing_ground_truth_rule(
         ] = 45
         return forecasts, metrics
 
-    def propose_one_insufficient_section(forecasts, rooms, academic_terms=None):
+    def propose_one_insufficient_section(
+        forecasts, rooms, term_id=None, academic_terms=None
+    ):
         sections = original_propose(
-            forecasts, rooms, academic_terms=academic_terms
+            forecasts, rooms, term_id=term_id, academic_terms=academic_terms
         )
         target = sections[sections.course_id == target_course].head(1)
         return pd.concat(

@@ -5,6 +5,7 @@ import uuid
 import pandas as pd
 import pytest
 from sqlalchemy import create_engine, text
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.engine import make_url
 
 from academic_planner.database import initialize_database, load_latest_capacity_metrics
@@ -67,6 +68,8 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
 
     monkeypatch.setattr(pipeline_module, "forecast_demand", distinctive_forecast)
     second_metrics = run_pipeline(second_dir, database_url, seed=20261022, persist=True)
+    first_transition_count = len(json.loads((first_dir / "decision_events.json").read_text()))
+    second_transition_count = len(json.loads((second_dir / "decision_events.json").read_text()))
     persisted = load_latest_capacity_metrics(engine)
 
     with engine.connect() as conn:
@@ -92,11 +95,23 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
             "AND confrelid='planning_runs'::regclass AND contype='f' AND convalidated) AS event_run_fk,"
             "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='workload_assignments'::regclass "
             "AND confrelid='sections'::regclass AND contype='f' AND convalidated) AS assignment_section_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='sections'::regclass "
+            "AND conname='sections_term_id_fkey' AND contype='f') AS section_term_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='student_plans'::regclass "
+            "AND conname='student_plans_term_id_fkey' AND contype='f') AS student_term_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='registration_interests'::regclass "
+            "AND conname='registration_interests_term_id_fkey' AND contype='f') AS interest_term_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='availability'::regclass "
+            "AND conname='availability_term_id_fkey' AND contype='f') AS availability_term_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='forecasts'::regclass "
+            "AND conname='forecasts_target_term_fkey' AND contype='f') AS forecast_term_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='unmet_demand'::regclass "
+            "AND conname='unmet_demand_target_term_fkey' AND contype='f') AS unmet_term_fk,"
             "to_regclass('sections_course_term_section_run_uq') IS NOT NULL AS section_run_unique,"
             "to_regclass('unmet_demand_run_course_term_uq') IS NOT NULL AS unmet_run_unique"
         )).mappings().one()
         run_rows = conn.execute(text(
-            "SELECT r.planning_run_id,r.seed,"
+            "SELECT r.planning_run_id,r.seed,r.notes,"
             "(SELECT COUNT(*) FROM forecasts f WHERE f.planning_run_id=r.planning_run_id) AS forecasts,"
             "(SELECT COUNT(*) FROM sections s WHERE s.planning_run_id=r.planning_run_id) AS sections,"
             "(SELECT COUNT(*) FROM sections s WHERE s.planning_run_id=r.planning_run_id "
@@ -112,12 +127,13 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
             "FROM planning_runs r ORDER BY r.created_at,r.planning_run_id"
         )).mappings().all()
         persisted_events = conn.execute(text(
-            "SELECT planning_run_id,event_type,payload FROM decision_events "
+            "SELECT planning_run_id,event_type,entity_type,entity_id,event_time,payload "
+            "FROM decision_events "
             "WHERE planning_run_id IN (:first,:second)"
         ),{"first":first_metrics["planning_run_id"],"second":second_metrics["planning_run_id"]}).mappings().all()
 
     assert counts["runs"] == 2
-    assert counts["events"] == 4
+    assert counts["events"] == 4 + first_transition_count + second_transition_count
     assert counts["diagnostic_events"] == 2
     assert all(constraints.values())
     assert counts["forecasts"] == (
@@ -139,13 +155,21 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
     assert counts["preserved"] == 1
     assert first_metrics["planning_run_id"] != second_metrics["planning_run_id"]
     assert [row["seed"] for row in run_rows] == [20261022,20261022]
+    assert all(
+        json.loads(row["notes"])["scale"] == {
+            "programs":10,"courses":100,"faculty":50,"student_plans":1000
+        }
+        for row in run_rows
+    )
     assert len(run_rows) == 2
     first_forecasts = pd.read_csv(first_dir / "forecasts.csv")
     second_forecasts = pd.read_csv(second_dir / "forecasts.csv")
     assert not first_forecasts.forecast_enrollment.equals(
         second_forecasts.forecast_enrollment
     )
-    assert [row["events"] for row in run_rows] == [2,2]
+    assert [row["events"] for row in run_rows] == [
+        2 + first_transition_count, 2 + second_transition_count
+    ]
     assert [row["forecasts"] for row in run_rows] == [
         first_metrics["forecast"]["courses_forecasted"],
         second_metrics["forecast"]["courses_forecasted"],
@@ -244,6 +268,14 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
         assert planning_validation["planning_run_id"] == run_id
         assert diagnostics["fully_accounted"] == metrics["allocation_diagnostics"]["fully_accounted"]
         assert section_output.planning_run_id.eq(run_id).all()
+        assert section_output.status.tolist() == capacity.set_index(
+            "section_id"
+        ).loc[section_output.section_id, "section_status"].tolist()
+        assert not assignments_output.loc[
+            assignments_output.status == "APPROVED", "section_id"
+        ].map(
+            capacity.set_index("section_id").operational.to_dict()
+        ).eq(False).any()
         expected_assignment_rows = assignments_output[
             ["section_id","faculty_id","weekly_hours","status"]
         ].sort_values("section_id").reset_index(drop=True)
@@ -290,6 +322,19 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
             (run_dir/"allocation_diagnostics.json").read_text()
         )
         assert saved == file_diagnostics
+
+    transition_events = [
+        row for row in persisted_events
+        if row["event_type"] == "STATE_TRANSITION"
+    ]
+    assert len(transition_events) == first_transition_count + second_transition_count
+    assert all(
+        event["event_time"] is not None
+        and event["payload"]["previous_state"] == "PROPOSED"
+        and event["payload"]["new_state"]
+        and event["payload"]["reason_code"]
+        for event in transition_events
+    )
 
     program_columns = [
         "program_id","courses","forecast_demand","planned_capacity",
@@ -396,3 +441,21 @@ def test_existing_schema_migration_preserves_rows(isolated_postgres):
     assert not old_unique_exists
     assert unmet_index_exists
     assert academic_terms_exists
+
+
+def test_unknown_term_references_are_rejected_after_migration(isolated_postgres):
+    engine, _ = isolated_postgres
+    initialize_database(engine)
+    with engine.begin() as conn:
+        conn.execute(text(
+            "INSERT INTO faculty(faculty_id,name,department,max_weekly_hours,employment_status) "
+            "VALUES('FAC-TERM','Faculty','Test',6,'ACTIVE')"
+        ))
+
+    with pytest.raises(IntegrityError):
+        with engine.begin() as conn:
+            conn.execute(text(
+                "INSERT INTO availability(availability_id,faculty_id,term_id,day_of_week,"
+                "slot_id,available,effective_from) VALUES("
+                "'AVL-INVALID-TERM','FAC-TERM','2099-FALL',0,'S1',TRUE,'2099-01-01')"
+            ))

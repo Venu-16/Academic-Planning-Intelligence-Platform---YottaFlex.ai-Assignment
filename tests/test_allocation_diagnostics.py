@@ -136,6 +136,19 @@ def test_unresolved_feasible_candidate_is_not_mislabeled_as_blocked():
     assert result["diagnosis"] == "UNEXPLAINED_FEASIBLE_CANDIDATE"
 
 
+def test_invalid_section_is_accounted_even_when_faculty_candidate_is_feasible():
+    data=inputs()
+    data[0].loc[0,"validation_status"]="BLOCKED"
+    data[0].loc[0,"validation_issues"]="ROOM_REQUIRED"
+
+    result=diagnose(data)
+
+    assert result["feasible_faculty_ids"]==["FAC-1"]
+    assert result["candidate_blocking_reasons"]==["ROOM_REQUIRED"]
+    assert result["accounted"] is True
+    assert result["diagnosis"]=="BLOCKED_BY_SECTION_VALIDATION"
+
+
 def test_generated_unstaffed_sections_are_all_accounted_for():
     frames = generate_dataset()
     forecasts, _ = forecast_demand(frames["historical_enrollments"])

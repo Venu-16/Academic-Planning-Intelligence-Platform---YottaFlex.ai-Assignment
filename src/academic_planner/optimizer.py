@@ -126,6 +126,7 @@ def allocate_faculty(sections,faculty,skills,availability,time_limit_seconds=5):
     if status in (cp_model.OPTIMAL,cp_model.FEASIBLE):
         for (i,fid),v in x.items():
             if solver.Value(v):
-                rows.append({"workload_assignment_id":f"WLA-2027-{len(rows)+1:06d}","section_id":ss.iloc[i].section_id,"faculty_id":fid,"weekly_hours":float(SECTION_WEEKLY_HOURS),"status":"PROPOSED"})
+                term_year=str(ss.iloc[i].term_id).split("-",1)[0]
+                rows.append({"workload_assignment_id":f"WLA-{term_year}-{len(rows)+1:06d}","section_id":ss.iloc[i].section_id,"faculty_id":fid,"weekly_hours":float(SECTION_WEEKLY_HOURS),"status":"PROPOSED"})
     out=pd.DataFrame(rows,columns=cols); n=len(set(out.section_id)) if len(out) else 0
     return out,{"status":name,"assigned":n,"unassigned":len(ss)-n,"objective_value":float(solver.ObjectiveValue()) if status in (cp_model.OPTIMAL,cp_model.FEASIBLE) else None}

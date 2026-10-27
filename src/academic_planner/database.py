@@ -11,6 +11,20 @@ def initialize_database(engine):
     with engine.begin() as conn:
         for stmt in sql.split(";"):
             if stmt.strip(): conn.execute(text(stmt))
+        conn.execute(text(
+            "ALTER TABLE sections DROP CONSTRAINT IF EXISTS sections_status_check"
+        ))
+        has_lifecycle_check=conn.execute(text(
+            "SELECT EXISTS (SELECT 1 FROM pg_constraint "
+            "WHERE conname='sections_lifecycle_status_check' "
+            "AND conrelid='sections'::regclass)"
+        )).scalar_one()
+        if not has_lifecycle_check:
+            conn.execute(text(
+                "ALTER TABLE sections ADD CONSTRAINT sections_lifecycle_status_check "
+                "CHECK(status IN ('PROPOSED','OPERATIONAL','BLOCKED','UNSTAFFED',"
+                "'REJECTED','ALLOCATED','PARTIAL','CANCELLED'))"
+            ))
         has_run_fk=conn.execute(text(
             "SELECT EXISTS (SELECT 1 FROM pg_constraint "
             "WHERE conname='sections_planning_run_id_fkey' "
@@ -21,6 +35,24 @@ def initialize_database(engine):
                 "ALTER TABLE sections ADD CONSTRAINT sections_planning_run_id_fkey "
                 "FOREIGN KEY (planning_run_id) REFERENCES planning_runs(planning_run_id)"
             ))
+        term_foreign_keys={
+            ("student_plans","term_id"):"student_plans_term_id_fkey",
+            ("registration_interests","term_id"):"registration_interests_term_id_fkey",
+            ("availability","term_id"):"availability_term_id_fkey",
+            ("sections","term_id"):"sections_term_id_fkey",
+            ("forecasts","target_term"):"forecasts_target_term_fkey",
+            ("unmet_demand","target_term"):"unmet_demand_target_term_fkey",
+        }
+        for (table,column),constraint in term_foreign_keys.items():
+            exists=conn.execute(text(
+                "SELECT EXISTS (SELECT 1 FROM pg_constraint "
+                "WHERE conname=:constraint AND conrelid=CAST(:table AS regclass))"
+            ),{"constraint":constraint,"table":table}).scalar_one()
+            if not exists:
+                conn.execute(text(
+                    f"ALTER TABLE {table} ADD CONSTRAINT {constraint} "
+                    f"FOREIGN KEY ({column}) REFERENCES academic_terms(term_id) NOT VALID"
+                ))
 
 def load_latest_capacity_metrics(engine):
     with engine.connect() as conn:

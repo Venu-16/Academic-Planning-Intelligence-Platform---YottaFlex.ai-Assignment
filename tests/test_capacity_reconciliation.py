@@ -87,7 +87,7 @@ def test_proposed_and_blocked_sections_do_not_count_as_operational():
     assert result.loc[result.section_id=="SEC-B","operational_capacity"].iloc[0]==0
 
     unstaffed=section_capacity([section("SEC-U","CRS-1")],[])
-    assert unstaffed.iloc[0].section_status=="PROPOSED"
+    assert unstaffed.iloc[0].section_status=="UNSTAFFED"
     assert unstaffed.iloc[0].operational_capacity==0
 
 

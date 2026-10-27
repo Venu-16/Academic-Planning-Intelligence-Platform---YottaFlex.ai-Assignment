@@ -1,22 +1,201 @@
 import pandas as pd
 from .anomaly_rules import check_assignment
-FK={"courses":[("program_id","programs","program_id")],"prerequisites":[("course_id","courses","course_id"),("prerequisite_course_id","courses","course_id")],"faculty_skills":[("faculty_id","faculty","faculty_id"),("course_id","courses","course_id")],"availability":[("faculty_id","faculty","faculty_id")],"student_plans":[("program_id","programs","program_id")],"registration_interests":[("student_plan_id","student_plans","student_plan_id"),("course_id","courses","course_id")],"historical_enrollments":[("course_id","courses","course_id")]}
+PRIMARY_KEYS={
+    "academic_terms":"term_id","programs":"program_id","courses":"course_id",
+    "prerequisites":"prerequisite_id","faculty":"faculty_id",
+    "faculty_skills":"faculty_skill_id","availability":"availability_id",
+    "rooms":"room_id","student_plans":"student_plan_id",
+    "registration_interests":"interest_id",
+    "historical_enrollments":"historical_enrollment_id",
+}
+REQUIRED_FIELDS={
+    "academic_terms":["term_id","start_date","end_date"],
+    "programs":["program_id","name","department"],
+    "courses":["course_id","program_id","code","title","credits","course_level","is_elective"],
+    "prerequisites":["prerequisite_id","course_id","prerequisite_course_id","effective_from"],
+    "faculty":["faculty_id","name","department","max_weekly_hours","employment_status"],
+    "faculty_skills":["faculty_skill_id","faculty_id","course_id","skill_level","effective_from"],
+    "availability":["availability_id","faculty_id","term_id","day_of_week","slot_id","available","effective_from"],
+    "rooms":["room_id","building","room_type","capacity","active"],
+    "student_plans":["student_plan_id","student_id","program_id","term_id","year_of_study","created_at"],
+    "registration_interests":["interest_id","student_plan_id","course_id","term_id","interest_status","interest_date","eligible"],
+    "historical_enrollments":["historical_enrollment_id","course_id","term_id","eligible_students","registrations","enrolled","unmet_demand"],
+}
+FK={
+    "courses":[("program_id","programs","program_id")],
+    "prerequisites":[("course_id","courses","course_id"),("prerequisite_course_id","courses","course_id")],
+    "faculty_skills":[("faculty_id","faculty","faculty_id"),("course_id","courses","course_id")],
+    "availability":[("faculty_id","faculty","faculty_id"),("term_id","academic_terms","term_id")],
+    "student_plans":[("program_id","programs","program_id"),("term_id","academic_terms","term_id")],
+    "registration_interests":[("student_plan_id","student_plans","student_plan_id"),("course_id","courses","course_id"),("term_id","academic_terms","term_id")],
+    "historical_enrollments":[("course_id","courses","course_id")],
+}
+
+
 def validate_frames(frames):
     issues=[]
     for name,df in frames.items():
-        pk=next((c for c in df.columns if c.endswith("_id") and c!="prerequisite_course_id"),None)
-        if pk and df[pk].duplicated().any(): issues.append({"severity":"ERROR","table":name,"issue":"DUPLICATE_PRIMARY_KEY","count":int(df[pk].duplicated().sum())})
+        for column in REQUIRED_FIELDS.get(name,[]):
+            if column not in df.columns:
+                issues.append({"severity":"ERROR","table":name,"issue":f"REQUIRED_COLUMN_MISSING:{column}"})
+            elif df[column].isna().any():
+                issues.append({"severity":"ERROR","table":name,"issue":f"REQUIRED_VALUE_MISSING:{column}","count":int(df[column].isna().sum())})
+        pk=PRIMARY_KEYS.get(name)
+        if pk in df.columns and df[pk].duplicated().any():
+            issues.append({"severity":"ERROR","table":name,"issue":"DUPLICATE_PRIMARY_KEY","count":int(df[pk].duplicated().sum())})
+    for name, columns in {
+        "programs":["name"],"courses":["code"],
+        "prerequisites":["course_id","prerequisite_course_id","effective_from"],
+        "student_plans":["student_id","term_id"],
+        "registration_interests":["student_plan_id","course_id","term_id"],
+        "faculty_skills":["faculty_id","course_id","effective_from"],
+        "historical_enrollments":["course_id","term_id"],
+    }.items():
+        frame=frames.get(name)
+        if frame is not None and set(columns).issubset(frame.columns):
+            count=int(frame.duplicated(columns).sum())
+            if count:
+                issues.append({"severity":"ERROR","table":name,"issue":"DUPLICATE_NATURAL_KEY","columns":columns,"count":count})
+    prerequisites=frames.get("prerequisites")
+    if prerequisites is not None and {"course_id","prerequisite_course_id"}.issubset(prerequisites.columns):
+        self_references=prerequisites.course_id==prerequisites.prerequisite_course_id
+        if self_references.any():
+            issues.append({"severity":"ERROR","table":"prerequisites","issue":"SELF_PREREQUISITE","count":int(self_references.sum())})
+        adjacency={}
+        indegree={}
+        for course_id,prerequisite_id in prerequisites[
+            ["course_id","prerequisite_course_id"]
+        ].itertuples(index=False,name=None):
+            adjacency.setdefault(course_id,[]).append(prerequisite_id)
+            indegree.setdefault(course_id,0)
+            indegree[prerequisite_id]=indegree.get(prerequisite_id,0)+1
+        ready=[course_id for course_id,degree in indegree.items() if degree==0]
+        visited=0
+        while ready:
+            course_id=ready.pop()
+            visited+=1
+            for prerequisite_id in adjacency.get(course_id,[]):
+                indegree[prerequisite_id]-=1
+                if indegree[prerequisite_id]==0:
+                    ready.append(prerequisite_id)
+        if visited<len(indegree):
+            issues.append({"severity":"ERROR","table":"prerequisites","issue":"PREREQUISITE_CYCLE"})
     for child,rules in FK.items():
         if child not in frames: continue
         for col,parent,parent_col in rules:
+            if col not in frames[child].columns or parent not in frames or parent_col not in frames[parent].columns:
+                continue
             missing=~frames[child][col].isin(frames[parent][parent_col])
-            if missing.any(): issues.append({"severity":"ERROR","table":child,"issue":f"FOREIGN_KEY:{col}->{parent}.{parent_col}","count":int(missing.sum())})
+            if missing.any():
+                issues.append({"severity":"ERROR","table":child,"issue":f"FOREIGN_KEY:{col}->{parent}.{parent_col}","count":int(missing.sum())})
+
+    terms=frames.get("academic_terms")
+    if terms is not None and {"start_date","end_date"}.issubset(terms.columns):
+        starts=pd.to_datetime(terms.start_date,errors="coerce")
+        ends=pd.to_datetime(terms.end_date,errors="coerce")
+        invalid=starts.isna()|ends.isna()|(starts>ends)
+        if invalid.any():
+            issues.append({"severity":"ERROR","table":"academic_terms","issue":"INVALID_TERM_DATE_RANGE","count":int(invalid.sum())})
+
+    for table in ("prerequisites","faculty_skills","availability"):
+        frame=frames.get(table)
+        if frame is None or "effective_from" not in frame.columns or "effective_to" not in frame.columns:
+            continue
+        starts=pd.to_datetime(frame.effective_from,errors="coerce")
+        raw_ends=frame.effective_to
+        ends=pd.to_datetime(raw_ends,errors="coerce")
+        invalid_start=starts.isna()
+        invalid_end=raw_ends.notna()&ends.isna()
+        reversed_dates=raw_ends.notna()&ends.notna()&(starts>ends)
+        count=int((invalid_start|invalid_end|reversed_dates).sum())
+        if count:
+            issues.append({"severity":"ERROR","table":table,"issue":"INVALID_EFFECTIVE_DATE_RANGE","count":count})
+
+    enum_values={
+        "faculty":{"employment_status":{"ACTIVE","ON_LEAVE","INACTIVE"}},
+        "rooms":{"room_type":{"LECTURE","LAB"}},
+        "registration_interests":{"interest_status":{"INTERESTED","REGISTERED","WAITLISTED","WITHDRAWN"}},
+    }
+    for table,columns in enum_values.items():
+        frame=frames.get(table)
+        if frame is None: continue
+        for column,allowed in columns.items():
+            if column in frame.columns:
+                invalid=~frame[column].isin(allowed)
+                if invalid.any():
+                    issues.append({"severity":"ERROR","table":table,"issue":f"INVALID_ENUM:{column}","count":int(invalid.sum())})
+
+    term_frame=frames.get("academic_terms")
+    term_ids=set(term_frame.term_id) if term_frame is not None and "term_id" in term_frame else set()
+    for table in ("student_plans","availability","registration_interests"):
+        frame=frames.get(table)
+        if frame is not None and "term_id" in frame.columns and term_ids:
+            invalid=~frame.term_id.isin(term_ids)
+            if invalid.any():
+                issues.append({"severity":"ERROR","table":table,"issue":"UNKNOWN_ACADEMIC_TERM","count":int(invalid.sum())})
+    plans=frames.get("student_plans")
+    interests=frames.get("registration_interests")
+    if plans is not None and interests is not None and {"student_plan_id","term_id"}.issubset(plans.columns) and {"student_plan_id","term_id"}.issubset(interests.columns):
+        plan_terms=plans.set_index("student_plan_id").term_id
+        expected=interests.student_plan_id.map(plan_terms)
+        mismatch=expected.notna()&(expected.to_numpy()!=interests.term_id.to_numpy())
+        if mismatch.any():
+            issues.append({"severity":"ERROR","table":"registration_interests","issue":"STUDENT_PLAN_TERM_MISMATCH","count":int(mismatch.sum())})
+
+    bounded={
+        "courses":{"credits":(1,6),"course_level":(1,4)},
+        "faculty":{"max_weekly_hours":(0,None)},
+        "faculty_skills":{"skill_level":(1,5)},
+        "availability":{"day_of_week":(0,4)},
+        "rooms":{"capacity":(1,None)},
+        "student_plans":{"year_of_study":(1,4)},
+    }
+    for table,columns in bounded.items():
+        frame=frames.get(table)
+        if frame is None: continue
+        for column,(minimum,maximum) in columns.items():
+            if column not in frame.columns: continue
+            values=pd.to_numeric(frame[column],errors="coerce")
+            invalid=values.isna()|(values<minimum)
+            if maximum is not None: invalid|=values>maximum
+            if invalid.any():
+                issues.append({"severity":"ERROR","table":table,"issue":f"INVALID_VALUE:{column}","count":int(invalid.sum())})
+
+    integer_fields={
+        "courses":["credits","course_level"],
+        "faculty_skills":["skill_level"],
+        "availability":["day_of_week"],
+        "rooms":["capacity"],
+        "student_plans":["year_of_study"],
+        "historical_enrollments":["eligible_students","registrations","enrolled","unmet_demand"],
+    }
+    for table,columns in integer_fields.items():
+        frame=frames.get(table)
+        if frame is None: continue
+        for column in columns:
+            if column not in frame.columns: continue
+            values=pd.to_numeric(frame[column],errors="coerce")
+            invalid=values.isna()|(values%1!=0)
+            if invalid.any():
+                issues.append({"severity":"ERROR","table":table,"issue":f"INVALID_INTEGER:{column}","count":int(invalid.sum())})
+    for table,columns in {
+        "courses":["is_elective"],
+        "availability":["available"],
+        "rooms":["active"],
+        "registration_interests":["eligible"],
+    }.items():
+        frame=frames.get(table)
+        if frame is None: continue
+        for column in columns:
+            if column in frame.columns and not pd.api.types.is_bool_dtype(frame[column]):
+                issues.append({"severity":"ERROR","table":table,"issue":f"INVALID_BOOLEAN:{column}"})
+
     h=frames.get("historical_enrollments")
-    if h is not None:
+    if h is not None and {"enrolled","registrations","unmet_demand"}.issubset(h.columns):
         bad=(h.enrolled>h.registrations)|(h.unmet_demand!=h.registrations-h.enrolled)
         if bad.any(): issues.append({"severity":"ERROR","table":"historical_enrollments","issue":"RECONCILIATION","count":int(bad.sum())})
     interests=frames.get("registration_interests")
-    if interests is not None:
+    if interests is not None and {"eligible","interest_status"}.issubset(interests.columns):
         invalid=(~interests.eligible.astype(bool)) & interests.interest_status.isin(["REGISTERED","WAITLISTED"])
         if invalid.any():
             issues.append({
@@ -46,12 +225,18 @@ def _effective_date_issues(records,term_range,not_yet_effective,expired,missing_
     if term_range is None:
         return ["TERM_DATES_UNAVAILABLE"]
     start,end=term_range
-    if records.empty:
+    if isinstance(records,pd.DataFrame):
+        if records.empty:
+            return []
+        if not {"effective_from","effective_to"}.issubset(records.columns):
+            return [missing_dates]
+        rows=records.to_dict("records")
+    else:
+        rows=records
+    if not rows:
         return []
-    if not {"effective_from","effective_to"}.issubset(records.columns):
-        return [missing_dates]
     issues=set()
-    for row in records.to_dict("records"):
+    for row in rows:
         raw_end=row.get("effective_to")
         effective_from=_as_date(row.get("effective_from"))
         effective_to=_as_date(raw_end)
@@ -71,25 +256,12 @@ def _effective_date_issues(records,term_range,not_yet_effective,expired,missing_
 
 
 def faculty_term_eligibility_issues(faculty_id,course_id,section,skills,availability):
-    term_range=_term_range(section)
     skill_rows=skills.loc[
         (skills.faculty_id==faculty_id)&(skills.course_id==course_id)
     ]
-    if skill_rows.empty:
-        skill_issues=["FACULTY_OUTSIDE_SKILL"]
-    else:
-        skill_issues=_effective_date_issues(
-            skill_rows,
-            term_range,
-            "QUALIFICATION_NOT_YET_EFFECTIVE",
-            "QUALIFICATION_EXPIRES_BEFORE_TERM_END",
-            "QUALIFICATION_DATES_MISSING",
-        )
-
     required={"faculty_id","term_id","day_of_week","slot_id","available"}
-    date_fields={"effective_from","effective_to"}
     if availability is None or not required.issubset(availability.columns):
-        availability_issues=["AVAILABILITY_MISSING"]
+        matching=[]
     else:
         matching=availability.loc[
             (availability.faculty_id==faculty_id)
@@ -97,23 +269,64 @@ def faculty_term_eligibility_issues(faculty_id,course_id,section,skills,availabi
             &(availability.day_of_week.astype(int)==int(section.get("day_of_week")))
             &(availability.slot_id==section.get("slot_id"))
         ]
-        if matching.empty:
-            availability_issues=["AVAILABILITY_MISSING"]
-        else:
-            available_rows=matching.loc[matching.available.fillna(False).astype(bool)]
-            if available_rows.empty:
-                availability_issues=["UNAVAILABLE"]
-            elif not date_fields.issubset(available_rows.columns):
-                availability_issues=["AVAILABILITY_DATES_MISSING"]
-            else:
-                availability_issues=_effective_date_issues(
-                    available_rows,
-                    term_range,
-                    "AVAILABILITY_NOT_YET_EFFECTIVE",
-                    "AVAILABILITY_EXPIRED_BEFORE_TERM_END",
-                    "AVAILABILITY_DATES_MISSING",
-                )
-    return skill_issues+availability_issues
+    return faculty_term_eligibility_issues_from_records(
+        course_id,section,skill_rows.to_dict("records"),
+        matching.to_dict("records"),
+        skills_has_dates={"effective_from","effective_to"}.issubset(skills.columns),
+        availability_has_dates=(
+            availability is not None
+            and {"effective_from","effective_to"}.issubset(availability.columns)
+        ),
+    )
+
+
+def faculty_skill_issues_from_records(section,skill_records,has_dates=True):
+    term_range=_term_range(section)
+    if not skill_records:
+        return ["FACULTY_OUTSIDE_SKILL"]
+    if not has_dates:
+        return ["QUALIFICATION_DATES_MISSING"]
+    return _effective_date_issues(
+        skill_records,
+        term_range,
+        "QUALIFICATION_NOT_YET_EFFECTIVE",
+        "QUALIFICATION_EXPIRES_BEFORE_TERM_END",
+        "QUALIFICATION_DATES_MISSING",
+    )
+
+
+def faculty_availability_issues_from_records(section,availability_records,has_dates=True):
+    if not availability_records:
+        return ["AVAILABILITY_MISSING"]
+    available_rows=[
+        row for row in availability_records
+        if row.get("available") is not None
+        and not pd.isna(row.get("available"))
+        and bool(row.get("available"))
+    ]
+    if not available_rows:
+        return ["UNAVAILABLE"]
+    date_fields={"effective_from","effective_to"}
+    if not has_dates or not date_fields.issubset(available_rows[0]):
+        return ["AVAILABILITY_DATES_MISSING"]
+    return _effective_date_issues(
+        available_rows,
+        _term_range(section),
+        "AVAILABILITY_NOT_YET_EFFECTIVE",
+        "AVAILABILITY_EXPIRED_BEFORE_TERM_END",
+        "AVAILABILITY_DATES_MISSING",
+    )
+
+
+def faculty_term_eligibility_issues_from_records(
+    course_id,section,skill_records,availability_records,
+    skills_has_dates=True,availability_has_dates=True,
+):
+    return faculty_skill_issues_from_records(
+        section,skill_records,skills_has_dates
+    )+faculty_availability_issues_from_records(
+        section,availability_records,availability_has_dates
+    )
 
 
 def validate_assignment_outputs(assignments,sections,faculty,skills,availability=None):

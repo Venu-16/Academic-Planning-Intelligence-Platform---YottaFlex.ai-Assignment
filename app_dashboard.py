@@ -3,15 +3,35 @@ import json
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from academic_planner.config import OUTPUT_DIR
 from academic_planner.database import get_engine,load_latest_capacity_metrics
 st.set_page_config(page_title="Academic Planner",page_icon="🎓",layout="wide")
 st.title("🎓 Academic Demand Forecasting & Faculty Allocation")
 st.caption("Synthetic reproducible demo · Seed 20261022")
-p=Path("data/generated")
-if not (p/"evaluation_report.json").exists():
+configured_output=Path(OUTPUT_DIR)
+output_dirs=[configured_output]
+reports_dir=Path("reports")
+if reports_dir.exists():
+    output_dirs.extend(
+        directory.parent
+        for directory in reports_dir.glob("*/evaluation_report.json")
+    )
+output_dirs=list(dict.fromkeys(directory.resolve() for directory in output_dirs))
+available_dirs=[
+    directory for directory in output_dirs
+    if (directory/"evaluation_report.json").is_file()
+]
+if not available_dirs:
     st.warning("Run the pipeline first: `python -m academic_planner.cli --no-db`")
     st.stop()
+selected_output=st.sidebar.selectbox(
+    "Planning run output",
+    available_dirs,
+    format_func=lambda directory:directory.name,
+)
+p=Path(selected_output)
 m=json.loads((p/"evaluation_report.json").read_text()); f=pd.read_csv(p/"forecasts.csv"); s=pd.read_csv(p/"sections.csv"); a=pd.read_csv(p/"workload_assignments.csv"); u=pd.read_csv(p/"unmet_demand.csv")
+st.caption(f"Planning run: {m['planning_run_id']} · Output: {p}")
 c1,c2,c3,c4=st.columns(4); c1.metric("Courses forecasted",len(f)); c2.metric("Sections proposed",len(s)); c3.metric("Sections staffed",m["allocation"]["sections_staffed"]); c4.metric("Unmet demand",m["unmet_demand"]["total_unmet"])
 capacity=m.get("capacity",{})
 if capacity:

@@ -1,5 +1,5 @@
 import random, hashlib, json
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 import pandas as pd
 
@@ -9,6 +9,16 @@ class Scale:
     courses:int=100
     faculty:int=50
     student_plans:int=1000
+
+    def __post_init__(self):
+        for name, value in asdict(self).items():
+            if isinstance(value, bool) or not isinstance(value, int) or value < 1:
+                raise ValueError(f"{name} must be a positive integer")
+
+
+TARGET_SCALE = Scale(programs=100, courses=1000, faculty=500, student_plans=20000)
+TARGET_TERM_ID = "2027-SPRING"
+
 
 def generate_dataset(seed=20261022, scale=None):
     scale=scale or Scale(); r=random.Random(seed)
@@ -30,11 +40,11 @@ def generate_dataset(seed=20261022, scale=None):
             skills.append(dict(faculty_skill_id=f"FSK-{len(skills)+1:06d}",faculty_id=f"FAC-{i:06d}",course_id=c["course_id"],skill_level=r.randint(2,5),effective_from="2026-01-01",effective_to=None))
         for day in range(5):
             for slot in range(1,5):
-                availability.append(dict(availability_id=f"AVL-{len(availability)+1:07d}",faculty_id=f"FAC-{i:06d}",term_id="2027-SPRING",day_of_week=day,slot_id=f"S{slot}",available=status=="ACTIVE" and r.random()>.12,effective_from="2026-08-01",effective_to=None))
+                availability.append(dict(availability_id=f"AVL-{len(availability)+1:07d}",faculty_id=f"FAC-{i:06d}",term_id=TARGET_TERM_ID,day_of_week=day,slot_id=f"S{slot}",available=status=="ACTIVE" and r.random()>.12,effective_from="2026-08-01",effective_to=None))
     rooms=[dict(room_id=f"ROM-{i:06d}",building=f"Building {(i-1)//6+1}",room_type="LAB" if i%4==0 else "LECTURE",capacity=[25,30,40,50,60,80][(i-1)%6],active=True) for i in range(1,31)]
     plans=[]
     for i in range(1,scale.student_plans+1):
-        plans.append(dict(student_plan_id=f"STP-{i:07d}",student_id=f"STD-{i:07d}",program_id=programs[(i-1)%len(programs)]["program_id"],term_id="2027-SPRING",year_of_study=r.randint(1,4),created_at="2026-10-01"))
+        plans.append(dict(student_plan_id=f"STP-{i:07d}",student_id=f"STD-{i:07d}",program_id=programs[(i-1)%len(programs)]["program_id"],term_id=TARGET_TERM_ID,year_of_study=r.randint(1,4),created_at="2026-10-01"))
     interests=[]
     weights=[5 if c["is_elective"] else 1 for c in courses]
     for p in plans:
@@ -58,7 +68,7 @@ def generate_dataset(seed=20261022, scale=None):
             historical.append(dict(historical_enrollment_id=f"HEN-{len(historical)+1:08d}",course_id=c["course_id"],term_id=term,eligible_students=max(10,int(scale.student_plans/max(1,scale.programs)*.7)),registrations=registrations,enrolled=enrolled,unmet_demand=registrations-enrolled))
     return {
       "academic_terms":pd.DataFrame([
-          dict(term_id="2027-SPRING",start_date="2027-01-01",end_date="2027-05-31")
+          dict(term_id=TARGET_TERM_ID,start_date="2027-01-01",end_date="2027-05-31")
       ]),
       "programs":pd.DataFrame(programs),"courses":pd.DataFrame(courses),
       "prerequisites":pd.DataFrame(prereqs,columns=["prerequisite_id","course_id","prerequisite_course_id","effective_from","effective_to"]),
@@ -69,15 +79,20 @@ def generate_dataset(seed=20261022, scale=None):
 
 def make_ground_truth():
     return pd.DataFrame([
-      ["ANM-000001","FACULTY_OUTSIDE_SKILL","workload_assignment","WLA-2026-000001","Faculty-course pair missing from skill bridge","REJECT_ASSIGNMENT"],
+      ["ANM-000001","FACULTY_OUTSIDE_SKILL","workload_assignment","WLA-SYNTHETIC-000001","Faculty-course pair missing from skill bridge","REJECT_ASSIGNMENT"],
       ["ANM-000002","WORKLOAD_EXCEEDED","faculty","FAC-000001","Proposed load exceeds weekly limit","REJECT_OR_REASSIGN"],
-      ["ANM-000003","SECTION_CAPACITY_TOO_LOW","section","SEC-2026-000001","Forecast demand exceeds available seats","ADD_SECTION_OR_RECORD_UNMET"],
+      ["ANM-000003","SECTION_CAPACITY_TOO_LOW","section","SEC-SYNTHETIC-000001","Forecast demand exceeds available seats","ADD_SECTION_OR_RECORD_UNMET"],
       ["ANM-000004","PREREQUISITE_SEQUENCE_VIOLATION","registration_interest","INT-00000001","Student has not met prerequisite","FLAG_INELIGIBLE"],
-      ["ANM-000005","DUPLICATE_SECTION_ASSIGNMENT","workload_assignment","WLA-2026-000002","Duplicate faculty-section pair","REJECT_DUPLICATE"]
+      ["ANM-000005","DUPLICATE_SECTION_ASSIGNMENT","workload_assignment","WLA-SYNTHETIC-000002","Duplicate faculty-section pair","REJECT_DUPLICATE"]
     ],columns=["case_id","issue_type","entity_type","entity_id","description","expected_decision"])
 
-def export_dataset(frames,out_dir,seed=20261022):
-    out=Path(out_dir); out.mkdir(parents=True,exist_ok=True); manifest={"seed":seed,"tables":{}}
+def export_dataset(frames,out_dir,seed=20261022,scale=None):
+    out=Path(out_dir); out.mkdir(parents=True,exist_ok=True)
+    manifest={
+        "seed":seed,
+        "scale":asdict(scale or Scale()),
+        "tables":{},
+    }
     for name,df in frames.items():
         path=out/f"{name}.csv"; df.to_csv(path,index=False); df.to_json(out/f"{name}.json",orient="records",indent=2)
         manifest["tables"][name]={"rows":len(df),"sha256_csv":hashlib.sha256(path.read_bytes()).hexdigest(),"columns":list(df.columns)}

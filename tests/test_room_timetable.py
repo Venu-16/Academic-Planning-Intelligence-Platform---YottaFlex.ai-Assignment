@@ -292,9 +292,11 @@ def test_pipeline_blocks_conflicting_room_sections_before_allocation(
 
     original_propose = pipeline.propose_sections
 
-    def propose_with_room_conflict(forecasts, room_frame, academic_terms=None):
+    def propose_with_room_conflict(
+        forecasts, room_frame, term_id=None, academic_terms=None
+    ):
         proposed = original_propose(
-            forecasts, room_frame, academic_terms=academic_terms
+            forecasts, room_frame, term_id=term_id, academic_terms=academic_terms
         )
         assert len(proposed) > 1
         proposed.loc[proposed.index[1], ["room_id", "day_of_week", "slot_id"]] = (

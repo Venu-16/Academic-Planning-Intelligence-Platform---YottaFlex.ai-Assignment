@@ -1,0 +1,296 @@
+{
+  "report_id": "acceptance-remediation-20261027-182020",
+  "generated_at": "2026-10-27T18:20:20",
+  "overall_status": "PARTIAL",
+  "project": "Academic Demand Forecasting and Faculty Allocation System",
+  "run": {
+    "planning_run_id": "RUN-9D6C37525FBC",
+    "seed": 20261022,
+    "scale": {
+      "programs": 100,
+      "courses": 1000,
+      "faculty": 500,
+      "student_plans": 20000
+    },
+    "target_term": "2027-SPRING",
+    "output_directory": "reports/acceptance_remediation_run_20261027_174500",
+    "pipeline_exit_code": 0,
+    "output_file_count": 39
+  },
+  "requirements": [
+    {
+      "id": "DATA-SCALE",
+      "description": "Generate target-scale source data and dependent records.",
+      "status": "PASS",
+      "evidence": {
+        "programs": 100,
+        "courses": 1000,
+        "faculty": 500,
+        "student_plans": 20000,
+        "prerequisites": 213,
+        "registration_interests": 69995,
+        "faculty_skills": 2731,
+        "availability": 10000,
+        "rooms": 30,
+        "historical_enrollments": 3000,
+        "sections": 2126,
+        "assignments": 345,
+        "forecasts": 1000,
+        "unmet_demand_rows": 1000
+      }
+    },
+    {
+      "id": "DATA-PROVENANCE",
+      "description": "Record seed, scale, row counts, checksums, and keep anomaly labels separate.",
+      "status": "PASS",
+      "evidence": {
+        "manifest": "reports/acceptance_remediation_run_20261027_174500/source_manifest.json",
+        "ground_truth_file": "reports/acceptance_remediation_run_20261027_174500/ground_truth.csv",
+        "ground_truth_rows": 5,
+        "same_seed_source_csv_checksums_match": true,
+        "same_seed_ground_truth_checksum_matches": true
+      }
+    },
+    {
+      "id": "DATA-INTEGRITY",
+      "description": "Validate generated relationships, term scoping, identifiers, and run traceability.",
+      "status": "PASS",
+      "evidence": {
+        "source_validation_passed": true,
+        "target_term": "2027-SPRING",
+        "section_id_example": "SEC-2027-000001",
+        "assignment_id_example": "WLA-2027-000001",
+        "run_id": "RUN-9D6C37525FBC",
+        "run_scoped_outputs_with_matching_run_id": [
+          "sections.csv",
+          "operational_capacity.csv",
+          "workload_assignments.csv",
+          "forecasts.csv",
+          "unmet_demand.csv",
+          "decision_events.csv"
+        ]
+      }
+    },
+    {
+      "id": "WORKFLOW-STAFFING",
+      "description": "Complete forecast, planning, validation, staffing, and export workflow without weakening hard rules.",
+      "status": "PARTIAL",
+      "evidence": {
+        "pipeline_completed": true,
+        "planning_validation_passed": false,
+        "proposed_sections": 2126,
+        "operational_sections": 345,
+        "blocked_sections": 1726,
+        "unstaffed_sections": 55,
+        "sections_without_eligible_faculty": 287,
+        "reason": "The pipeline correctly blocked sections without valid room assignment; target-scale operational yield remains low."
+      }
+    },
+    {
+      "id": "CAPACITY-RECONCILIATION",
+      "description": "Reconcile planned/operational capacity, coverage, and course-level unmet demand.",
+      "status": "PASS",
+      "evidence": {
+        "planned_capacity": 85040,
+        "operational_capacity": 13800,
+        "forecast_demand": 66408,
+        "operationally_covered_demand": 10974,
+        "unmet_demand": 55434,
+        "courses_with_unmet_demand": 850,
+        "unmet_formula_matches_per_course": true,
+        "missing_forecast_count": 0,
+        "non_operational_capacity_counted": 0
+      }
+    },
+    {
+      "id": "DIAGNOSTICS",
+      "description": "Account for all unstaffed/blocked sections and retain rule explanations.",
+      "status": "PASS",
+      "evidence": {
+        "unstaffed_sections": 1781,
+        "accounted_unstaffed_sections": 1781,
+        "fully_accounted": true,
+        "sections_without_eligible_faculty": 287,
+        "unique_blocked_sections": 1726,
+        "room_required_issue_records": 1726,
+        "capacity_summary_no_active_room_count": 1726,
+        "note": "NO_ACTIVE_ROOM and ROOM_REQUIRED overlap on the same blocked-section population; their counts are not additive."
+      }
+    },
+    {
+      "id": "FORECAST-EVALUATION",
+      "description": "Use chronological held-out observations and compare model and baseline on the same holdout.",
+      "status": "PASS",
+      "evidence": {
+        "evaluation_term": "2026-FALL",
+        "holdout_observations": 1000,
+        "random_forest_mae": 7.783781959325396,
+        "random_forest_rmse": 9.6573587727733,
+        "baseline_mae": 8.683,
+        "baseline_rmse": 10.937504285713446,
+        "model_better_on_this_holdout": true,
+        "limitation": "A single synthetic chronological holdout is not evidence of production model performance."
+      }
+    },
+    {
+      "id": "ANOMALY-REGRESSION",
+      "description": "Exercise all five labelled negative cases and a valid control.",
+      "status": "PARTIAL",
+      "evidence": {
+        "ground_truth_cases": 5,
+        "case_tests_passed": true,
+        "valid_control_test_passed": true,
+        "direct_run_scoped_ground_truth_links": false,
+        "scenario_artifact_retention": false,
+        "limitation": "Tests assert rule outcomes and selected capacity/validation exports, but isolated mutations are not retained with direct ground-truth links and not all scenarios assert allocation_diagnostics.json."
+      }
+    },
+    {
+      "id": "POSTGRES-PERSISTENCE",
+      "description": "Verify PostgreSQL initialization, migration preservation, run isolation, constraints, and history.",
+      "status": "PARTIAL",
+      "evidence": {
+        "postgres_version": 16,
+        "database_test_functions_passed": 3,
+        "full_suite_included_database_tests": true,
+        "fresh_and_repeat_initialization": true,
+        "legacy_record_preservation": true,
+        "run_isolation_and_events": true,
+        "target_scale_persistence": "NOT VERIFIED",
+        "test_database": "Dedicated ephemeral container with no mounted volume",
+        "application_database_touched": false
+      }
+    },
+    {
+      "id": "DASHBOARD",
+      "description": "Launch dashboard and inspect the selected run's real rendered summary.",
+      "status": "PASS",
+      "evidence": {
+        "url": "http://127.0.0.1:8765",
+        "page_title": "Academic Planner",
+        "selected_run_id": "RUN-9D6C37525FBC",
+        "rendered_proposed_sections": 2126,
+        "rendered_operational_sections": 345,
+        "rendered_blocked_sections": 1726,
+        "rendered_sections_without_eligible_faculty": 287,
+        "all_table_rows_manually_inspected": false
+      }
+    },
+    {
+      "id": "SCHEDULING-LIMITS",
+      "description": "Verify room and timetable constraints supported by the present data model.",
+      "status": "PARTIAL",
+      "evidence": {
+        "identical_discrete_term_day_slot_conflicts": "Validated",
+        "real_clock_time_overlaps": "NOT VERIFIABLE: no authoritative slot start/end metadata",
+        "cohort_conflicts": "NOT VERIFIABLE: no reliable cohort timetable data",
+        "course_room_type_or_facility_match": "NOT VERIFIABLE: course-required room fields are absent"
+      }
+    }
+  ],
+  "capacity": {
+    "section_status_counts": {
+      "OPERATIONAL": 345,
+      "BLOCKED": 1726,
+      "UNSTAFFED": 55
+    },
+    "raw_validation_issue_count": 1726,
+    "raw_validation_issue_codes": {
+      "ROOM_REQUIRED": 1726
+    },
+    "blocked_sections_by_capacity_rule": {
+      "NO_ACTIVE_ROOM": 1726,
+      "ROOM_REQUIRED": 1726
+    },
+    "blocked_rule_counts_overlap": true
+  },
+  "anomaly_scenarios": [
+    {
+      "issue_type": "FACULTY_OUTSIDE_SKILL",
+      "ground_truth_case_id": "ANM-000001",
+      "expected_decision": "REJECT_ASSIGNMENT",
+      "observed_rule_code": "FACULTY_OUTSIDE_SKILL",
+      "observed_decision": "Assignment REJECTED",
+      "operational_capacity": 0,
+      "test": "test_pipeline_blocks_invalid_assignment_from_operational_capacity[FACULTY_OUTSIDE_SKILL-FACULTY_OUTSIDE_SKILL]",
+      "test_status": "PASS"
+    },
+    {
+      "issue_type": "WORKLOAD_EXCEEDED",
+      "ground_truth_case_id": "ANM-000002",
+      "expected_decision": "REJECT_OR_REASSIGN",
+      "observed_rule_code": "WORKLOAD_EXCEEDED",
+      "observed_decision": "Assignment REJECTED",
+      "operational_capacity": 0,
+      "test": "test_pipeline_blocks_invalid_assignment_from_operational_capacity[WORKLOAD_EXCEEDED-WORKLOAD_EXCEEDED]",
+      "test_status": "PASS"
+    },
+    {
+      "issue_type": "SECTION_CAPACITY_TOO_LOW",
+      "ground_truth_case_id": "ANM-000003",
+      "expected_decision": "ADD_SECTION_OR_RECORD_UNMET",
+      "observed_rule_code": "SECTION_CAPACITY_TOO_LOW",
+      "observed_decision": "Shortfall and blocker included in unmet-demand output",
+      "test": "test_pipeline_reports_capacity_shortfall_as_existing_ground_truth_rule",
+      "test_status": "PASS"
+    },
+    {
+      "issue_type": "PREREQUISITE_SEQUENCE_VIOLATION",
+      "ground_truth_case_id": "ANM-000004",
+      "expected_decision": "FLAG_INELIGIBLE",
+      "observed_rule_code": "PREREQUISITE_SEQUENCE_VIOLATION",
+      "observed_decision": "Registration rejected before allocation begins",
+      "test": "test_pipeline_flags_ineligible_registration_before_allocation",
+      "test_status": "PASS"
+    },
+    {
+      "issue_type": "DUPLICATE_SECTION_ASSIGNMENT",
+      "ground_truth_case_id": "ANM-000005",
+      "expected_decision": "REJECT_DUPLICATE",
+      "observed_rule_code": "DUPLICATE_SECTION_ASSIGNMENT",
+      "observed_decision": "Invalid duplicate assignment rejected",
+      "operational_capacity": 0,
+      "test": "test_pipeline_blocks_invalid_assignment_from_operational_capacity[DUPLICATE_SECTION_ASSIGNMENT-DUPLICATE_SECTION_ASSIGNMENT]",
+      "test_status": "PASS"
+    },
+    {
+      "issue_type": "VALID_CONTROL",
+      "observed_decision": "Valid allocation remains operational",
+      "test": "test_valid_pipeline_assignments_remain_operational",
+      "test_status": "PASS"
+    }
+  ],
+  "verification": {
+    "full_test_command": "$env:TEST_DATABASE_URL='<dedicated disposable PostgreSQL URL>'; .\\.venv\\Scripts\\python.exe -m pytest -q -rs; Remove-Item Env:TEST_DATABASE_URL",
+    "full_test_result": "90 passed in 239.27 seconds; 0 skipped",
+    "compile_command": ".venv\\Scripts\\python.exe -m compileall -q src tests",
+    "compile_exit_code": 0,
+    "diff_check_command": "git diff --check",
+    "diff_check_exit_code": 0,
+    "diff_check_notes": "Only informational LF-to-CRLF warnings for generated egg-info metadata.",
+    "source_reproducibility": "All target-scale source-table CSV and ground-truth checksums matched between two separate temporary directories."
+  },
+  "safety": {
+    "initial_pipeline_no_database": true,
+    "dedicated_ephemeral_postgres_used_for_tests": true,
+    "application_database_touched": false,
+    "database_volume_deleted": false,
+    "dotenv_read_or_modified": false,
+    "credentials_in_report": false,
+    "prior_reports_overwritten": false
+  },
+  "prioritized_actions": [
+    "Increase viable room supply and room assignment coverage while preserving room capacity and conflict rules.",
+    "Improve faculty eligibility and assignment coverage without relaxing skills, availability, workload, or timetable constraints.",
+    "Persist isolated anomaly fixture results with direct ground-truth IDs, rule codes, diagnostics, and operational-capacity outcomes.",
+    "Run and reconcile a target-scale pipeline against a dedicated disposable PostgreSQL database.",
+    "Add authoritative slot times, course room requirements/facilities, and reliable cohort schedules before claiming those constraints are verified."
+  ],
+  "reproduction_commands": [
+    ".\\.venv\\Scripts\\python.exe -m academic_planner.cli --no-db --seed 20261022 --scale target --output-dir reports\\acceptance_remediation_run_20261027_174500",
+    ".venv\\Scripts\\python.exe -m pytest -q -rs",
+    ".venv\\Scripts\\python.exe -m compileall -q src tests",
+    "git diff --check",
+    ".\\.venv\\Scripts\\streamlit.exe run app_dashboard.py --server.address 127.0.0.1 --server.port 8765 --server.headless true"
+  ]
+}
