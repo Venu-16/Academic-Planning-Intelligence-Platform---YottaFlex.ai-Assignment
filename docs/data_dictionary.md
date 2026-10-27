@@ -4,6 +4,7 @@ IDs are deterministic immutable strings. Dates are ISO `YYYY-MM-DD`; term IDs ar
 
 | Entity | Primary key | Fields and rules |
 |---|---|---|
+| AcademicTerm | term_id | Inclusive start_date and end_date for term-specific eligibility validation |
 | Program | program_id | Unique name; department required |
 | Course | course_id | program FK, unique code, credits 1-6, level 1-4, elective flag |
 | Prerequisite | prerequisite_id | Course and prerequisite-course FKs; no self-edge; effective dates |
@@ -18,7 +19,7 @@ IDs are deterministic immutable strings. Dates are ISO `YYYY-MM-DD`; term IDs ar
 | WorkloadAssignment | workload_assignment_id | Section/faculty FKs, positive hours, status; unique section/faculty |
 | PlanningRun | planning_run_id | Seed, model, solver status, notes |
 | Forecast | forecast_id | Run/course FKs, target term, nonnegative enrollment, model |
-| UnmetDemand | unmet_demand_id | Run/course FKs, demand, accommodated, unmet, reason; reconciled arithmetic |
+| UnmetDemand | unmet_demand_id | Run/course FKs, demand, planned capacity, operational capacity, accommodated, unmet, reason; unmet reconciles against accommodated demand |
 | DecisionEvent | event_id | Run FK, entity, event, actor, reason, JSON payload |
 
 ## Cardinality
@@ -26,3 +27,7 @@ Program 1:N Course and StudentPlan. StudentPlan 1:N RegistrationInterest; Course
 
 ## Lifecycle
 Sections: PROPOSED -> ALLOCATED/PARTIAL/CANCELLED. Assignments: PROPOSED -> APPROVED/REJECTED. The demo persists proposal outcomes and a run event; production transition enforcement belongs in a service layer.
+
+Operational capacity is reported separately from proposed capacity and counts only sections with a non-rejected faculty assignment, active room with capacity at least the planned section capacity, and no faculty/room timetable conflict. The calculation also checks faculty activity, course skill, availability, workload, and weekday/slot validity. Course unmet demand is `max(0, forecast demand - operational capacity)`; program demand and unmet demand are sums of their courses.
+
+Room records contain `room_type` but courses have no required room type/facility fields. Schedule data contains weekday and discrete slot IDs only; there are no slot-time or student-cohort entities. Consequently room-type/facility matching, cohort conflicts, and clock-time overlap between different slot IDs are unsupported. Room and faculty conflicts are checked for identical term/day/slot values.

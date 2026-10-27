@@ -28,7 +28,9 @@ def forecast_demand(history):
     model.fit(train[features],train.target)
     pred=np.maximum(0,model.predict(test[features]))
     mae=float(mean_absolute_error(test.target,pred)); rmse=float(np.sqrt(mean_squared_error(test.target,pred)))
-    baseline_mae=float(mean_absolute_error(test.target,test.last_enrollment))
+    baseline_prediction=np.maximum(0,test.last_enrollment.to_numpy())
+    baseline_mae=float(mean_absolute_error(test.target,baseline_prediction))
+    baseline_rmse=float(np.sqrt(mean_squared_error(test.target,baseline_prediction)))
     latest=[]
     for cid,g in history.sort_values("_term_order").groupby("course_id"):
         row=g.iloc[-1]
@@ -36,4 +38,4 @@ def forecast_demand(history):
     last=pd.DataFrame(latest)
     forecast=np.maximum(0,np.rint(model.predict(last[features])).astype(int))
     out=pd.DataFrame({"course_id":last.course_id,"forecast_enrollment":forecast,"baseline_forecast":np.rint(last.last_enrollment).astype(int),"model_name":"RandomForestRegressor"})
-    return out,{"evaluation_term":terms[-1],"mae":mae,"rmse":rmse,"baseline_mae":baseline_mae,"courses_forecasted":len(out)}
+    return out,{"evaluation_term":terms[-1],"evaluation_observations":len(test),"mae":mae,"rmse":rmse,"baseline_mae":baseline_mae,"baseline_rmse":baseline_rmse,"courses_forecasted":len(out)}

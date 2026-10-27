@@ -13,7 +13,7 @@
     "student_plan_id":"STP-0000001",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -157,7 +157,7 @@
     "student_plan_id":"STP-0000006",
     "course_id":"CRS-000032",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -202,7 +202,7 @@
     "student_plan_id":"STP-0000007",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -238,7 +238,7 @@
     "student_plan_id":"STP-0000008",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -256,7 +256,7 @@
     "student_plan_id":"STP-0000009",
     "course_id":"CRS-000051",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -265,7 +265,7 @@
     "student_plan_id":"STP-0000009",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -274,7 +274,7 @@
     "student_plan_id":"STP-0000010",
     "course_id":"CRS-000036",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -283,7 +283,7 @@
     "student_plan_id":"STP-0000010",
     "course_id":"CRS-000072",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -292,7 +292,7 @@
     "student_plan_id":"STP-0000010",
     "course_id":"CRS-000038",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -301,7 +301,7 @@
     "student_plan_id":"STP-0000010",
     "course_id":"CRS-000047",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -355,7 +355,7 @@
     "student_plan_id":"STP-0000012",
     "course_id":"CRS-000059",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -364,7 +364,7 @@
     "student_plan_id":"STP-0000012",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -391,7 +391,7 @@
     "student_plan_id":"STP-0000013",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -409,7 +409,7 @@
     "student_plan_id":"STP-0000013",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -481,7 +481,7 @@
     "student_plan_id":"STP-0000016",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -499,7 +499,7 @@
     "student_plan_id":"STP-0000016",
     "course_id":"CRS-000028",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -508,7 +508,7 @@
     "student_plan_id":"STP-0000017",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -517,7 +517,7 @@
     "student_plan_id":"STP-0000017",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -625,7 +625,7 @@
     "student_plan_id":"STP-0000020",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -652,7 +652,7 @@
     "student_plan_id":"STP-0000021",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -679,7 +679,7 @@
     "student_plan_id":"STP-0000021",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -715,7 +715,7 @@
     "student_plan_id":"STP-0000023",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -724,7 +724,7 @@
     "student_plan_id":"STP-0000023",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -733,7 +733,7 @@
     "student_plan_id":"STP-0000023",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -769,7 +769,7 @@
     "student_plan_id":"STP-0000025",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -787,7 +787,7 @@
     "student_plan_id":"STP-0000026",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -796,7 +796,7 @@
     "student_plan_id":"STP-0000026",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -805,7 +805,7 @@
     "student_plan_id":"STP-0000026",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -814,7 +814,7 @@
     "student_plan_id":"STP-0000026",
     "course_id":"CRS-000039",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -913,7 +913,7 @@
     "student_plan_id":"STP-0000030",
     "course_id":"CRS-000093",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -922,7 +922,7 @@
     "student_plan_id":"STP-0000030",
     "course_id":"CRS-000072",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -931,7 +931,7 @@
     "student_plan_id":"STP-0000030",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1012,7 +1012,7 @@
     "student_plan_id":"STP-0000032",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1021,7 +1021,7 @@
     "student_plan_id":"STP-0000032",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1039,7 +1039,7 @@
     "student_plan_id":"STP-0000033",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1111,7 +1111,7 @@
     "student_plan_id":"STP-0000035",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1120,7 +1120,7 @@
     "student_plan_id":"STP-0000035",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1138,7 +1138,7 @@
     "student_plan_id":"STP-0000036",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1165,7 +1165,7 @@
     "student_plan_id":"STP-0000037",
     "course_id":"CRS-000091",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1174,7 +1174,7 @@
     "student_plan_id":"STP-0000038",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1192,7 +1192,7 @@
     "student_plan_id":"STP-0000038",
     "course_id":"CRS-000092",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1201,7 +1201,7 @@
     "student_plan_id":"STP-0000038",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1273,7 +1273,7 @@
     "student_plan_id":"STP-0000040",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1372,7 +1372,7 @@
     "student_plan_id":"STP-0000043",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1426,7 +1426,7 @@
     "student_plan_id":"STP-0000045",
     "course_id":"CRS-000036",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1453,7 +1453,7 @@
     "student_plan_id":"STP-0000047",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1480,7 +1480,7 @@
     "student_plan_id":"STP-0000048",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1561,7 +1561,7 @@
     "student_plan_id":"STP-0000052",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1579,7 +1579,7 @@
     "student_plan_id":"STP-0000052",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1597,7 +1597,7 @@
     "student_plan_id":"STP-0000053",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1669,7 +1669,7 @@
     "student_plan_id":"STP-0000055",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1795,7 +1795,7 @@
     "student_plan_id":"STP-0000059",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1813,7 +1813,7 @@
     "student_plan_id":"STP-0000059",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1885,7 +1885,7 @@
     "student_plan_id":"STP-0000061",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1894,7 +1894,7 @@
     "student_plan_id":"STP-0000062",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1939,7 +1939,7 @@
     "student_plan_id":"STP-0000063",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -1957,7 +1957,7 @@
     "student_plan_id":"STP-0000064",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2083,7 +2083,7 @@
     "student_plan_id":"STP-0000069",
     "course_id":"CRS-000077",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2101,7 +2101,7 @@
     "student_plan_id":"STP-0000069",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2173,7 +2173,7 @@
     "student_plan_id":"STP-0000071",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2191,7 +2191,7 @@
     "student_plan_id":"STP-0000072",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2488,7 +2488,7 @@
     "student_plan_id":"STP-0000082",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2506,7 +2506,7 @@
     "student_plan_id":"STP-0000083",
     "course_id":"CRS-000059",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2515,7 +2515,7 @@
     "student_plan_id":"STP-0000083",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2524,7 +2524,7 @@
     "student_plan_id":"STP-0000083",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2533,7 +2533,7 @@
     "student_plan_id":"STP-0000083",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2578,7 +2578,7 @@
     "student_plan_id":"STP-0000085",
     "course_id":"CRS-000061",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2587,7 +2587,7 @@
     "student_plan_id":"STP-0000085",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2596,7 +2596,7 @@
     "student_plan_id":"STP-0000085",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2794,7 +2794,7 @@
     "student_plan_id":"STP-0000091",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2830,7 +2830,7 @@
     "student_plan_id":"STP-0000092",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2839,7 +2839,7 @@
     "student_plan_id":"STP-0000093",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2956,7 +2956,7 @@
     "student_plan_id":"STP-0000096",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2965,7 +2965,7 @@
     "student_plan_id":"STP-0000096",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2974,7 +2974,7 @@
     "student_plan_id":"STP-0000096",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -2992,7 +2992,7 @@
     "student_plan_id":"STP-0000096",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3055,7 +3055,7 @@
     "student_plan_id":"STP-0000098",
     "course_id":"CRS-000038",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3118,7 +3118,7 @@
     "student_plan_id":"STP-0000100",
     "course_id":"CRS-000037",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3127,7 +3127,7 @@
     "student_plan_id":"STP-0000100",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3136,7 +3136,7 @@
     "student_plan_id":"STP-0000100",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3244,7 +3244,7 @@
     "student_plan_id":"STP-0000105",
     "course_id":"CRS-000043",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3298,7 +3298,7 @@
     "student_plan_id":"STP-0000107",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3343,7 +3343,7 @@
     "student_plan_id":"STP-0000108",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3370,7 +3370,7 @@
     "student_plan_id":"STP-0000108",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3415,7 +3415,7 @@
     "student_plan_id":"STP-0000110",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3469,7 +3469,7 @@
     "student_plan_id":"STP-0000111",
     "course_id":"CRS-000059",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3478,7 +3478,7 @@
     "student_plan_id":"STP-0000112",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3577,7 +3577,7 @@
     "student_plan_id":"STP-0000116",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3667,7 +3667,7 @@
     "student_plan_id":"STP-0000119",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3892,7 +3892,7 @@
     "student_plan_id":"STP-0000126",
     "course_id":"CRS-000071",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -3991,7 +3991,7 @@
     "student_plan_id":"STP-0000129",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4027,7 +4027,7 @@
     "student_plan_id":"STP-0000130",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4054,7 +4054,7 @@
     "student_plan_id":"STP-0000131",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4072,7 +4072,7 @@
     "student_plan_id":"STP-0000132",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4090,7 +4090,7 @@
     "student_plan_id":"STP-0000132",
     "course_id":"CRS-000063",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4099,7 +4099,7 @@
     "student_plan_id":"STP-0000133",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4270,7 +4270,7 @@
     "student_plan_id":"STP-0000138",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4279,7 +4279,7 @@
     "student_plan_id":"STP-0000139",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4333,7 +4333,7 @@
     "student_plan_id":"STP-0000141",
     "course_id":"CRS-000049",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4378,7 +4378,7 @@
     "student_plan_id":"STP-0000143",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4387,7 +4387,7 @@
     "student_plan_id":"STP-0000143",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4396,7 +4396,7 @@
     "student_plan_id":"STP-0000144",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4549,7 +4549,7 @@
     "student_plan_id":"STP-0000148",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4612,7 +4612,7 @@
     "student_plan_id":"STP-0000151",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4630,7 +4630,7 @@
     "student_plan_id":"STP-0000151",
     "course_id":"CRS-000084",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4666,7 +4666,7 @@
     "student_plan_id":"STP-0000152",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4675,7 +4675,7 @@
     "student_plan_id":"STP-0000152",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4693,7 +4693,7 @@
     "student_plan_id":"STP-0000153",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4711,7 +4711,7 @@
     "student_plan_id":"STP-0000153",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4765,7 +4765,7 @@
     "student_plan_id":"STP-0000155",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4801,7 +4801,7 @@
     "student_plan_id":"STP-0000156",
     "course_id":"CRS-000061",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4819,7 +4819,7 @@
     "student_plan_id":"STP-0000157",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4900,7 +4900,7 @@
     "student_plan_id":"STP-0000161",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -4999,7 +4999,7 @@
     "student_plan_id":"STP-0000164",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5053,7 +5053,7 @@
     "student_plan_id":"STP-0000165",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5062,7 +5062,7 @@
     "student_plan_id":"STP-0000166",
     "course_id":"CRS-000042",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5080,7 +5080,7 @@
     "student_plan_id":"STP-0000166",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5089,7 +5089,7 @@
     "student_plan_id":"STP-0000166",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5152,7 +5152,7 @@
     "student_plan_id":"STP-0000169",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5179,7 +5179,7 @@
     "student_plan_id":"STP-0000170",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5206,7 +5206,7 @@
     "student_plan_id":"STP-0000171",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5224,7 +5224,7 @@
     "student_plan_id":"STP-0000172",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5260,7 +5260,7 @@
     "student_plan_id":"STP-0000174",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5323,7 +5323,7 @@
     "student_plan_id":"STP-0000175",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5386,7 +5386,7 @@
     "student_plan_id":"STP-0000177",
     "course_id":"CRS-000093",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5404,7 +5404,7 @@
     "student_plan_id":"STP-0000178",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5467,7 +5467,7 @@
     "student_plan_id":"STP-0000180",
     "course_id":"CRS-000029",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5476,7 +5476,7 @@
     "student_plan_id":"STP-0000180",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5485,7 +5485,7 @@
     "student_plan_id":"STP-0000180",
     "course_id":"CRS-000042",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5494,7 +5494,7 @@
     "student_plan_id":"STP-0000181",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5503,7 +5503,7 @@
     "student_plan_id":"STP-0000181",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5530,7 +5530,7 @@
     "student_plan_id":"STP-0000182",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5539,7 +5539,7 @@
     "student_plan_id":"STP-0000182",
     "course_id":"CRS-000056",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5557,7 +5557,7 @@
     "student_plan_id":"STP-0000182",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5575,7 +5575,7 @@
     "student_plan_id":"STP-0000183",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5584,7 +5584,7 @@
     "student_plan_id":"STP-0000183",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5593,7 +5593,7 @@
     "student_plan_id":"STP-0000183",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5602,7 +5602,7 @@
     "student_plan_id":"STP-0000184",
     "course_id":"CRS-000051",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5620,7 +5620,7 @@
     "student_plan_id":"STP-0000185",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5629,7 +5629,7 @@
     "student_plan_id":"STP-0000185",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5647,7 +5647,7 @@
     "student_plan_id":"STP-0000186",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5656,7 +5656,7 @@
     "student_plan_id":"STP-0000186",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5665,7 +5665,7 @@
     "student_plan_id":"STP-0000186",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5674,7 +5674,7 @@
     "student_plan_id":"STP-0000186",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5719,7 +5719,7 @@
     "student_plan_id":"STP-0000188",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5728,7 +5728,7 @@
     "student_plan_id":"STP-0000188",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5746,7 +5746,7 @@
     "student_plan_id":"STP-0000188",
     "course_id":"CRS-000039",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5755,7 +5755,7 @@
     "student_plan_id":"STP-0000188",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5764,7 +5764,7 @@
     "student_plan_id":"STP-0000189",
     "course_id":"CRS-000056",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5782,7 +5782,7 @@
     "student_plan_id":"STP-0000190",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5809,7 +5809,7 @@
     "student_plan_id":"STP-0000191",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5845,7 +5845,7 @@
     "student_plan_id":"STP-0000192",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5854,7 +5854,7 @@
     "student_plan_id":"STP-0000192",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5872,7 +5872,7 @@
     "student_plan_id":"STP-0000193",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5881,7 +5881,7 @@
     "student_plan_id":"STP-0000193",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -5980,7 +5980,7 @@
     "student_plan_id":"STP-0000195",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6016,7 +6016,7 @@
     "student_plan_id":"STP-0000197",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6061,7 +6061,7 @@
     "student_plan_id":"STP-0000198",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6097,7 +6097,7 @@
     "student_plan_id":"STP-0000199",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6223,7 +6223,7 @@
     "student_plan_id":"STP-0000202",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6286,7 +6286,7 @@
     "student_plan_id":"STP-0000204",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6295,7 +6295,7 @@
     "student_plan_id":"STP-0000204",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6340,7 +6340,7 @@
     "student_plan_id":"STP-0000206",
     "course_id":"CRS-000082",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6349,7 +6349,7 @@
     "student_plan_id":"STP-0000206",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6394,7 +6394,7 @@
     "student_plan_id":"STP-0000208",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6430,7 +6430,7 @@
     "student_plan_id":"STP-0000209",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6439,7 +6439,7 @@
     "student_plan_id":"STP-0000209",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6520,7 +6520,7 @@
     "student_plan_id":"STP-0000212",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6574,7 +6574,7 @@
     "student_plan_id":"STP-0000215",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6664,7 +6664,7 @@
     "student_plan_id":"STP-0000217",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6673,7 +6673,7 @@
     "student_plan_id":"STP-0000217",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6727,7 +6727,7 @@
     "student_plan_id":"STP-0000220",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6808,7 +6808,7 @@
     "student_plan_id":"STP-0000222",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6898,7 +6898,7 @@
     "student_plan_id":"STP-0000225",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6907,7 +6907,7 @@
     "student_plan_id":"STP-0000225",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6925,7 +6925,7 @@
     "student_plan_id":"STP-0000225",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -6997,7 +6997,7 @@
     "student_plan_id":"STP-0000228",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7150,7 +7150,7 @@
     "student_plan_id":"STP-0000232",
     "course_id":"CRS-000053",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7159,7 +7159,7 @@
     "student_plan_id":"STP-0000232",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7267,7 +7267,7 @@
     "student_plan_id":"STP-0000236",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7402,7 +7402,7 @@
     "student_plan_id":"STP-0000241",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7411,7 +7411,7 @@
     "student_plan_id":"STP-0000241",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7420,7 +7420,7 @@
     "student_plan_id":"STP-0000241",
     "course_id":"CRS-000064",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7501,7 +7501,7 @@
     "student_plan_id":"STP-0000244",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7564,7 +7564,7 @@
     "student_plan_id":"STP-0000246",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7582,7 +7582,7 @@
     "student_plan_id":"STP-0000246",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7591,7 +7591,7 @@
     "student_plan_id":"STP-0000246",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7681,7 +7681,7 @@
     "student_plan_id":"STP-0000249",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7735,7 +7735,7 @@
     "student_plan_id":"STP-0000252",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7744,7 +7744,7 @@
     "student_plan_id":"STP-0000252",
     "course_id":"CRS-000084",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7771,7 +7771,7 @@
     "student_plan_id":"STP-0000253",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7780,7 +7780,7 @@
     "student_plan_id":"STP-0000253",
     "course_id":"CRS-000073",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7870,7 +7870,7 @@
     "student_plan_id":"STP-0000255",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7897,7 +7897,7 @@
     "student_plan_id":"STP-0000256",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -7933,7 +7933,7 @@
     "student_plan_id":"STP-0000257",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8014,7 +8014,7 @@
     "student_plan_id":"STP-0000260",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8023,7 +8023,7 @@
     "student_plan_id":"STP-0000260",
     "course_id":"CRS-000099",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8122,7 +8122,7 @@
     "student_plan_id":"STP-0000264",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8140,7 +8140,7 @@
     "student_plan_id":"STP-0000264",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8167,7 +8167,7 @@
     "student_plan_id":"STP-0000265",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8176,7 +8176,7 @@
     "student_plan_id":"STP-0000265",
     "course_id":"CRS-000071",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8221,7 +8221,7 @@
     "student_plan_id":"STP-0000266",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8257,7 +8257,7 @@
     "student_plan_id":"STP-0000268",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8284,7 +8284,7 @@
     "student_plan_id":"STP-0000268",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8302,7 +8302,7 @@
     "student_plan_id":"STP-0000269",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8320,7 +8320,7 @@
     "student_plan_id":"STP-0000270",
     "course_id":"CRS-000079",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8329,7 +8329,7 @@
     "student_plan_id":"STP-0000270",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8383,7 +8383,7 @@
     "student_plan_id":"STP-0000272",
     "course_id":"CRS-000077",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8509,7 +8509,7 @@
     "student_plan_id":"STP-0000277",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8581,7 +8581,7 @@
     "student_plan_id":"STP-0000279",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8608,7 +8608,7 @@
     "student_plan_id":"STP-0000280",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8914,7 +8914,7 @@
     "student_plan_id":"STP-0000290",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -8941,7 +8941,7 @@
     "student_plan_id":"STP-0000291",
     "course_id":"CRS-000048",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9076,7 +9076,7 @@
     "student_plan_id":"STP-0000294",
     "course_id":"CRS-000091",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9157,7 +9157,7 @@
     "student_plan_id":"STP-0000297",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9166,7 +9166,7 @@
     "student_plan_id":"STP-0000297",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9184,7 +9184,7 @@
     "student_plan_id":"STP-0000298",
     "course_id":"CRS-000054",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9193,7 +9193,7 @@
     "student_plan_id":"STP-0000299",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9373,7 +9373,7 @@
     "student_plan_id":"STP-0000304",
     "course_id":"CRS-000049",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9400,7 +9400,7 @@
     "student_plan_id":"STP-0000304",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9454,7 +9454,7 @@
     "student_plan_id":"STP-0000306",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9535,7 +9535,7 @@
     "student_plan_id":"STP-0000308",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9562,7 +9562,7 @@
     "student_plan_id":"STP-0000309",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9571,7 +9571,7 @@
     "student_plan_id":"STP-0000309",
     "course_id":"CRS-000083",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9589,7 +9589,7 @@
     "student_plan_id":"STP-0000310",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9607,7 +9607,7 @@
     "student_plan_id":"STP-0000311",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9634,7 +9634,7 @@
     "student_plan_id":"STP-0000311",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9643,7 +9643,7 @@
     "student_plan_id":"STP-0000312",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9688,7 +9688,7 @@
     "student_plan_id":"STP-0000313",
     "course_id":"CRS-000054",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9715,7 +9715,7 @@
     "student_plan_id":"STP-0000313",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9778,7 +9778,7 @@
     "student_plan_id":"STP-0000315",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9931,7 +9931,7 @@
     "student_plan_id":"STP-0000320",
     "course_id":"CRS-000064",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -9940,7 +9940,7 @@
     "student_plan_id":"STP-0000320",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10021,7 +10021,7 @@
     "student_plan_id":"STP-0000323",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10057,7 +10057,7 @@
     "student_plan_id":"STP-0000324",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10066,7 +10066,7 @@
     "student_plan_id":"STP-0000324",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10075,7 +10075,7 @@
     "student_plan_id":"STP-0000324",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10093,7 +10093,7 @@
     "student_plan_id":"STP-0000325",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10156,7 +10156,7 @@
     "student_plan_id":"STP-0000327",
     "course_id":"CRS-000063",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10165,7 +10165,7 @@
     "student_plan_id":"STP-0000327",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10228,7 +10228,7 @@
     "student_plan_id":"STP-0000329",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10327,7 +10327,7 @@
     "student_plan_id":"STP-0000333",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10381,7 +10381,7 @@
     "student_plan_id":"STP-0000334",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10417,7 +10417,7 @@
     "student_plan_id":"STP-0000335",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10426,7 +10426,7 @@
     "student_plan_id":"STP-0000336",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10489,7 +10489,7 @@
     "student_plan_id":"STP-0000337",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10525,7 +10525,7 @@
     "student_plan_id":"STP-0000339",
     "course_id":"CRS-000028",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10579,7 +10579,7 @@
     "student_plan_id":"STP-0000341",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10588,7 +10588,7 @@
     "student_plan_id":"STP-0000341",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10597,7 +10597,7 @@
     "student_plan_id":"STP-0000342",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10615,7 +10615,7 @@
     "student_plan_id":"STP-0000342",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10624,7 +10624,7 @@
     "student_plan_id":"STP-0000343",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10642,7 +10642,7 @@
     "student_plan_id":"STP-0000343",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10813,7 +10813,7 @@
     "student_plan_id":"STP-0000348",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10831,7 +10831,7 @@
     "student_plan_id":"STP-0000348",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10867,7 +10867,7 @@
     "student_plan_id":"STP-0000350",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10912,7 +10912,7 @@
     "student_plan_id":"STP-0000351",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -10921,7 +10921,7 @@
     "student_plan_id":"STP-0000351",
     "course_id":"CRS-000026",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11002,7 +11002,7 @@
     "student_plan_id":"STP-0000353",
     "course_id":"CRS-000049",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11092,7 +11092,7 @@
     "student_plan_id":"STP-0000356",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11191,7 +11191,7 @@
     "student_plan_id":"STP-0000358",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11209,7 +11209,7 @@
     "student_plan_id":"STP-0000359",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11317,7 +11317,7 @@
     "student_plan_id":"STP-0000362",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11326,7 +11326,7 @@
     "student_plan_id":"STP-0000363",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11353,7 +11353,7 @@
     "student_plan_id":"STP-0000363",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11371,7 +11371,7 @@
     "student_plan_id":"STP-0000364",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11569,7 +11569,7 @@
     "student_plan_id":"STP-0000371",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11767,7 +11767,7 @@
     "student_plan_id":"STP-0000378",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11776,7 +11776,7 @@
     "student_plan_id":"STP-0000379",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11794,7 +11794,7 @@
     "student_plan_id":"STP-0000379",
     "course_id":"CRS-000091",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11857,7 +11857,7 @@
     "student_plan_id":"STP-0000381",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11866,7 +11866,7 @@
     "student_plan_id":"STP-0000381",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11884,7 +11884,7 @@
     "student_plan_id":"STP-0000382",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11911,7 +11911,7 @@
     "student_plan_id":"STP-0000382",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11929,7 +11929,7 @@
     "student_plan_id":"STP-0000383",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -11956,7 +11956,7 @@
     "student_plan_id":"STP-0000384",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12181,7 +12181,7 @@
     "student_plan_id":"STP-0000391",
     "course_id":"CRS-000092",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12199,7 +12199,7 @@
     "student_plan_id":"STP-0000391",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12208,7 +12208,7 @@
     "student_plan_id":"STP-0000391",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12262,7 +12262,7 @@
     "student_plan_id":"STP-0000393",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12352,7 +12352,7 @@
     "student_plan_id":"STP-0000395",
     "course_id":"CRS-000083",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12388,7 +12388,7 @@
     "student_plan_id":"STP-0000397",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12415,7 +12415,7 @@
     "student_plan_id":"STP-0000397",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12424,7 +12424,7 @@
     "student_plan_id":"STP-0000397",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12532,7 +12532,7 @@
     "student_plan_id":"STP-0000402",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12568,7 +12568,7 @@
     "student_plan_id":"STP-0000404",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12613,7 +12613,7 @@
     "student_plan_id":"STP-0000406",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12685,7 +12685,7 @@
     "student_plan_id":"STP-0000407",
     "course_id":"CRS-000099",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12757,7 +12757,7 @@
     "student_plan_id":"STP-0000410",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12937,7 +12937,7 @@
     "student_plan_id":"STP-0000415",
     "course_id":"CRS-000027",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -12955,7 +12955,7 @@
     "student_plan_id":"STP-0000415",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13081,7 +13081,7 @@
     "student_plan_id":"STP-0000419",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13117,7 +13117,7 @@
     "student_plan_id":"STP-0000420",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13189,7 +13189,7 @@
     "student_plan_id":"STP-0000423",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13243,7 +13243,7 @@
     "student_plan_id":"STP-0000425",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13396,7 +13396,7 @@
     "student_plan_id":"STP-0000430",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13414,7 +13414,7 @@
     "student_plan_id":"STP-0000430",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13432,7 +13432,7 @@
     "student_plan_id":"STP-0000430",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13468,7 +13468,7 @@
     "student_plan_id":"STP-0000432",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13477,7 +13477,7 @@
     "student_plan_id":"STP-0000432",
     "course_id":"CRS-000084",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13522,7 +13522,7 @@
     "student_plan_id":"STP-0000434",
     "course_id":"CRS-000062",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13531,7 +13531,7 @@
     "student_plan_id":"STP-0000434",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13657,7 +13657,7 @@
     "student_plan_id":"STP-0000439",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13675,7 +13675,7 @@
     "student_plan_id":"STP-0000440",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13684,7 +13684,7 @@
     "student_plan_id":"STP-0000440",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13693,7 +13693,7 @@
     "student_plan_id":"STP-0000440",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13855,7 +13855,7 @@
     "student_plan_id":"STP-0000445",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13891,7 +13891,7 @@
     "student_plan_id":"STP-0000446",
     "course_id":"CRS-000071",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13981,7 +13981,7 @@
     "student_plan_id":"STP-0000449",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -13999,7 +13999,7 @@
     "student_plan_id":"STP-0000450",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14071,7 +14071,7 @@
     "student_plan_id":"STP-0000451",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14107,7 +14107,7 @@
     "student_plan_id":"STP-0000452",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14116,7 +14116,7 @@
     "student_plan_id":"STP-0000453",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14134,7 +14134,7 @@
     "student_plan_id":"STP-0000453",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14143,7 +14143,7 @@
     "student_plan_id":"STP-0000453",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14170,7 +14170,7 @@
     "student_plan_id":"STP-0000455",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14179,7 +14179,7 @@
     "student_plan_id":"STP-0000455",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14188,7 +14188,7 @@
     "student_plan_id":"STP-0000456",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14197,7 +14197,7 @@
     "student_plan_id":"STP-0000456",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14224,7 +14224,7 @@
     "student_plan_id":"STP-0000457",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14251,7 +14251,7 @@
     "student_plan_id":"STP-0000459",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14269,7 +14269,7 @@
     "student_plan_id":"STP-0000459",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14287,7 +14287,7 @@
     "student_plan_id":"STP-0000459",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14386,7 +14386,7 @@
     "student_plan_id":"STP-0000463",
     "course_id":"CRS-000092",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14422,7 +14422,7 @@
     "student_plan_id":"STP-0000463",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14440,7 +14440,7 @@
     "student_plan_id":"STP-0000464",
     "course_id":"CRS-000059",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14512,7 +14512,7 @@
     "student_plan_id":"STP-0000466",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14521,7 +14521,7 @@
     "student_plan_id":"STP-0000467",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14539,7 +14539,7 @@
     "student_plan_id":"STP-0000467",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14548,7 +14548,7 @@
     "student_plan_id":"STP-0000468",
     "course_id":"CRS-000054",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14692,7 +14692,7 @@
     "student_plan_id":"STP-0000472",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14746,7 +14746,7 @@
     "student_plan_id":"STP-0000474",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14845,7 +14845,7 @@
     "student_plan_id":"STP-0000478",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14872,7 +14872,7 @@
     "student_plan_id":"STP-0000478",
     "course_id":"CRS-000066",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14881,7 +14881,7 @@
     "student_plan_id":"STP-0000479",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14926,7 +14926,7 @@
     "student_plan_id":"STP-0000480",
     "course_id":"CRS-000079",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -14953,7 +14953,7 @@
     "student_plan_id":"STP-0000481",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15007,7 +15007,7 @@
     "student_plan_id":"STP-0000482",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15016,7 +15016,7 @@
     "student_plan_id":"STP-0000482",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15034,7 +15034,7 @@
     "student_plan_id":"STP-0000483",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15052,7 +15052,7 @@
     "student_plan_id":"STP-0000484",
     "course_id":"CRS-000062",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15097,7 +15097,7 @@
     "student_plan_id":"STP-0000485",
     "course_id":"CRS-000064",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15106,7 +15106,7 @@
     "student_plan_id":"STP-0000485",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15169,7 +15169,7 @@
     "student_plan_id":"STP-0000488",
     "course_id":"CRS-000064",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15187,7 +15187,7 @@
     "student_plan_id":"STP-0000489",
     "course_id":"CRS-000062",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15196,7 +15196,7 @@
     "student_plan_id":"STP-0000489",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15250,7 +15250,7 @@
     "student_plan_id":"STP-0000491",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15268,7 +15268,7 @@
     "student_plan_id":"STP-0000491",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15322,7 +15322,7 @@
     "student_plan_id":"STP-0000494",
     "course_id":"CRS-000079",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15331,7 +15331,7 @@
     "student_plan_id":"STP-0000494",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15358,7 +15358,7 @@
     "student_plan_id":"STP-0000494",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15403,7 +15403,7 @@
     "student_plan_id":"STP-0000496",
     "course_id":"CRS-000048",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15439,7 +15439,7 @@
     "student_plan_id":"STP-0000497",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15466,7 +15466,7 @@
     "student_plan_id":"STP-0000498",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15547,7 +15547,7 @@
     "student_plan_id":"STP-0000500",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15673,7 +15673,7 @@
     "student_plan_id":"STP-0000505",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15700,7 +15700,7 @@
     "student_plan_id":"STP-0000506",
     "course_id":"CRS-000063",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15727,7 +15727,7 @@
     "student_plan_id":"STP-0000506",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15889,7 +15889,7 @@
     "student_plan_id":"STP-0000513",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15898,7 +15898,7 @@
     "student_plan_id":"STP-0000513",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15907,7 +15907,7 @@
     "student_plan_id":"STP-0000513",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15934,7 +15934,7 @@
     "student_plan_id":"STP-0000514",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -15943,7 +15943,7 @@
     "student_plan_id":"STP-0000515",
     "course_id":"CRS-000099",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16015,7 +16015,7 @@
     "student_plan_id":"STP-0000517",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16024,7 +16024,7 @@
     "student_plan_id":"STP-0000517",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16042,7 +16042,7 @@
     "student_plan_id":"STP-0000518",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16069,7 +16069,7 @@
     "student_plan_id":"STP-0000519",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16078,7 +16078,7 @@
     "student_plan_id":"STP-0000519",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16087,7 +16087,7 @@
     "student_plan_id":"STP-0000519",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16177,7 +16177,7 @@
     "student_plan_id":"STP-0000523",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16249,7 +16249,7 @@
     "student_plan_id":"STP-0000526",
     "course_id":"CRS-000054",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16258,7 +16258,7 @@
     "student_plan_id":"STP-0000527",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16276,7 +16276,7 @@
     "student_plan_id":"STP-0000527",
     "course_id":"CRS-000046",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16285,7 +16285,7 @@
     "student_plan_id":"STP-0000527",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16375,7 +16375,7 @@
     "student_plan_id":"STP-0000530",
     "course_id":"CRS-000084",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16438,7 +16438,7 @@
     "student_plan_id":"STP-0000533",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16447,7 +16447,7 @@
     "student_plan_id":"STP-0000533",
     "course_id":"CRS-000046",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16456,7 +16456,7 @@
     "student_plan_id":"STP-0000534",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16465,7 +16465,7 @@
     "student_plan_id":"STP-0000534",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16474,7 +16474,7 @@
     "student_plan_id":"STP-0000534",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16483,7 +16483,7 @@
     "student_plan_id":"STP-0000534",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16627,7 +16627,7 @@
     "student_plan_id":"STP-0000538",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16636,7 +16636,7 @@
     "student_plan_id":"STP-0000538",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16690,7 +16690,7 @@
     "student_plan_id":"STP-0000540",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16771,7 +16771,7 @@
     "student_plan_id":"STP-0000542",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16825,7 +16825,7 @@
     "student_plan_id":"STP-0000544",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16852,7 +16852,7 @@
     "student_plan_id":"STP-0000545",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -16969,7 +16969,7 @@
     "student_plan_id":"STP-0000548",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17032,7 +17032,7 @@
     "student_plan_id":"STP-0000550",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17041,7 +17041,7 @@
     "student_plan_id":"STP-0000550",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17059,7 +17059,7 @@
     "student_plan_id":"STP-0000550",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17077,7 +17077,7 @@
     "student_plan_id":"STP-0000551",
     "course_id":"CRS-000033",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17131,7 +17131,7 @@
     "student_plan_id":"STP-0000552",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17572,7 +17572,7 @@
     "student_plan_id":"STP-0000566",
     "course_id":"CRS-000082",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17599,7 +17599,7 @@
     "student_plan_id":"STP-0000566",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17671,7 +17671,7 @@
     "student_plan_id":"STP-0000569",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17680,7 +17680,7 @@
     "student_plan_id":"STP-0000569",
     "course_id":"CRS-000091",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17752,7 +17752,7 @@
     "student_plan_id":"STP-0000571",
     "course_id":"CRS-000093",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17842,7 +17842,7 @@
     "student_plan_id":"STP-0000573",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17860,7 +17860,7 @@
     "student_plan_id":"STP-0000574",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17914,7 +17914,7 @@
     "student_plan_id":"STP-0000575",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17950,7 +17950,7 @@
     "student_plan_id":"STP-0000576",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -17995,7 +17995,7 @@
     "student_plan_id":"STP-0000577",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18049,7 +18049,7 @@
     "student_plan_id":"STP-0000580",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18085,7 +18085,7 @@
     "student_plan_id":"STP-0000581",
     "course_id":"CRS-000027",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18103,7 +18103,7 @@
     "student_plan_id":"STP-0000581",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18121,7 +18121,7 @@
     "student_plan_id":"STP-0000582",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18301,7 +18301,7 @@
     "student_plan_id":"STP-0000589",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18310,7 +18310,7 @@
     "student_plan_id":"STP-0000589",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18364,7 +18364,7 @@
     "student_plan_id":"STP-0000591",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18382,7 +18382,7 @@
     "student_plan_id":"STP-0000591",
     "course_id":"CRS-000092",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18436,7 +18436,7 @@
     "student_plan_id":"STP-0000592",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18454,7 +18454,7 @@
     "student_plan_id":"STP-0000593",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18472,7 +18472,7 @@
     "student_plan_id":"STP-0000594",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18490,7 +18490,7 @@
     "student_plan_id":"STP-0000595",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18508,7 +18508,7 @@
     "student_plan_id":"STP-0000596",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18517,7 +18517,7 @@
     "student_plan_id":"STP-0000596",
     "course_id":"CRS-000071",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18526,7 +18526,7 @@
     "student_plan_id":"STP-0000596",
     "course_id":"CRS-000037",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18553,7 +18553,7 @@
     "student_plan_id":"STP-0000598",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18562,7 +18562,7 @@
     "student_plan_id":"STP-0000598",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18616,7 +18616,7 @@
     "student_plan_id":"STP-0000599",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18625,7 +18625,7 @@
     "student_plan_id":"STP-0000600",
     "course_id":"CRS-000077",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18634,7 +18634,7 @@
     "student_plan_id":"STP-0000600",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18643,7 +18643,7 @@
     "student_plan_id":"STP-0000600",
     "course_id":"CRS-000053",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18670,7 +18670,7 @@
     "student_plan_id":"STP-0000601",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18706,7 +18706,7 @@
     "student_plan_id":"STP-0000602",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18715,7 +18715,7 @@
     "student_plan_id":"STP-0000602",
     "course_id":"CRS-000051",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18733,7 +18733,7 @@
     "student_plan_id":"STP-0000602",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18787,7 +18787,7 @@
     "student_plan_id":"STP-0000605",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18904,7 +18904,7 @@
     "student_plan_id":"STP-0000608",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18913,7 +18913,7 @@
     "student_plan_id":"STP-0000608",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18949,7 +18949,7 @@
     "student_plan_id":"STP-0000609",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -18958,7 +18958,7 @@
     "student_plan_id":"STP-0000609",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19012,7 +19012,7 @@
     "student_plan_id":"STP-0000611",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19093,7 +19093,7 @@
     "student_plan_id":"STP-0000613",
     "course_id":"CRS-000063",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19111,7 +19111,7 @@
     "student_plan_id":"STP-0000613",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19129,7 +19129,7 @@
     "student_plan_id":"STP-0000614",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19138,7 +19138,7 @@
     "student_plan_id":"STP-0000615",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19147,7 +19147,7 @@
     "student_plan_id":"STP-0000615",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19174,7 +19174,7 @@
     "student_plan_id":"STP-0000616",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19183,7 +19183,7 @@
     "student_plan_id":"STP-0000616",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19192,7 +19192,7 @@
     "student_plan_id":"STP-0000616",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19237,7 +19237,7 @@
     "student_plan_id":"STP-0000618",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19318,7 +19318,7 @@
     "student_plan_id":"STP-0000621",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19534,7 +19534,7 @@
     "student_plan_id":"STP-0000628",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19561,7 +19561,7 @@
     "student_plan_id":"STP-0000628",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19660,7 +19660,7 @@
     "student_plan_id":"STP-0000631",
     "course_id":"CRS-000033",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19669,7 +19669,7 @@
     "student_plan_id":"STP-0000631",
     "course_id":"CRS-000079",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19714,7 +19714,7 @@
     "student_plan_id":"STP-0000634",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19741,7 +19741,7 @@
     "student_plan_id":"STP-0000634",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19759,7 +19759,7 @@
     "student_plan_id":"STP-0000635",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19777,7 +19777,7 @@
     "student_plan_id":"STP-0000636",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -19903,7 +19903,7 @@
     "student_plan_id":"STP-0000639",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20047,7 +20047,7 @@
     "student_plan_id":"STP-0000644",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20137,7 +20137,7 @@
     "student_plan_id":"STP-0000646",
     "course_id":"CRS-000099",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20164,7 +20164,7 @@
     "student_plan_id":"STP-0000647",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20182,7 +20182,7 @@
     "student_plan_id":"STP-0000647",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20308,7 +20308,7 @@
     "student_plan_id":"STP-0000651",
     "course_id":"CRS-000031",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20353,7 +20353,7 @@
     "student_plan_id":"STP-0000652",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20578,7 +20578,7 @@
     "student_plan_id":"STP-0000659",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20596,7 +20596,7 @@
     "student_plan_id":"STP-0000660",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20632,7 +20632,7 @@
     "student_plan_id":"STP-0000661",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20695,7 +20695,7 @@
     "student_plan_id":"STP-0000663",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20749,7 +20749,7 @@
     "student_plan_id":"STP-0000665",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20758,7 +20758,7 @@
     "student_plan_id":"STP-0000666",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20767,7 +20767,7 @@
     "student_plan_id":"STP-0000666",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20803,7 +20803,7 @@
     "student_plan_id":"STP-0000667",
     "course_id":"CRS-000038",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20821,7 +20821,7 @@
     "student_plan_id":"STP-0000667",
     "course_id":"CRS-000061",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20830,7 +20830,7 @@
     "student_plan_id":"STP-0000667",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20857,7 +20857,7 @@
     "student_plan_id":"STP-0000668",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -20929,7 +20929,7 @@
     "student_plan_id":"STP-0000672",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21028,7 +21028,7 @@
     "student_plan_id":"STP-0000675",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21091,7 +21091,7 @@
     "student_plan_id":"STP-0000678",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21109,7 +21109,7 @@
     "student_plan_id":"STP-0000679",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21127,7 +21127,7 @@
     "student_plan_id":"STP-0000679",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21172,7 +21172,7 @@
     "student_plan_id":"STP-0000681",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21253,7 +21253,7 @@
     "student_plan_id":"STP-0000683",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21262,7 +21262,7 @@
     "student_plan_id":"STP-0000683",
     "course_id":"CRS-000042",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21271,7 +21271,7 @@
     "student_plan_id":"STP-0000684",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21370,7 +21370,7 @@
     "student_plan_id":"STP-0000687",
     "course_id":"CRS-000077",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21379,7 +21379,7 @@
     "student_plan_id":"STP-0000687",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21388,7 +21388,7 @@
     "student_plan_id":"STP-0000687",
     "course_id":"CRS-000097",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21505,7 +21505,7 @@
     "student_plan_id":"STP-0000690",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21514,7 +21514,7 @@
     "student_plan_id":"STP-0000690",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21523,7 +21523,7 @@
     "student_plan_id":"STP-0000690",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21568,7 +21568,7 @@
     "student_plan_id":"STP-0000692",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21586,7 +21586,7 @@
     "student_plan_id":"STP-0000693",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21595,7 +21595,7 @@
     "student_plan_id":"STP-0000693",
     "course_id":"CRS-000077",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21613,7 +21613,7 @@
     "student_plan_id":"STP-0000694",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21631,7 +21631,7 @@
     "student_plan_id":"STP-0000694",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21685,7 +21685,7 @@
     "student_plan_id":"STP-0000696",
     "course_id":"CRS-000063",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21694,7 +21694,7 @@
     "student_plan_id":"STP-0000696",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21703,7 +21703,7 @@
     "student_plan_id":"STP-0000696",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21712,7 +21712,7 @@
     "student_plan_id":"STP-0000696",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21793,7 +21793,7 @@
     "student_plan_id":"STP-0000698",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21811,7 +21811,7 @@
     "student_plan_id":"STP-0000699",
     "course_id":"CRS-000064",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21838,7 +21838,7 @@
     "student_plan_id":"STP-0000700",
     "course_id":"CRS-000066",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -21901,7 +21901,7 @@
     "student_plan_id":"STP-0000703",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22009,7 +22009,7 @@
     "student_plan_id":"STP-0000706",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22036,7 +22036,7 @@
     "student_plan_id":"STP-0000707",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22126,7 +22126,7 @@
     "student_plan_id":"STP-0000710",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22198,7 +22198,7 @@
     "student_plan_id":"STP-0000712",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22324,7 +22324,7 @@
     "student_plan_id":"STP-0000717",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22342,7 +22342,7 @@
     "student_plan_id":"STP-0000717",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22360,7 +22360,7 @@
     "student_plan_id":"STP-0000717",
     "course_id":"CRS-000082",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22387,7 +22387,7 @@
     "student_plan_id":"STP-0000719",
     "course_id":"CRS-000031",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22396,7 +22396,7 @@
     "student_plan_id":"STP-0000719",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22405,7 +22405,7 @@
     "student_plan_id":"STP-0000719",
     "course_id":"CRS-000053",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22459,7 +22459,7 @@
     "student_plan_id":"STP-0000721",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22531,7 +22531,7 @@
     "student_plan_id":"STP-0000723",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22666,7 +22666,7 @@
     "student_plan_id":"STP-0000727",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22720,7 +22720,7 @@
     "student_plan_id":"STP-0000728",
     "course_id":"CRS-000093",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22729,7 +22729,7 @@
     "student_plan_id":"STP-0000729",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22756,7 +22756,7 @@
     "student_plan_id":"STP-0000730",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22837,7 +22837,7 @@
     "student_plan_id":"STP-0000733",
     "course_id":"CRS-000038",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22846,7 +22846,7 @@
     "student_plan_id":"STP-0000733",
     "course_id":"CRS-000082",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -22945,7 +22945,7 @@
     "student_plan_id":"STP-0000737",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23008,7 +23008,7 @@
     "student_plan_id":"STP-0000739",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23017,7 +23017,7 @@
     "student_plan_id":"STP-0000739",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23035,7 +23035,7 @@
     "student_plan_id":"STP-0000740",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23044,7 +23044,7 @@
     "student_plan_id":"STP-0000740",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23053,7 +23053,7 @@
     "student_plan_id":"STP-0000740",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23098,7 +23098,7 @@
     "student_plan_id":"STP-0000742",
     "course_id":"CRS-000051",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23107,7 +23107,7 @@
     "student_plan_id":"STP-0000742",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23197,7 +23197,7 @@
     "student_plan_id":"STP-0000745",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23206,7 +23206,7 @@
     "student_plan_id":"STP-0000745",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23233,7 +23233,7 @@
     "student_plan_id":"STP-0000746",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23242,7 +23242,7 @@
     "student_plan_id":"STP-0000747",
     "course_id":"CRS-000031",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23332,7 +23332,7 @@
     "student_plan_id":"STP-0000750",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23350,7 +23350,7 @@
     "student_plan_id":"STP-0000750",
     "course_id":"CRS-000031",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23440,7 +23440,7 @@
     "student_plan_id":"STP-0000752",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23503,7 +23503,7 @@
     "student_plan_id":"STP-0000754",
     "course_id":"CRS-000052",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23521,7 +23521,7 @@
     "student_plan_id":"STP-0000755",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23530,7 +23530,7 @@
     "student_plan_id":"STP-0000755",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23602,7 +23602,7 @@
     "student_plan_id":"STP-0000758",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23611,7 +23611,7 @@
     "student_plan_id":"STP-0000758",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23629,7 +23629,7 @@
     "student_plan_id":"STP-0000759",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23656,7 +23656,7 @@
     "student_plan_id":"STP-0000759",
     "course_id":"CRS-000084",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23827,7 +23827,7 @@
     "student_plan_id":"STP-0000764",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23836,7 +23836,7 @@
     "student_plan_id":"STP-0000764",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23872,7 +23872,7 @@
     "student_plan_id":"STP-0000765",
     "course_id":"CRS-000097",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23890,7 +23890,7 @@
     "student_plan_id":"STP-0000766",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23971,7 +23971,7 @@
     "student_plan_id":"STP-0000769",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -23998,7 +23998,7 @@
     "student_plan_id":"STP-0000770",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24016,7 +24016,7 @@
     "student_plan_id":"STP-0000770",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24061,7 +24061,7 @@
     "student_plan_id":"STP-0000772",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24277,7 +24277,7 @@
     "student_plan_id":"STP-0000778",
     "course_id":"CRS-000061",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24313,7 +24313,7 @@
     "student_plan_id":"STP-0000778",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24367,7 +24367,7 @@
     "student_plan_id":"STP-0000781",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24403,7 +24403,7 @@
     "student_plan_id":"STP-0000782",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24430,7 +24430,7 @@
     "student_plan_id":"STP-0000782",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24466,7 +24466,7 @@
     "student_plan_id":"STP-0000784",
     "course_id":"CRS-000056",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24475,7 +24475,7 @@
     "student_plan_id":"STP-0000784",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24484,7 +24484,7 @@
     "student_plan_id":"STP-0000784",
     "course_id":"CRS-000036",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24547,7 +24547,7 @@
     "student_plan_id":"STP-0000787",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24583,7 +24583,7 @@
     "student_plan_id":"STP-0000788",
     "course_id":"CRS-000061",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24592,7 +24592,7 @@
     "student_plan_id":"STP-0000788",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24601,7 +24601,7 @@
     "student_plan_id":"STP-0000788",
     "course_id":"CRS-000066",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24628,7 +24628,7 @@
     "student_plan_id":"STP-0000789",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24664,7 +24664,7 @@
     "student_plan_id":"STP-0000789",
     "course_id":"CRS-000086",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24682,7 +24682,7 @@
     "student_plan_id":"STP-0000790",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24691,7 +24691,7 @@
     "student_plan_id":"STP-0000791",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24718,7 +24718,7 @@
     "student_plan_id":"STP-0000791",
     "course_id":"CRS-000051",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24727,7 +24727,7 @@
     "student_plan_id":"STP-0000791",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24772,7 +24772,7 @@
     "student_plan_id":"STP-0000793",
     "course_id":"CRS-000092",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24781,7 +24781,7 @@
     "student_plan_id":"STP-0000793",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24898,7 +24898,7 @@
     "student_plan_id":"STP-0000798",
     "course_id":"CRS-000091",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24916,7 +24916,7 @@
     "student_plan_id":"STP-0000798",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -24925,7 +24925,7 @@
     "student_plan_id":"STP-0000798",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25186,7 +25186,7 @@
     "student_plan_id":"STP-0000807",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25195,7 +25195,7 @@
     "student_plan_id":"STP-0000807",
     "course_id":"CRS-000088",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25276,7 +25276,7 @@
     "student_plan_id":"STP-0000811",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25321,7 +25321,7 @@
     "student_plan_id":"STP-0000812",
     "course_id":"CRS-000027",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25330,7 +25330,7 @@
     "student_plan_id":"STP-0000812",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25339,7 +25339,7 @@
     "student_plan_id":"STP-0000813",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25393,7 +25393,7 @@
     "student_plan_id":"STP-0000815",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25456,7 +25456,7 @@
     "student_plan_id":"STP-0000817",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25510,7 +25510,7 @@
     "student_plan_id":"STP-0000819",
     "course_id":"CRS-000069",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25519,7 +25519,7 @@
     "student_plan_id":"STP-0000819",
     "course_id":"CRS-000031",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25663,7 +25663,7 @@
     "student_plan_id":"STP-0000823",
     "course_id":"CRS-000070",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25717,7 +25717,7 @@
     "student_plan_id":"STP-0000825",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25807,7 +25807,7 @@
     "student_plan_id":"STP-0000827",
     "course_id":"CRS-000076",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25834,7 +25834,7 @@
     "student_plan_id":"STP-0000828",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25870,7 +25870,7 @@
     "student_plan_id":"STP-0000829",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25879,7 +25879,7 @@
     "student_plan_id":"STP-0000830",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -25906,7 +25906,7 @@
     "student_plan_id":"STP-0000830",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26005,7 +26005,7 @@
     "student_plan_id":"STP-0000834",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26014,7 +26014,7 @@
     "student_plan_id":"STP-0000834",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26041,7 +26041,7 @@
     "student_plan_id":"STP-0000834",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26167,7 +26167,7 @@
     "student_plan_id":"STP-0000838",
     "course_id":"CRS-000076",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26194,7 +26194,7 @@
     "student_plan_id":"STP-0000840",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26212,7 +26212,7 @@
     "student_plan_id":"STP-0000840",
     "course_id":"CRS-000059",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26230,7 +26230,7 @@
     "student_plan_id":"STP-0000840",
     "course_id":"CRS-000066",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26248,7 +26248,7 @@
     "student_plan_id":"STP-0000841",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26275,7 +26275,7 @@
     "student_plan_id":"STP-0000842",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26428,7 +26428,7 @@
     "student_plan_id":"STP-0000846",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26464,7 +26464,7 @@
     "student_plan_id":"STP-0000848",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26491,7 +26491,7 @@
     "student_plan_id":"STP-0000848",
     "course_id":"CRS-000062",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26500,7 +26500,7 @@
     "student_plan_id":"STP-0000849",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26518,7 +26518,7 @@
     "student_plan_id":"STP-0000849",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26536,7 +26536,7 @@
     "student_plan_id":"STP-0000849",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26590,7 +26590,7 @@
     "student_plan_id":"STP-0000851",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26689,7 +26689,7 @@
     "student_plan_id":"STP-0000854",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26752,7 +26752,7 @@
     "student_plan_id":"STP-0000857",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26797,7 +26797,7 @@
     "student_plan_id":"STP-0000858",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26815,7 +26815,7 @@
     "student_plan_id":"STP-0000859",
     "course_id":"CRS-000092",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26887,7 +26887,7 @@
     "student_plan_id":"STP-0000862",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26905,7 +26905,7 @@
     "student_plan_id":"STP-0000863",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26914,7 +26914,7 @@
     "student_plan_id":"STP-0000863",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26950,7 +26950,7 @@
     "student_plan_id":"STP-0000865",
     "course_id":"CRS-000078",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -26968,7 +26968,7 @@
     "student_plan_id":"STP-0000865",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27094,7 +27094,7 @@
     "student_plan_id":"STP-0000870",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27211,7 +27211,7 @@
     "student_plan_id":"STP-0000874",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27220,7 +27220,7 @@
     "student_plan_id":"STP-0000874",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27364,7 +27364,7 @@
     "student_plan_id":"STP-0000880",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27373,7 +27373,7 @@
     "student_plan_id":"STP-0000880",
     "course_id":"CRS-000082",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27391,7 +27391,7 @@
     "student_plan_id":"STP-0000880",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27454,7 +27454,7 @@
     "student_plan_id":"STP-0000882",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27463,7 +27463,7 @@
     "student_plan_id":"STP-0000882",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27472,7 +27472,7 @@
     "student_plan_id":"STP-0000882",
     "course_id":"CRS-000066",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27517,7 +27517,7 @@
     "student_plan_id":"STP-0000885",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27526,7 +27526,7 @@
     "student_plan_id":"STP-0000885",
     "course_id":"CRS-000032",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27553,7 +27553,7 @@
     "student_plan_id":"STP-0000885",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27580,7 +27580,7 @@
     "student_plan_id":"STP-0000886",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27598,7 +27598,7 @@
     "student_plan_id":"STP-0000887",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27607,7 +27607,7 @@
     "student_plan_id":"STP-0000887",
     "course_id":"CRS-000047",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27679,7 +27679,7 @@
     "student_plan_id":"STP-0000890",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27742,7 +27742,7 @@
     "student_plan_id":"STP-0000892",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27760,7 +27760,7 @@
     "student_plan_id":"STP-0000893",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27805,7 +27805,7 @@
     "student_plan_id":"STP-0000894",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27877,7 +27877,7 @@
     "student_plan_id":"STP-0000897",
     "course_id":"CRS-000083",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27922,7 +27922,7 @@
     "student_plan_id":"STP-0000898",
     "course_id":"CRS-000097",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27931,7 +27931,7 @@
     "student_plan_id":"STP-0000899",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27940,7 +27940,7 @@
     "student_plan_id":"STP-0000899",
     "course_id":"CRS-000056",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27949,7 +27949,7 @@
     "student_plan_id":"STP-0000900",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -27985,7 +27985,7 @@
     "student_plan_id":"STP-0000901",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28003,7 +28003,7 @@
     "student_plan_id":"STP-0000901",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28102,7 +28102,7 @@
     "student_plan_id":"STP-0000905",
     "course_id":"CRS-000030",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28111,7 +28111,7 @@
     "student_plan_id":"STP-0000905",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28120,7 +28120,7 @@
     "student_plan_id":"STP-0000905",
     "course_id":"CRS-000054",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28129,7 +28129,7 @@
     "student_plan_id":"STP-0000905",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28147,7 +28147,7 @@
     "student_plan_id":"STP-0000906",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28156,7 +28156,7 @@
     "student_plan_id":"STP-0000906",
     "course_id":"CRS-000043",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28165,7 +28165,7 @@
     "student_plan_id":"STP-0000906",
     "course_id":"CRS-000036",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28228,7 +28228,7 @@
     "student_plan_id":"STP-0000908",
     "course_id":"CRS-000050",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28264,7 +28264,7 @@
     "student_plan_id":"STP-0000909",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28282,7 +28282,7 @@
     "student_plan_id":"STP-0000910",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28336,7 +28336,7 @@
     "student_plan_id":"STP-0000911",
     "course_id":"CRS-000059",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28345,7 +28345,7 @@
     "student_plan_id":"STP-0000912",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28363,7 +28363,7 @@
     "student_plan_id":"STP-0000912",
     "course_id":"CRS-000083",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28444,7 +28444,7 @@
     "student_plan_id":"STP-0000915",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28453,7 +28453,7 @@
     "student_plan_id":"STP-0000915",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28462,7 +28462,7 @@
     "student_plan_id":"STP-0000915",
     "course_id":"CRS-000026",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28498,7 +28498,7 @@
     "student_plan_id":"STP-0000916",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28687,7 +28687,7 @@
     "student_plan_id":"STP-0000922",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28696,7 +28696,7 @@
     "student_plan_id":"STP-0000922",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28705,7 +28705,7 @@
     "student_plan_id":"STP-0000922",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28723,7 +28723,7 @@
     "student_plan_id":"STP-0000923",
     "course_id":"CRS-000093",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28777,7 +28777,7 @@
     "student_plan_id":"STP-0000925",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28804,7 +28804,7 @@
     "student_plan_id":"STP-0000926",
     "course_id":"CRS-000091",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -28858,7 +28858,7 @@
     "student_plan_id":"STP-0000927",
     "course_id":"CRS-000099",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29020,7 +29020,7 @@
     "student_plan_id":"STP-0000933",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29065,7 +29065,7 @@
     "student_plan_id":"STP-0000934",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29074,7 +29074,7 @@
     "student_plan_id":"STP-0000935",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29092,7 +29092,7 @@
     "student_plan_id":"STP-0000936",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29101,7 +29101,7 @@
     "student_plan_id":"STP-0000936",
     "course_id":"CRS-000096",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29110,7 +29110,7 @@
     "student_plan_id":"STP-0000936",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29128,7 +29128,7 @@
     "student_plan_id":"STP-0000937",
     "course_id":"CRS-000082",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29173,7 +29173,7 @@
     "student_plan_id":"STP-0000939",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29200,7 +29200,7 @@
     "student_plan_id":"STP-0000940",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29254,7 +29254,7 @@
     "student_plan_id":"STP-0000941",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29263,7 +29263,7 @@
     "student_plan_id":"STP-0000942",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29371,7 +29371,7 @@
     "student_plan_id":"STP-0000945",
     "course_id":"CRS-000077",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29389,7 +29389,7 @@
     "student_plan_id":"STP-0000945",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29443,7 +29443,7 @@
     "student_plan_id":"STP-0000947",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29461,7 +29461,7 @@
     "student_plan_id":"STP-0000947",
     "course_id":"CRS-000089",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29470,7 +29470,7 @@
     "student_plan_id":"STP-0000948",
     "course_id":"CRS-000095",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29533,7 +29533,7 @@
     "student_plan_id":"STP-0000950",
     "course_id":"CRS-000098",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29560,7 +29560,7 @@
     "student_plan_id":"STP-0000951",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29623,7 +29623,7 @@
     "student_plan_id":"STP-0000953",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29632,7 +29632,7 @@
     "student_plan_id":"STP-0000953",
     "course_id":"CRS-000042",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29695,7 +29695,7 @@
     "student_plan_id":"STP-0000955",
     "course_id":"CRS-000067",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29740,7 +29740,7 @@
     "student_plan_id":"STP-0000957",
     "course_id":"CRS-000057",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29758,7 +29758,7 @@
     "student_plan_id":"STP-0000957",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29776,7 +29776,7 @@
     "student_plan_id":"STP-0000957",
     "course_id":"CRS-000037",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29785,7 +29785,7 @@
     "student_plan_id":"STP-0000958",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29794,7 +29794,7 @@
     "student_plan_id":"STP-0000958",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29803,7 +29803,7 @@
     "student_plan_id":"STP-0000958",
     "course_id":"CRS-000028",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29830,7 +29830,7 @@
     "student_plan_id":"STP-0000959",
     "course_id":"CRS-000053",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29857,7 +29857,7 @@
     "student_plan_id":"STP-0000960",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29884,7 +29884,7 @@
     "student_plan_id":"STP-0000961",
     "course_id":"CRS-000055",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -29992,7 +29992,7 @@
     "student_plan_id":"STP-0000965",
     "course_id":"CRS-000065",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30001,7 +30001,7 @@
     "student_plan_id":"STP-0000965",
     "course_id":"CRS-000038",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30100,7 +30100,7 @@
     "student_plan_id":"STP-0000968",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30181,7 +30181,7 @@
     "student_plan_id":"STP-0000971",
     "course_id":"CRS-000081",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30307,7 +30307,7 @@
     "student_plan_id":"STP-0000976",
     "course_id":"CRS-000085",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30316,7 +30316,7 @@
     "student_plan_id":"STP-0000976",
     "course_id":"CRS-000072",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30325,7 +30325,7 @@
     "student_plan_id":"STP-0000976",
     "course_id":"CRS-000066",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30334,7 +30334,7 @@
     "student_plan_id":"STP-0000976",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30379,7 +30379,7 @@
     "student_plan_id":"STP-0000978",
     "course_id":"CRS-000086",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30415,7 +30415,7 @@
     "student_plan_id":"STP-0000979",
     "course_id":"CRS-000073",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30433,7 +30433,7 @@
     "student_plan_id":"STP-0000979",
     "course_id":"CRS-000060",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30451,7 +30451,7 @@
     "student_plan_id":"STP-0000980",
     "course_id":"CRS-000090",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30550,7 +30550,7 @@
     "student_plan_id":"STP-0000982",
     "course_id":"CRS-000042",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30568,7 +30568,7 @@
     "student_plan_id":"STP-0000983",
     "course_id":"CRS-000094",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30577,7 +30577,7 @@
     "student_plan_id":"STP-0000983",
     "course_id":"CRS-000099",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30631,7 +30631,7 @@
     "student_plan_id":"STP-0000985",
     "course_id":"CRS-000087",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30649,7 +30649,7 @@
     "student_plan_id":"STP-0000985",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30703,7 +30703,7 @@
     "student_plan_id":"STP-0000987",
     "course_id":"CRS-000080",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30730,7 +30730,7 @@
     "student_plan_id":"STP-0000988",
     "course_id":"CRS-000040",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30739,7 +30739,7 @@
     "student_plan_id":"STP-0000988",
     "course_id":"CRS-000041",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"WITHDRAWN",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30793,7 +30793,7 @@
     "student_plan_id":"STP-0000990",
     "course_id":"CRS-000058",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30811,7 +30811,7 @@
     "student_plan_id":"STP-0000990",
     "course_id":"CRS-000045",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30874,7 +30874,7 @@
     "student_plan_id":"STP-0000992",
     "course_id":"CRS-000100",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30883,7 +30883,7 @@
     "student_plan_id":"STP-0000992",
     "course_id":"CRS-000075",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30901,7 +30901,7 @@
     "student_plan_id":"STP-0000992",
     "course_id":"CRS-000035",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30982,7 +30982,7 @@
     "student_plan_id":"STP-0000994",
     "course_id":"CRS-000068",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -30991,7 +30991,7 @@
     "student_plan_id":"STP-0000995",
     "course_id":"CRS-000064",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -31090,7 +31090,7 @@
     "student_plan_id":"STP-0000998",
     "course_id":"CRS-000047",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -31108,7 +31108,7 @@
     "student_plan_id":"STP-0000999",
     "course_id":"CRS-000084",
     "term_id":"2027-SPRING",
-    "interest_status":"WAITLISTED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   },
@@ -31162,7 +31162,7 @@
     "student_plan_id":"STP-0001000",
     "course_id":"CRS-000074",
     "term_id":"2027-SPRING",
-    "interest_status":"REGISTERED",
+    "interest_status":"INTERESTED",
     "interest_date":"2026-10-15",
     "eligible":false
   }

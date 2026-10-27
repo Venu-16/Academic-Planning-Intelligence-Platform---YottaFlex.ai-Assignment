@@ -2,13 +2,22 @@
 
 - Generate parent/master data before dependent records. Baseline IDs and joins must validate.
 - Fixed seed defaults to 20261022; source table CSVs have SHA-256 checksums in source_manifest.json.
-- Forecasting uses historical terms and a chronological holdout; anomaly ground truth is not a feature.
-- Report MAE, RMSE and last-observation baseline MAE.
+- Forecasting uses historical terms and a chronological final-term holdout; all model and baseline metrics use the same held-out observations. The last-observation baseline is the prior term's enrolled count. Anomaly ground truth is not a feature.
+- Report MAE and RMSE for both the Random Forest and last-observation baseline; do not claim the model outperforms the baseline unless both metrics support that conclusion.
 - Sections use a target capacity of min(40, largest active room). Count = max(1, ceil(forecast / target capacity)).
-- Unmet demand = max(0, forecast - total proposed seats); do not silently reduce demand.
+- Planned capacity is the sum of proposed section capacities. Operational capacity counts only staffed sections with one non-rejected assignment, an active and sufficiently large room, an active/skilled/available faculty member, workload within limits, and no room or faculty timetable conflict.
+- Section status is finalized after section and assignment validation: `PROPOSED` means no assignment (and is not operational), `REJECTED` means its assignment was rejected, `BLOCKED` means at least one mandatory business rule failed, and `OPERATIONAL` means an assignment exists and every mandatory check passed. The optimizer's `PROPOSED` assignment status means a proposed staffing decision; it does not override the finalized section status.
+- Course unmet demand = max(0, forecast demand - operational capacity). Program totals sum course-level demand and unmet demand; surplus capacity in one course does not offset another course's unmet demand.
+- Run reports include proposed and operational section counts, planned and operational seats, operationally covered demand (`min(forecast, operational seats)` per course), course-level unmet demand, unique blocked sections per rule, and raw validation-issue occurrences. A section with multiple blockers counts once in the unique blocked-section total but once for each applicable rule.
+- Missing forecast values remain unknown and are excluded from known forecast, covered-demand, and unmet-demand totals; missing forecasts are counted explicitly. Missing capacity evidence fails closed to zero proven operational seats, while its planned capacity remains unknown; reports expose missing-capacity counts rather than treating unknown planned seats as zero. Negative forecasts or capacities are invalid.
 - Faculty must be ACTIVE, skilled for the course and available at the proposed day/slot.
+- Skills and availability must be effective throughout the target term. Effective start and end dates are inclusive; a null end date is open-ended. A missing term calendar, effective skill, or term-specific availability record does not establish eligibility.
+- Generated 2027-SPRING dates (2027-01-01 through 2027-05-31) are synthetic fixture values, not an institutional academic calendar.
 - Weekly workload is capped at max_weekly_hours; no overlapping same-day/same-slot assignments.
 - Each section receives at most one faculty assignment.
+- A section requires a known academic term, valid weekday/slot, and active room whose capacity meets planned section capacity. Room double-booking and faculty conflicts are rejected for identical term/day/slot keys; operational capacity excludes all affected sections.
+- Room inventory contains room type, but courses have no required room type or facility requirements. Cohort scheduling data and slot start/end metadata are not represented, so type/facility matching, cohort conflicts, and different-slot clock-time overlaps cannot be verified.
+- Invalid section proposals remain in the run's section CSV and validation/event diagnostics. They are not inserted into the constrained sections table when persisted; valid run records and historical data are preserved.
 - Five labelled anomaly fixtures live in ground_truth.csv: faculty outside skill set, workload exceeded, capacity too low, prerequisite violation, duplicate assignment. They are test oracles and are not injected into baseline inputs.
 - Events are stored in decision_events. The demo refreshes synthetic source/result tables on rerun and is intended for a single-user demo.
 - Room assignment is a simple extension point, not yet jointly optimized with faculty/time slots.

@@ -1,6 +1,15 @@
 {
   "seed": 20261022,
   "tables": {
+    "academic_terms": {
+      "rows": 1,
+      "sha256_csv": "418cebaab26b48681f5ac2d3616b55d9980fd6920e00ef122b13c543608ddce8",
+      "columns": [
+        "term_id",
+        "start_date",
+        "end_date"
+      ]
+    },
     "programs": {
       "rows": 10,
       "sha256_csv": "67b2be83f63422bdbe502b43233da4cdca737ba30c68aff7b4590e52a7d6d1ee",
@@ -96,7 +105,7 @@
     },
     "registration_interests": {
       "rows": 3463,
-      "sha256_csv": "bf95e7e5eda5b10a4a5ba03795d04881bbb26037b31b180fcdaeb00030352b71",
+      "sha256_csv": "db3bbc0fb86a75c24da4922e1b365b9669c868fc7be4640810fbb148128c8d97",
       "columns": [
         "interest_id",
         "student_plan_id",

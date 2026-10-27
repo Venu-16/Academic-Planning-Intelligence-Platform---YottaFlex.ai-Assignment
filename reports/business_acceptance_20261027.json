@@ -1,0 +1,344 @@
+{
+  "report_date": "2026-10-27",
+  "overall_status": "PARTIAL",
+  "overall_summary": "The fixed-seed starter pipeline and its exported metrics reconcile; targeted business-rule tests, PostgreSQL integration, full tests with a disposable database, compilation, reproducibility, and a live dashboard inspection all succeeded. Acceptance is partial because the default pipeline is below target volume, full-scale generation was source-only, the dashboard did not display the acceptance run, and some output status/constraint history remains ambiguous or unsupported.",
+  "project_root": "C:\\Users\\venum\\Downloads\\academic-planner\\academic-planner",
+  "safety": {
+    "explicit_env_file_access": false,
+    "env_values_exposed": false,
+    "application_database_reset_or_migrated": false,
+    "docker_volumes_deleted": false,
+    "preexisting_worktree_changes": "The worktree was already dirty before this acceptance audit. Those changes were not reverted.",
+    "output_overwrite": "No existing reports were overwritten. The two acceptance report paths were confirmed absent before creation.",
+    "database_test_cleanup": "PostgreSQL 16 ran in a disposable --rm container with tmpfs storage and no named volume; the container was stopped after testing."
+  },
+  "requirements": [
+    {
+      "id": "AT-01",
+      "description": "Preflight, safety, and run in documented no-database mode using seed 20261022.",
+      "status": "PASS",
+      "evidence": [
+        "The initial Git status was captured; existing modifications were left intact.",
+        "The documented --no-db CLI completed with exit code 0 and run id RUN-97979BA1265D.",
+        "No explicit .env file read, print, or edit was performed."
+      ],
+      "gaps": [
+        "Project configuration imports may allow the application's dotenv loader to load environment variables internally; no values were displayed."
+      ]
+    },
+    {
+      "id": "AT-02",
+      "description": "Run the starter application and verify its generated artifacts.",
+      "status": "PASS",
+      "evidence": [
+        "Fresh run directory: reports/business_acceptance_run_20261027_162517.",
+        "Manifest, source tables, forecasts, sections, assignments, capacity, unmet demand, validation, diagnostics, evaluation, and run-scoped artifacts were present.",
+        "The run manifest records seed 20261022 and the evaluation report records RUN-97979BA1265D."
+      ],
+      "gaps": []
+    },
+    {
+      "id": "AT-03",
+      "description": "Meet the target source-data volumes and verify actual unique row counts.",
+      "status": "PARTIAL",
+      "evidence": [
+        "Default starter output had 10 programs, 100 courses, 50 faculty, and 1,000 student plans.",
+        "Separate full-scale source generation produced 100 programs, 1,000 courses, 500 faculty, and 20,000 student plans in reports/business_acceptance_fullscale_20261027_162658.",
+        "The full-scale source manifest recorded 213 prerequisites, 69,995 registration interests, 2,731 faculty skills, 10,000 availability rows, 30 rooms, and 3,000 historical enrollment rows."
+      ],
+      "gaps": [
+        "The requested scale was not run through forecasting, planning, allocation, validation, and export as one end-to-end pipeline. The CLI exposes no scale option; the separate result is source-generation evidence only.",
+        "The full-scale generator invocation was not retained as an exact command in the acceptance evidence."
+      ],
+      "business_impact": "End-to-end performance, correctness, and capacity reconciliation at target scale remain unverified."
+    },
+    {
+      "id": "AT-04",
+      "description": "Verify IDs, relationships, required data, seed provenance, and ground-truth isolation.",
+      "status": "PARTIAL",
+      "evidence": [
+        "Audited starter data had no duplicate primary keys, required-field nulls, selected foreign-key failures, self-prerequisites, or prerequisite cycles.",
+        "The source manifest recorded the seed and per-table row counts/checksums; ground_truth.csv is a separate file from historical forecast input.",
+        "Generated IDs include PRG-000001, CRS-000001, FAC-000001, SEC-2027-000001, and WLA-2027-000001.",
+        "Generated planning term was 2027-SPRING; therefore section/workload IDs use 2027 rather than the prompt's illustrative 2026 prefix."
+      ],
+      "gaps": [
+        "The ground-truth fixture contains hard-coded 2026 section/workload identifiers that are not identifiers from the generated 2027 planning run.",
+        "Term fields are not uniformly enforced with foreign keys to academic_terms, and decision events do not record every section/assignment state transition.",
+        "The detailed integrity audit covered the generated starter output and selected full-scale relationships; it was not a formal exhaustive schema audit of every full-scale relationship."
+      ],
+      "business_impact": "Run traceability is available, but term integrity and historical state reconstruction are not uniformly guaranteed."
+    },
+    {
+      "id": "AT-05",
+      "description": "Verify the end-to-end business workflow, operational capacity, and course-level unmet demand.",
+      "status": "PASS",
+      "evidence": [
+        "Fresh no-DB run completed with 221 proposed sections, 170 operational sections, and 51 sections without an eligible faculty member.",
+        "The independent export arithmetic matches: planned capacity 8,840; operational capacity 6,800; forecast demand 6,616; covered demand 5,416; unmet demand 1,200 across 37 courses.",
+        "The run reports zero sections blocked by planning validation rules; 51 sections are unstaffed/proposed rather than validation-rejected.",
+        "Unmet demand is exported by course and does not net one course's surplus against another course's shortage."
+      ],
+      "gaps": [
+        "The dashboard and exported section/assignment status fields require careful interpretation; details are recorded under AT-06."
+      ]
+    },
+    {
+      "id": "AT-06",
+      "description": "Verify dashboard display and consistent section/assignment lifecycle representation.",
+      "status": "PARTIAL",
+      "evidence": [
+        "Streamlit launched on port 8765 and returned HTTP 200; browser inspection confirmed visible metrics and tables.",
+        "Displayed values were 8,840 planned seats, 6,800 operational seats, 6,616 forecast demand, 5,416 covered demand, 37 courses with unmet demand, 221 proposals, 170 operational sections, 51 sections without eligible faculty, and 0 validation-blocked sections."
+      ],
+      "gaps": [
+        "The dashboard reads data/generated, not the fresh acceptance output directory; its run identifier differed from RUN-97979BA1265D. Thus the UI was visually verified on existing generated data, not on this acceptance run.",
+        "In the acceptance CSVs, sections.status is PROPOSED for all 221 rows while sections.planning_status identifies 170 OPERATIONAL and 51 PROPOSED. workload_assignments.status and operational_capacity.assignment_status are PROPOSED even for accepted allocations. operational_capacity.operational and operational_capacity.section_status provide the actual operational ledger. This is ambiguous for consumers using only the status column."
+      ],
+      "business_impact": "A consumer that interprets the generic status column as final lifecycle state can misclassify valid assignments or sections."
+    },
+    {
+      "id": "AT-07",
+      "description": "Exercise all five labelled negative cases and a valid control.",
+      "status": "PASS",
+      "evidence": [
+        "The five cases are isolated test fixtures, not anomalies injected into normal baseline data.",
+        "Focused regression suite: 55 passed, including tests/test_ground_truth.py, faculty eligibility, room/timetable, capacity reconciliation, and allocation diagnostics.",
+        "The normal generated baseline validates cleanly; the valid pipeline control remains operational."
+      ],
+      "gaps": [
+        "Scenario-level evidence and distinctions between assignment rejection, eligibility flagging, and unmet-demand recording are listed in the scenarios section."
+      ]
+    },
+    {
+      "id": "AT-08",
+      "description": "Verify forecast chronology, holdout evaluation, and baseline comparison.",
+      "status": "PASS",
+      "evidence": [
+        "Forecast evaluation used 100 held-out observations for 2026-FALL; the model and baseline were evaluated on the same observations.",
+        "Random Forest MAE 8.9278 and RMSE 11.6660; baseline MAE 8.3600 and RMSE 10.7229.",
+        "The baseline performs better on both reported measures. The forecast implementation orders historical terms chronologically and uses prior-term features for the held-out target."
+      ],
+      "gaps": [
+        "The forecast model does not outperform the existing baseline on this evaluation."
+      ]
+    },
+    {
+      "id": "AT-09",
+      "description": "Reconcile outputs, verify deterministic generation, and verify PostgreSQL persistence/history.",
+      "status": "PASS",
+      "evidence": [
+        "Independent sums from sections.csv, operational_capacity.csv, forecasts.csv, and unmet_demand.csv match the evaluation report totals.",
+        "Two separate seed-20261022 source exports matched row counts and SHA-256 CSV checksums for all 11 source tables; ground-truth checksums also matched.",
+        "Against disposable PostgreSQL 16, tests verified fresh and repeated initialization, legacy-row preservation during migration, run isolation, run-scoped metrics/diagnostics, export-to-DB reconciliation, and retention of both distinguishable runs."
+      ],
+      "gaps": [
+        "The no-database acceptance run itself does not persist to a database; persistence evidence comes from the dedicated integration tests."
+      ]
+    },
+    {
+      "id": "AT-10",
+      "description": "Inspect project documentation and execute test, compile, and whitespace checks.",
+      "status": "PASS",
+      "evidence": [
+        "README.md, docs/architecture.md, docs/business_rules.md, and docs/data_dictionary.md exist and were inspected.",
+        "The full test suite passed with the disposable PostgreSQL database configured.",
+        "Python compilation and git diff --check completed with exit code 0."
+      ],
+      "gaps": [
+        "There is no standalone docs/setup.md or docs/schema.md; setup and schema guidance are distributed across README.md, docs/data_dictionary.md, and project schema code."
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "ANOM-01",
+      "input_condition": "A faculty member is assigned to a course absent from their skill set.",
+      "expected_decision": "REJECT_ASSIGNMENT",
+      "actual_rule_code": "FACULTY_OUTSIDE_SKILL",
+      "actual_decision": "Assignment is marked REJECTED; section operational capacity is zero.",
+      "excluded_from_operational_capacity": true,
+      "diagnostics_and_ground_truth": "The rule is labelled in data/generated/ground_truth.csv; the isolated pipeline regression asserts assignment issues, REJECTED status, blocking reason, and zero operational capacity.",
+      "evidence": "tests/test_ground_truth.py::test_ground_truth_fixture_matches_rule_checker and tests/test_ground_truth.py::test_pipeline_blocks_invalid_assignment_from_operational_capacity[FACULTY_OUTSIDE_SKILL-FACULTY_OUTSIDE_SKILL]"
+    },
+    {
+      "id": "ANOM-02",
+      "input_condition": "Adding the proposed assignment would exceed the faculty member's weekly workload limit.",
+      "expected_decision": "REJECT_OR_REASSIGN",
+      "actual_rule_code": "WORKLOAD_EXCEEDED",
+      "actual_decision": "Assignment is marked REJECTED; section operational capacity is zero.",
+      "excluded_from_operational_capacity": true,
+      "diagnostics_and_ground_truth": "The rule is labelled in data/generated/ground_truth.csv; the isolated pipeline regression asserts assignment issues, REJECTED status, blocking reason, and zero operational capacity.",
+      "evidence": "tests/test_ground_truth.py::test_ground_truth_fixture_matches_rule_checker and tests/test_ground_truth.py::test_pipeline_blocks_invalid_assignment_from_operational_capacity[WORKLOAD_EXCEEDED-WORKLOAD_EXCEEDED]"
+    },
+    {
+      "id": "ANOM-03",
+      "input_condition": "One proposed section's capacity is below its forecast demand.",
+      "expected_decision": "ADD_SECTION_OR_RECORD_UNMET",
+      "actual_rule_code": "SECTION_CAPACITY_TOO_LOW",
+      "actual_decision": "The section's available seats remain countable if otherwise valid; the unmet-demand output records the course shortfall and blocker rather than treating demand as served.",
+      "excluded_from_operational_capacity": false,
+      "diagnostics_and_ground_truth": "The isolated pipeline test asserts forecast demand 45, operational capacity below demand, exact unmet arithmetic, and SECTION_CAPACITY_TOO_LOW in capacity_blockers. This is a demand/capacity shortfall, not necessarily an invalid room or assignment.",
+      "evidence": "tests/test_ground_truth.py::test_pipeline_reports_capacity_shortfall_as_existing_ground_truth_rule"
+    },
+    {
+      "id": "ANOM-04",
+      "input_condition": "A registration is marked REGISTERED while its prerequisite eligibility is false.",
+      "expected_decision": "FLAG_INELIGIBLE",
+      "actual_rule_code": "PREREQUISITE_SEQUENCE_VIOLATION",
+      "actual_decision": "Baseline validation fails before faculty allocation; the pipeline raises RuntimeError and writes a failed validation report.",
+      "excluded_from_operational_capacity": true,
+      "diagnostics_and_ground_truth": "The test confirms allocation was not called and the validation report carries the rule code. Ground-truth labels remain in a separate CSV.",
+      "evidence": "tests/test_ground_truth.py::test_pipeline_flags_ineligible_registration_before_allocation"
+    },
+    {
+      "id": "ANOM-05",
+      "input_condition": "The same section is assigned more than once.",
+      "expected_decision": "REJECT_DUPLICATE",
+      "actual_rule_code": "DUPLICATE_SECTION_ASSIGNMENT",
+      "actual_decision": "The duplicate assignment is rejected; the affected section has zero operational capacity.",
+      "excluded_from_operational_capacity": true,
+      "diagnostics_and_ground_truth": "The isolated pipeline regression asserts a matching assignment issue, REJECTED status, blocking reason, and zero operational capacity.",
+      "evidence": "tests/test_ground_truth.py::test_pipeline_blocks_invalid_assignment_from_operational_capacity[DUPLICATE_SECTION_ASSIGNMENT-DUPLICATE_SECTION_ASSIGNMENT]"
+    },
+    {
+      "id": "CONTROL-01",
+      "input_condition": "A valid, conflict-free baseline allocation.",
+      "expected_decision": "Keep the allocation operational.",
+      "actual_rule_code": null,
+      "actual_decision": "The baseline planning validation passes and operational capacity is positive for valid staffed sections.",
+      "excluded_from_operational_capacity": false,
+      "diagnostics_and_ground_truth": "Baseline validation returns no issues; operational section count agrees with staffed section count.",
+      "evidence": "tests/test_ground_truth.py::test_normal_baseline_remains_clean and tests/test_ground_truth.py::test_valid_pipeline_assignments_remain_operational"
+    }
+  ],
+  "metrics": {
+    "planning_run_id": "RUN-97979BA1265D",
+    "seed": 20261022,
+    "proposed_sections": 221,
+    "operational_sections": 170,
+    "sections_without_eligible_faculty": 51,
+    "validation_blocked_sections": 0,
+    "sections_blocked_by_rule": {},
+    "planned_capacity": 8840,
+    "operational_capacity": 6800,
+    "forecast_demand": 6616,
+    "covered_demand": 5416,
+    "unmet_demand": 1200,
+    "courses_with_unmet_demand": 37,
+    "arithmetic_checks": {
+      "planned_capacity_equals_proposed_section_capacity_sum": true,
+      "operational_capacity_equals_operational_section_capacity_sum": true,
+      "covered_demand_equals_sum_of_coursewise_minimum_of_forecast_and_operational_capacity": true,
+      "unmet_equals_sum_of_coursewise_maximum_of_zero_and_forecast_minus_operational_capacity": true,
+      "planned_capacity_sum": 8840,
+      "operational_capacity_sum": 6800,
+      "forecast_sum": 6616,
+      "covered_sum": 5416,
+      "unmet_sum": 1200
+    },
+    "source": "reports/business_acceptance_run_20261027_162517/evaluation_report.json and independently summed CSV exports."
+  },
+  "forecast": {
+    "evaluation_term": "2026-FALL",
+    "held_out_observations": 100,
+    "same_observations_for_model_and_baseline": true,
+    "chronological_holdout": true,
+    "model": "RandomForestRegressor",
+    "model_mae": 8.9277766865,
+    "model_rmse": 11.6659577147,
+    "baseline_mae": 8.36,
+    "baseline_rmse": 10.7228727494,
+    "baseline_is_better": true
+  },
+  "persistence": {
+    "database_test_status": "PASS",
+    "database": "Disposable PostgreSQL 16 container using tmpfs; no persistent volume.",
+    "integration_tests": "2 passed",
+    "full_suite_with_test_database": "79 passed, 0 skipped",
+    "verified": [
+      "Fresh initialization and repeated initialization.",
+      "Migration of an existing legacy schema without losing legacy program rows.",
+      "Two distinct planning runs remain queryable and the latest-run metrics reconcile.",
+      "Run associations for forecasts, sections, assignments through sections, unmet demand, and decision events.",
+      "Foreign keys and run uniqueness constraints.",
+      "Persisted course-level unmet-demand rows, diagnostics, and exported assignment/metric values reconcile."
+    ]
+  },
+  "unsupported_or_unverified_constraints": [
+    "The full planning workflow was not run at the 100-program/1,000-course/500-faculty/20,000-student-plan scale.",
+    "Dashboard visual inspection used data/generated and a different planning run id, not the fresh acceptance output directory.",
+    "Course-required room facilities/type matching is unsupported where no course requirement fields exist.",
+    "Student cohort schedule conflict detection is unsupported because reliable cohort scheduling data is absent.",
+    "Clock-time overlap between different discrete slot IDs is unverifiable because slot metadata has no actual times; identical-slot conflicts are tested.",
+    "Term foreign-key enforcement is not uniform across all schema relationships.",
+    "Decision event history records run generation and diagnostic events, not every section/assignment lifecycle transition.",
+    "The generated section/workload year identifier is 2027 for 2027-SPRING; ground-truth fixture identifiers still use 2026."
+  ],
+  "commands": [
+    {
+      "command": "python -m academic_planner.cli --no-db --seed 20261022 --output-dir \"C:\\Users\\venum\\Downloads\\academic-planner\\academic-planner\\reports\\business_acceptance_run_20261027_162510\"",
+      "exit_code": 1,
+      "result": "System Python could not import the project package; created only an empty output directory. No artifacts were overwritten."
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m academic_planner.cli --no-db --seed 20261022 --output-dir \"C:\\Users\\venum\\Downloads\\academic-planner\\academic-planner\\reports\\business_acceptance_run_20261027_162517\"",
+      "exit_code": 0,
+      "result": "Fresh no-database run completed; run id RUN-97979BA1265D."
+    },
+    {
+      "command": "python -m pytest tests/test_ground_truth.py tests/test_faculty_eligibility.py tests/test_room_timetable.py tests/test_capacity_reconciliation.py tests/test_allocation_diagnostics.py -q",
+      "exit_code": 0,
+      "result": "55 passed."
+    },
+    {
+      "command": "python -m pytest -q -rs",
+      "exit_code": 0,
+      "result": "77 passed, 2 skipped because TEST_DATABASE_URL was not set. This was the no-DB suite run."
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest tests/test_database_integration.py -q",
+      "exit_code": 0,
+      "result": "2 passed against disposable PostgreSQL 16 with TEST_DATABASE_URL set for the process."
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest -q -rs",
+      "exit_code": 0,
+      "result": "79 passed, 0 skipped with TEST_DATABASE_URL set against disposable PostgreSQL 16."
+    },
+    {
+      "command": ".\\.venv\\Scripts\\python.exe -m compileall -q src tests",
+      "exit_code": 0,
+      "result": "Compilation passed."
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "result": "Passed; Git emitted line-ending warnings for pre-existing files."
+    },
+    {
+      "command": "python -m streamlit run app_dashboard.py --server.headless true --server.port 8765",
+      "exit_code": "N/A (long-running server stopped after inspection)",
+      "result": "Dashboard started; HTTP 200 and browser-rendered metrics/tables inspected. It read data/generated, not the acceptance output directory."
+    },
+    {
+      "command": "curl.exe -I http://localhost:8765",
+      "exit_code": 0,
+      "result": "HTTP 200."
+    }
+  ],
+  "priority_actions": [
+    {
+      "priority": 1,
+      "action": "Expose a supported scale configuration through the complete pipeline and run/qualify the full forecast-to-allocation workflow at the requested target volumes."
+    },
+    {
+      "priority": 2,
+      "action": "Make the final section and assignment lifecycle status unambiguous and consistent across sections.csv, workload_assignments.csv, operational_capacity exports, database records, and dashboard summaries."
+    },
+    {
+      "priority": 3,
+      "action": "Close traceability gaps by aligning fixture IDs with term IDs, enforcing term references where appropriate, and recording durable section/assignment state transitions; document unsupported room facilities, cohort conflicts, and cross-slot clock-time overlaps."
+    }
+  ]
+}

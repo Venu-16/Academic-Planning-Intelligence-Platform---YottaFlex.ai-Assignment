@@ -2,13 +2,13 @@ services:
   postgres:
     image: postgres:16
     environment:
-      POSTGRES_DB: academic_planner
-      POSTGRES_USER: planner
-      POSTGRES_PASSWORD: planner
-    ports: ["5432:5432"]
+      POSTGRES_DB: ${POSTGRES_DB:-academic_planner}
+      POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in your environment}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your environment}
+    ports: ["5433:5432"]
     volumes: [academic_planner_pgdata:/var/lib/postgresql/data]
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U planner -d academic_planner"]
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
       interval: 5s
       timeout: 3s
       retries: 20

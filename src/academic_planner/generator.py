@@ -44,7 +44,10 @@ def generate_dataset(seed=20261022, scale=None):
             if len(chosen)>=count: break
         for c in chosen:
             eligible=p["year_of_study"]>=c["course_level"] or r.random()<.12
-            status=r.choices(["INTERESTED","REGISTERED","WAITLISTED","WITHDRAWN"],[35,50,10,5])[0]
+            if eligible:
+                status=r.choices(["INTERESTED","REGISTERED","WAITLISTED","WITHDRAWN"],[35,50,10,5])[0]
+            else:
+                status=r.choices(["INTERESTED","WITHDRAWN"],[35,5])[0]
             interests.append(dict(interest_id=f"INT-{len(interests)+1:08d}",student_plan_id=p["student_plan_id"],course_id=c["course_id"],term_id=p["term_id"],interest_status=status,interest_date="2026-10-15",eligible=eligible))
     historical=[]
     for i,c in enumerate(courses,1):
@@ -54,6 +57,9 @@ def generate_dataset(seed=20261022, scale=None):
             enrolled=min(registrations,max(0,int(registrations*r.uniform(.78,.97))))
             historical.append(dict(historical_enrollment_id=f"HEN-{len(historical)+1:08d}",course_id=c["course_id"],term_id=term,eligible_students=max(10,int(scale.student_plans/max(1,scale.programs)*.7)),registrations=registrations,enrolled=enrolled,unmet_demand=registrations-enrolled))
     return {
+      "academic_terms":pd.DataFrame([
+          dict(term_id="2027-SPRING",start_date="2027-01-01",end_date="2027-05-31")
+      ]),
       "programs":pd.DataFrame(programs),"courses":pd.DataFrame(courses),
       "prerequisites":pd.DataFrame(prereqs,columns=["prerequisite_id","course_id","prerequisite_course_id","effective_from","effective_to"]),
       "faculty":pd.DataFrame(faculty),"faculty_skills":pd.DataFrame(skills),"availability":pd.DataFrame(availability),
