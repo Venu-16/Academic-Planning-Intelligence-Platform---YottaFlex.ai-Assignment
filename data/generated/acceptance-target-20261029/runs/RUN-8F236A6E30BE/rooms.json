@@ -1,0 +1,842 @@
+[
+  {
+    "room_id":"ROM-000001",
+    "building":"Building 1",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000002",
+    "building":"Building 1",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000003",
+    "building":"Building 1",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000004",
+    "building":"Building 1",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000005",
+    "building":"Building 1",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000006",
+    "building":"Building 1",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000007",
+    "building":"Building 2",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000008",
+    "building":"Building 2",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000009",
+    "building":"Building 2",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000010",
+    "building":"Building 2",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000011",
+    "building":"Building 2",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000012",
+    "building":"Building 2",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000013",
+    "building":"Building 3",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000014",
+    "building":"Building 3",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000015",
+    "building":"Building 3",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000016",
+    "building":"Building 3",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000017",
+    "building":"Building 3",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000018",
+    "building":"Building 3",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000019",
+    "building":"Building 4",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000020",
+    "building":"Building 4",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000021",
+    "building":"Building 4",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000022",
+    "building":"Building 4",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000023",
+    "building":"Building 4",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000024",
+    "building":"Building 4",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000025",
+    "building":"Building 5",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000026",
+    "building":"Building 5",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000027",
+    "building":"Building 5",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000028",
+    "building":"Building 5",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000029",
+    "building":"Building 5",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000030",
+    "building":"Building 5",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000031",
+    "building":"Building 6",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000032",
+    "building":"Building 6",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000033",
+    "building":"Building 6",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000034",
+    "building":"Building 6",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000035",
+    "building":"Building 6",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000036",
+    "building":"Building 6",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000037",
+    "building":"Building 7",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000038",
+    "building":"Building 7",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000039",
+    "building":"Building 7",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000040",
+    "building":"Building 7",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000041",
+    "building":"Building 7",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000042",
+    "building":"Building 7",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000043",
+    "building":"Building 8",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000044",
+    "building":"Building 8",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000045",
+    "building":"Building 8",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000046",
+    "building":"Building 8",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000047",
+    "building":"Building 8",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000048",
+    "building":"Building 8",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000049",
+    "building":"Building 9",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000050",
+    "building":"Building 9",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000051",
+    "building":"Building 9",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000052",
+    "building":"Building 9",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000053",
+    "building":"Building 9",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000054",
+    "building":"Building 9",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000055",
+    "building":"Building 10",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000056",
+    "building":"Building 10",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000057",
+    "building":"Building 10",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000058",
+    "building":"Building 10",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000059",
+    "building":"Building 10",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000060",
+    "building":"Building 10",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000061",
+    "building":"Building 11",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000062",
+    "building":"Building 11",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000063",
+    "building":"Building 11",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000064",
+    "building":"Building 11",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000065",
+    "building":"Building 11",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000066",
+    "building":"Building 11",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000067",
+    "building":"Building 12",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000068",
+    "building":"Building 12",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000069",
+    "building":"Building 12",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000070",
+    "building":"Building 12",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000071",
+    "building":"Building 12",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000072",
+    "building":"Building 12",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000073",
+    "building":"Building 13",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000074",
+    "building":"Building 13",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000075",
+    "building":"Building 13",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000076",
+    "building":"Building 13",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000077",
+    "building":"Building 13",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000078",
+    "building":"Building 13",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000079",
+    "building":"Building 14",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000080",
+    "building":"Building 14",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000081",
+    "building":"Building 14",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000082",
+    "building":"Building 14",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000083",
+    "building":"Building 14",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000084",
+    "building":"Building 14",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000085",
+    "building":"Building 15",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000086",
+    "building":"Building 15",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000087",
+    "building":"Building 15",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000088",
+    "building":"Building 15",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000089",
+    "building":"Building 15",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000090",
+    "building":"Building 15",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000091",
+    "building":"Building 16",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000092",
+    "building":"Building 16",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000093",
+    "building":"Building 16",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000094",
+    "building":"Building 16",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000095",
+    "building":"Building 16",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000096",
+    "building":"Building 16",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000097",
+    "building":"Building 17",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000098",
+    "building":"Building 17",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000099",
+    "building":"Building 17",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000100",
+    "building":"Building 17",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000101",
+    "building":"Building 17",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000102",
+    "building":"Building 17",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000103",
+    "building":"Building 18",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000104",
+    "building":"Building 18",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000105",
+    "building":"Building 18",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000106",
+    "building":"Building 18",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000107",
+    "building":"Building 18",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000108",
+    "building":"Building 18",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000109",
+    "building":"Building 19",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000110",
+    "building":"Building 19",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000111",
+    "building":"Building 19",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000112",
+    "building":"Building 19",
+    "room_type":"LAB",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000113",
+    "building":"Building 19",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000114",
+    "building":"Building 19",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000115",
+    "building":"Building 20",
+    "room_type":"LECTURE",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000116",
+    "building":"Building 20",
+    "room_type":"LAB",
+    "capacity":40,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000117",
+    "building":"Building 20",
+    "room_type":"LECTURE",
+    "capacity":50,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000118",
+    "building":"Building 20",
+    "room_type":"LECTURE",
+    "capacity":60,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000119",
+    "building":"Building 20",
+    "room_type":"LECTURE",
+    "capacity":80,
+    "active":true
+  },
+  {
+    "room_id":"ROM-000120",
+    "building":"Building 20",
+    "room_type":"LAB",
+    "capacity":80,
+    "active":true
+  }
+]

@@ -20,7 +20,30 @@ TARGET_SCALE = Scale(programs=100, courses=1000, faculty=500, student_plans=2000
 TARGET_TERM_ID = "2027-SPRING"
 
 
-def generate_dataset(seed=20261022, scale=None):
+def generate_rooms(scale=None, room_scarcity=False):
+    scale = scale or Scale()
+    if room_scarcity:
+        room_count = 30
+        capacities = [25, 30, 40, 50, 60, 80]
+    elif scale.courses >= 1000:
+        room_count = 120
+        capacities = [40, 40, 50, 60, 80, 80]
+    else:
+        room_count = 30
+        capacities = [25, 30, 40, 50, 60, 80]
+    return [
+        dict(
+            room_id=f"ROM-{i:06d}",
+            building=f"Building {(i-1)//6+1}",
+            room_type="LAB" if i % 4 == 0 else "LECTURE",
+            capacity=capacities[(i - 1) % len(capacities)],
+            active=True,
+        )
+        for i in range(1, room_count + 1)
+    ]
+
+
+def generate_dataset(seed=20261022, scale=None, room_scarcity=False):
     scale=scale or Scale(); r=random.Random(seed)
     depts=["Computing","Engineering","Sciences","Business","Design"]
     programs=[dict(program_id=f"PRG-{i:06d}",name=f"{depts[(i-1)%5]} Program {i:02d}",department=depts[(i-1)%5]) for i in range(1,scale.programs+1)]
@@ -41,7 +64,7 @@ def generate_dataset(seed=20261022, scale=None):
         for day in range(5):
             for slot in range(1,5):
                 availability.append(dict(availability_id=f"AVL-{len(availability)+1:07d}",faculty_id=f"FAC-{i:06d}",term_id=TARGET_TERM_ID,day_of_week=day,slot_id=f"S{slot}",available=status=="ACTIVE" and r.random()>.12,effective_from="2026-08-01",effective_to=None))
-    rooms=[dict(room_id=f"ROM-{i:06d}",building=f"Building {(i-1)//6+1}",room_type="LAB" if i%4==0 else "LECTURE",capacity=[25,30,40,50,60,80][(i-1)%6],active=True) for i in range(1,31)]
+    rooms = generate_rooms(scale=scale, room_scarcity=room_scarcity)
     plans=[]
     for i in range(1,scale.student_plans+1):
         plans.append(dict(student_plan_id=f"STP-{i:07d}",student_id=f"STD-{i:07d}",program_id=programs[(i-1)%len(programs)]["program_id"],term_id=TARGET_TERM_ID,year_of_study=r.randint(1,4),created_at="2026-10-01"))
@@ -129,11 +152,12 @@ def make_ground_truth():
       ["ANM-000005","DUPLICATE_SECTION_ASSIGNMENT","workload_assignment","WLA-SYNTHETIC-000002","Duplicate faculty-section pair","REJECT_DUPLICATE"]
     ],columns=["case_id","issue_type","entity_type","entity_id","description","expected_decision"])
 
-def export_dataset(frames,out_dir,seed=20261022,scale=None):
+def export_dataset(frames,out_dir,seed=20261022,scale=None,room_scarcity=False):
     out=Path(out_dir); out.mkdir(parents=True,exist_ok=True)
     manifest={
         "seed":seed,
         "scale":asdict(scale or Scale()),
+        "room_scarcity":room_scarcity,
         "tables":{},
     }
     for name,df in frames.items():

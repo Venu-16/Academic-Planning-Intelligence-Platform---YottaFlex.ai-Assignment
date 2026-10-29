@@ -6,6 +6,7 @@
     "faculty": 50,
     "student_plans": 1000
   },
+  "room_scarcity": false,
   "tables": {
     "academic_terms": {
       "rows": 1,

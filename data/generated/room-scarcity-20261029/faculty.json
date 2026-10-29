@@ -1,0 +1,3502 @@
+[
+  {
+    "faculty_id":"FAC-000001",
+    "name":"Faculty Member 001",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000002",
+    "name":"Faculty Member 002",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000003",
+    "name":"Faculty Member 003",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000004",
+    "name":"Faculty Member 004",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000005",
+    "name":"Faculty Member 005",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000006",
+    "name":"Faculty Member 006",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000007",
+    "name":"Faculty Member 007",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000008",
+    "name":"Faculty Member 008",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000009",
+    "name":"Faculty Member 009",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000010",
+    "name":"Faculty Member 010",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000011",
+    "name":"Faculty Member 011",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000012",
+    "name":"Faculty Member 012",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000013",
+    "name":"Faculty Member 013",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000014",
+    "name":"Faculty Member 014",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000015",
+    "name":"Faculty Member 015",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000016",
+    "name":"Faculty Member 016",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000017",
+    "name":"Faculty Member 017",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000018",
+    "name":"Faculty Member 018",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000019",
+    "name":"Faculty Member 019",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000020",
+    "name":"Faculty Member 020",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000021",
+    "name":"Faculty Member 021",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000022",
+    "name":"Faculty Member 022",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000023",
+    "name":"Faculty Member 023",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000024",
+    "name":"Faculty Member 024",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000025",
+    "name":"Faculty Member 025",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000026",
+    "name":"Faculty Member 026",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000027",
+    "name":"Faculty Member 027",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000028",
+    "name":"Faculty Member 028",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000029",
+    "name":"Faculty Member 029",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000030",
+    "name":"Faculty Member 030",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000031",
+    "name":"Faculty Member 031",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000032",
+    "name":"Faculty Member 032",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000033",
+    "name":"Faculty Member 033",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000034",
+    "name":"Faculty Member 034",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000035",
+    "name":"Faculty Member 035",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000036",
+    "name":"Faculty Member 036",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000037",
+    "name":"Faculty Member 037",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000038",
+    "name":"Faculty Member 038",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000039",
+    "name":"Faculty Member 039",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000040",
+    "name":"Faculty Member 040",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000041",
+    "name":"Faculty Member 041",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000042",
+    "name":"Faculty Member 042",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000043",
+    "name":"Faculty Member 043",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000044",
+    "name":"Faculty Member 044",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000045",
+    "name":"Faculty Member 045",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000046",
+    "name":"Faculty Member 046",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000047",
+    "name":"Faculty Member 047",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000048",
+    "name":"Faculty Member 048",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000049",
+    "name":"Faculty Member 049",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000050",
+    "name":"Faculty Member 050",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000051",
+    "name":"Faculty Member 051",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000052",
+    "name":"Faculty Member 052",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000053",
+    "name":"Faculty Member 053",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000054",
+    "name":"Faculty Member 054",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000055",
+    "name":"Faculty Member 055",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000056",
+    "name":"Faculty Member 056",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000057",
+    "name":"Faculty Member 057",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000058",
+    "name":"Faculty Member 058",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000059",
+    "name":"Faculty Member 059",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000060",
+    "name":"Faculty Member 060",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000061",
+    "name":"Faculty Member 061",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000062",
+    "name":"Faculty Member 062",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000063",
+    "name":"Faculty Member 063",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000064",
+    "name":"Faculty Member 064",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000065",
+    "name":"Faculty Member 065",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000066",
+    "name":"Faculty Member 066",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000067",
+    "name":"Faculty Member 067",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000068",
+    "name":"Faculty Member 068",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000069",
+    "name":"Faculty Member 069",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000070",
+    "name":"Faculty Member 070",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000071",
+    "name":"Faculty Member 071",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000072",
+    "name":"Faculty Member 072",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000073",
+    "name":"Faculty Member 073",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000074",
+    "name":"Faculty Member 074",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000075",
+    "name":"Faculty Member 075",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000076",
+    "name":"Faculty Member 076",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000077",
+    "name":"Faculty Member 077",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000078",
+    "name":"Faculty Member 078",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000079",
+    "name":"Faculty Member 079",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000080",
+    "name":"Faculty Member 080",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000081",
+    "name":"Faculty Member 081",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000082",
+    "name":"Faculty Member 082",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000083",
+    "name":"Faculty Member 083",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000084",
+    "name":"Faculty Member 084",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000085",
+    "name":"Faculty Member 085",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000086",
+    "name":"Faculty Member 086",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000087",
+    "name":"Faculty Member 087",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000088",
+    "name":"Faculty Member 088",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000089",
+    "name":"Faculty Member 089",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000090",
+    "name":"Faculty Member 090",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000091",
+    "name":"Faculty Member 091",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000092",
+    "name":"Faculty Member 092",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000093",
+    "name":"Faculty Member 093",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000094",
+    "name":"Faculty Member 094",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000095",
+    "name":"Faculty Member 095",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000096",
+    "name":"Faculty Member 096",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000097",
+    "name":"Faculty Member 097",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000098",
+    "name":"Faculty Member 098",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000099",
+    "name":"Faculty Member 099",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000100",
+    "name":"Faculty Member 100",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000101",
+    "name":"Faculty Member 101",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000102",
+    "name":"Faculty Member 102",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000103",
+    "name":"Faculty Member 103",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000104",
+    "name":"Faculty Member 104",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000105",
+    "name":"Faculty Member 105",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000106",
+    "name":"Faculty Member 106",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000107",
+    "name":"Faculty Member 107",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000108",
+    "name":"Faculty Member 108",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000109",
+    "name":"Faculty Member 109",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000110",
+    "name":"Faculty Member 110",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000111",
+    "name":"Faculty Member 111",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000112",
+    "name":"Faculty Member 112",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000113",
+    "name":"Faculty Member 113",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000114",
+    "name":"Faculty Member 114",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000115",
+    "name":"Faculty Member 115",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000116",
+    "name":"Faculty Member 116",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000117",
+    "name":"Faculty Member 117",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000118",
+    "name":"Faculty Member 118",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000119",
+    "name":"Faculty Member 119",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000120",
+    "name":"Faculty Member 120",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000121",
+    "name":"Faculty Member 121",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000122",
+    "name":"Faculty Member 122",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000123",
+    "name":"Faculty Member 123",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000124",
+    "name":"Faculty Member 124",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000125",
+    "name":"Faculty Member 125",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000126",
+    "name":"Faculty Member 126",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000127",
+    "name":"Faculty Member 127",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000128",
+    "name":"Faculty Member 128",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000129",
+    "name":"Faculty Member 129",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000130",
+    "name":"Faculty Member 130",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000131",
+    "name":"Faculty Member 131",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000132",
+    "name":"Faculty Member 132",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000133",
+    "name":"Faculty Member 133",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000134",
+    "name":"Faculty Member 134",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000135",
+    "name":"Faculty Member 135",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000136",
+    "name":"Faculty Member 136",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000137",
+    "name":"Faculty Member 137",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000138",
+    "name":"Faculty Member 138",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000139",
+    "name":"Faculty Member 139",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000140",
+    "name":"Faculty Member 140",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000141",
+    "name":"Faculty Member 141",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000142",
+    "name":"Faculty Member 142",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000143",
+    "name":"Faculty Member 143",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000144",
+    "name":"Faculty Member 144",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000145",
+    "name":"Faculty Member 145",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000146",
+    "name":"Faculty Member 146",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000147",
+    "name":"Faculty Member 147",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000148",
+    "name":"Faculty Member 148",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000149",
+    "name":"Faculty Member 149",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000150",
+    "name":"Faculty Member 150",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000151",
+    "name":"Faculty Member 151",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000152",
+    "name":"Faculty Member 152",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000153",
+    "name":"Faculty Member 153",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000154",
+    "name":"Faculty Member 154",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000155",
+    "name":"Faculty Member 155",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000156",
+    "name":"Faculty Member 156",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000157",
+    "name":"Faculty Member 157",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000158",
+    "name":"Faculty Member 158",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000159",
+    "name":"Faculty Member 159",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000160",
+    "name":"Faculty Member 160",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000161",
+    "name":"Faculty Member 161",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000162",
+    "name":"Faculty Member 162",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000163",
+    "name":"Faculty Member 163",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000164",
+    "name":"Faculty Member 164",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000165",
+    "name":"Faculty Member 165",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000166",
+    "name":"Faculty Member 166",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000167",
+    "name":"Faculty Member 167",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000168",
+    "name":"Faculty Member 168",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000169",
+    "name":"Faculty Member 169",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000170",
+    "name":"Faculty Member 170",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000171",
+    "name":"Faculty Member 171",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000172",
+    "name":"Faculty Member 172",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000173",
+    "name":"Faculty Member 173",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000174",
+    "name":"Faculty Member 174",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000175",
+    "name":"Faculty Member 175",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000176",
+    "name":"Faculty Member 176",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000177",
+    "name":"Faculty Member 177",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000178",
+    "name":"Faculty Member 178",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000179",
+    "name":"Faculty Member 179",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000180",
+    "name":"Faculty Member 180",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000181",
+    "name":"Faculty Member 181",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000182",
+    "name":"Faculty Member 182",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000183",
+    "name":"Faculty Member 183",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000184",
+    "name":"Faculty Member 184",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000185",
+    "name":"Faculty Member 185",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000186",
+    "name":"Faculty Member 186",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000187",
+    "name":"Faculty Member 187",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000188",
+    "name":"Faculty Member 188",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000189",
+    "name":"Faculty Member 189",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000190",
+    "name":"Faculty Member 190",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000191",
+    "name":"Faculty Member 191",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000192",
+    "name":"Faculty Member 192",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000193",
+    "name":"Faculty Member 193",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000194",
+    "name":"Faculty Member 194",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000195",
+    "name":"Faculty Member 195",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000196",
+    "name":"Faculty Member 196",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000197",
+    "name":"Faculty Member 197",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000198",
+    "name":"Faculty Member 198",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000199",
+    "name":"Faculty Member 199",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000200",
+    "name":"Faculty Member 200",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000201",
+    "name":"Faculty Member 201",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000202",
+    "name":"Faculty Member 202",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000203",
+    "name":"Faculty Member 203",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000204",
+    "name":"Faculty Member 204",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000205",
+    "name":"Faculty Member 205",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000206",
+    "name":"Faculty Member 206",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000207",
+    "name":"Faculty Member 207",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000208",
+    "name":"Faculty Member 208",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000209",
+    "name":"Faculty Member 209",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000210",
+    "name":"Faculty Member 210",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000211",
+    "name":"Faculty Member 211",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000212",
+    "name":"Faculty Member 212",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000213",
+    "name":"Faculty Member 213",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000214",
+    "name":"Faculty Member 214",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000215",
+    "name":"Faculty Member 215",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000216",
+    "name":"Faculty Member 216",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000217",
+    "name":"Faculty Member 217",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000218",
+    "name":"Faculty Member 218",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000219",
+    "name":"Faculty Member 219",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000220",
+    "name":"Faculty Member 220",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000221",
+    "name":"Faculty Member 221",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000222",
+    "name":"Faculty Member 222",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000223",
+    "name":"Faculty Member 223",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000224",
+    "name":"Faculty Member 224",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000225",
+    "name":"Faculty Member 225",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000226",
+    "name":"Faculty Member 226",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000227",
+    "name":"Faculty Member 227",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000228",
+    "name":"Faculty Member 228",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000229",
+    "name":"Faculty Member 229",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000230",
+    "name":"Faculty Member 230",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000231",
+    "name":"Faculty Member 231",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000232",
+    "name":"Faculty Member 232",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000233",
+    "name":"Faculty Member 233",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000234",
+    "name":"Faculty Member 234",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000235",
+    "name":"Faculty Member 235",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000236",
+    "name":"Faculty Member 236",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000237",
+    "name":"Faculty Member 237",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000238",
+    "name":"Faculty Member 238",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000239",
+    "name":"Faculty Member 239",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000240",
+    "name":"Faculty Member 240",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000241",
+    "name":"Faculty Member 241",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000242",
+    "name":"Faculty Member 242",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000243",
+    "name":"Faculty Member 243",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000244",
+    "name":"Faculty Member 244",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000245",
+    "name":"Faculty Member 245",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000246",
+    "name":"Faculty Member 246",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000247",
+    "name":"Faculty Member 247",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000248",
+    "name":"Faculty Member 248",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000249",
+    "name":"Faculty Member 249",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000250",
+    "name":"Faculty Member 250",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000251",
+    "name":"Faculty Member 251",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000252",
+    "name":"Faculty Member 252",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000253",
+    "name":"Faculty Member 253",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000254",
+    "name":"Faculty Member 254",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000255",
+    "name":"Faculty Member 255",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000256",
+    "name":"Faculty Member 256",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000257",
+    "name":"Faculty Member 257",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000258",
+    "name":"Faculty Member 258",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000259",
+    "name":"Faculty Member 259",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000260",
+    "name":"Faculty Member 260",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000261",
+    "name":"Faculty Member 261",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000262",
+    "name":"Faculty Member 262",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000263",
+    "name":"Faculty Member 263",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000264",
+    "name":"Faculty Member 264",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000265",
+    "name":"Faculty Member 265",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000266",
+    "name":"Faculty Member 266",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000267",
+    "name":"Faculty Member 267",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000268",
+    "name":"Faculty Member 268",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000269",
+    "name":"Faculty Member 269",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000270",
+    "name":"Faculty Member 270",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000271",
+    "name":"Faculty Member 271",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000272",
+    "name":"Faculty Member 272",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000273",
+    "name":"Faculty Member 273",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000274",
+    "name":"Faculty Member 274",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000275",
+    "name":"Faculty Member 275",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000276",
+    "name":"Faculty Member 276",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000277",
+    "name":"Faculty Member 277",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000278",
+    "name":"Faculty Member 278",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000279",
+    "name":"Faculty Member 279",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000280",
+    "name":"Faculty Member 280",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000281",
+    "name":"Faculty Member 281",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000282",
+    "name":"Faculty Member 282",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000283",
+    "name":"Faculty Member 283",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000284",
+    "name":"Faculty Member 284",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000285",
+    "name":"Faculty Member 285",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000286",
+    "name":"Faculty Member 286",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000287",
+    "name":"Faculty Member 287",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000288",
+    "name":"Faculty Member 288",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000289",
+    "name":"Faculty Member 289",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000290",
+    "name":"Faculty Member 290",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000291",
+    "name":"Faculty Member 291",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000292",
+    "name":"Faculty Member 292",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000293",
+    "name":"Faculty Member 293",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000294",
+    "name":"Faculty Member 294",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000295",
+    "name":"Faculty Member 295",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000296",
+    "name":"Faculty Member 296",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000297",
+    "name":"Faculty Member 297",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000298",
+    "name":"Faculty Member 298",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000299",
+    "name":"Faculty Member 299",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000300",
+    "name":"Faculty Member 300",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000301",
+    "name":"Faculty Member 301",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000302",
+    "name":"Faculty Member 302",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000303",
+    "name":"Faculty Member 303",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000304",
+    "name":"Faculty Member 304",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000305",
+    "name":"Faculty Member 305",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000306",
+    "name":"Faculty Member 306",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000307",
+    "name":"Faculty Member 307",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000308",
+    "name":"Faculty Member 308",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000309",
+    "name":"Faculty Member 309",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000310",
+    "name":"Faculty Member 310",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000311",
+    "name":"Faculty Member 311",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000312",
+    "name":"Faculty Member 312",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000313",
+    "name":"Faculty Member 313",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000314",
+    "name":"Faculty Member 314",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000315",
+    "name":"Faculty Member 315",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000316",
+    "name":"Faculty Member 316",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000317",
+    "name":"Faculty Member 317",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000318",
+    "name":"Faculty Member 318",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000319",
+    "name":"Faculty Member 319",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000320",
+    "name":"Faculty Member 320",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000321",
+    "name":"Faculty Member 321",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000322",
+    "name":"Faculty Member 322",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000323",
+    "name":"Faculty Member 323",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000324",
+    "name":"Faculty Member 324",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000325",
+    "name":"Faculty Member 325",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000326",
+    "name":"Faculty Member 326",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000327",
+    "name":"Faculty Member 327",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000328",
+    "name":"Faculty Member 328",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000329",
+    "name":"Faculty Member 329",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000330",
+    "name":"Faculty Member 330",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000331",
+    "name":"Faculty Member 331",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000332",
+    "name":"Faculty Member 332",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000333",
+    "name":"Faculty Member 333",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000334",
+    "name":"Faculty Member 334",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000335",
+    "name":"Faculty Member 335",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000336",
+    "name":"Faculty Member 336",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000337",
+    "name":"Faculty Member 337",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000338",
+    "name":"Faculty Member 338",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000339",
+    "name":"Faculty Member 339",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000340",
+    "name":"Faculty Member 340",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000341",
+    "name":"Faculty Member 341",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000342",
+    "name":"Faculty Member 342",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000343",
+    "name":"Faculty Member 343",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000344",
+    "name":"Faculty Member 344",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000345",
+    "name":"Faculty Member 345",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000346",
+    "name":"Faculty Member 346",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000347",
+    "name":"Faculty Member 347",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000348",
+    "name":"Faculty Member 348",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000349",
+    "name":"Faculty Member 349",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000350",
+    "name":"Faculty Member 350",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000351",
+    "name":"Faculty Member 351",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000352",
+    "name":"Faculty Member 352",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000353",
+    "name":"Faculty Member 353",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000354",
+    "name":"Faculty Member 354",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000355",
+    "name":"Faculty Member 355",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000356",
+    "name":"Faculty Member 356",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000357",
+    "name":"Faculty Member 357",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000358",
+    "name":"Faculty Member 358",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000359",
+    "name":"Faculty Member 359",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000360",
+    "name":"Faculty Member 360",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000361",
+    "name":"Faculty Member 361",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000362",
+    "name":"Faculty Member 362",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000363",
+    "name":"Faculty Member 363",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000364",
+    "name":"Faculty Member 364",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000365",
+    "name":"Faculty Member 365",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000366",
+    "name":"Faculty Member 366",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000367",
+    "name":"Faculty Member 367",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000368",
+    "name":"Faculty Member 368",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000369",
+    "name":"Faculty Member 369",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000370",
+    "name":"Faculty Member 370",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000371",
+    "name":"Faculty Member 371",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000372",
+    "name":"Faculty Member 372",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000373",
+    "name":"Faculty Member 373",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000374",
+    "name":"Faculty Member 374",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000375",
+    "name":"Faculty Member 375",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000376",
+    "name":"Faculty Member 376",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000377",
+    "name":"Faculty Member 377",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000378",
+    "name":"Faculty Member 378",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000379",
+    "name":"Faculty Member 379",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000380",
+    "name":"Faculty Member 380",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000381",
+    "name":"Faculty Member 381",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000382",
+    "name":"Faculty Member 382",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000383",
+    "name":"Faculty Member 383",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000384",
+    "name":"Faculty Member 384",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000385",
+    "name":"Faculty Member 385",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000386",
+    "name":"Faculty Member 386",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000387",
+    "name":"Faculty Member 387",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000388",
+    "name":"Faculty Member 388",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000389",
+    "name":"Faculty Member 389",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000390",
+    "name":"Faculty Member 390",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000391",
+    "name":"Faculty Member 391",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000392",
+    "name":"Faculty Member 392",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000393",
+    "name":"Faculty Member 393",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000394",
+    "name":"Faculty Member 394",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000395",
+    "name":"Faculty Member 395",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000396",
+    "name":"Faculty Member 396",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000397",
+    "name":"Faculty Member 397",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000398",
+    "name":"Faculty Member 398",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000399",
+    "name":"Faculty Member 399",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000400",
+    "name":"Faculty Member 400",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000401",
+    "name":"Faculty Member 401",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000402",
+    "name":"Faculty Member 402",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000403",
+    "name":"Faculty Member 403",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000404",
+    "name":"Faculty Member 404",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000405",
+    "name":"Faculty Member 405",
+    "department":"Design",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000406",
+    "name":"Faculty Member 406",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000407",
+    "name":"Faculty Member 407",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000408",
+    "name":"Faculty Member 408",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000409",
+    "name":"Faculty Member 409",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000410",
+    "name":"Faculty Member 410",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000411",
+    "name":"Faculty Member 411",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000412",
+    "name":"Faculty Member 412",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000413",
+    "name":"Faculty Member 413",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000414",
+    "name":"Faculty Member 414",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000415",
+    "name":"Faculty Member 415",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000416",
+    "name":"Faculty Member 416",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000417",
+    "name":"Faculty Member 417",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000418",
+    "name":"Faculty Member 418",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000419",
+    "name":"Faculty Member 419",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000420",
+    "name":"Faculty Member 420",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000421",
+    "name":"Faculty Member 421",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000422",
+    "name":"Faculty Member 422",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000423",
+    "name":"Faculty Member 423",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000424",
+    "name":"Faculty Member 424",
+    "department":"Business",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000425",
+    "name":"Faculty Member 425",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000426",
+    "name":"Faculty Member 426",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000427",
+    "name":"Faculty Member 427",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000428",
+    "name":"Faculty Member 428",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000429",
+    "name":"Faculty Member 429",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000430",
+    "name":"Faculty Member 430",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000431",
+    "name":"Faculty Member 431",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000432",
+    "name":"Faculty Member 432",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000433",
+    "name":"Faculty Member 433",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000434",
+    "name":"Faculty Member 434",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000435",
+    "name":"Faculty Member 435",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000436",
+    "name":"Faculty Member 436",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000437",
+    "name":"Faculty Member 437",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000438",
+    "name":"Faculty Member 438",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000439",
+    "name":"Faculty Member 439",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000440",
+    "name":"Faculty Member 440",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000441",
+    "name":"Faculty Member 441",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000442",
+    "name":"Faculty Member 442",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000443",
+    "name":"Faculty Member 443",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000444",
+    "name":"Faculty Member 444",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000445",
+    "name":"Faculty Member 445",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000446",
+    "name":"Faculty Member 446",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000447",
+    "name":"Faculty Member 447",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000448",
+    "name":"Faculty Member 448",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000449",
+    "name":"Faculty Member 449",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000450",
+    "name":"Faculty Member 450",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000451",
+    "name":"Faculty Member 451",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000452",
+    "name":"Faculty Member 452",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000453",
+    "name":"Faculty Member 453",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000454",
+    "name":"Faculty Member 454",
+    "department":"Business",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000455",
+    "name":"Faculty Member 455",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000456",
+    "name":"Faculty Member 456",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000457",
+    "name":"Faculty Member 457",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000458",
+    "name":"Faculty Member 458",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000459",
+    "name":"Faculty Member 459",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000460",
+    "name":"Faculty Member 460",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000461",
+    "name":"Faculty Member 461",
+    "department":"Computing",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000462",
+    "name":"Faculty Member 462",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000463",
+    "name":"Faculty Member 463",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000464",
+    "name":"Faculty Member 464",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000465",
+    "name":"Faculty Member 465",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000466",
+    "name":"Faculty Member 466",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000467",
+    "name":"Faculty Member 467",
+    "department":"Engineering",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000468",
+    "name":"Faculty Member 468",
+    "department":"Sciences",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000469",
+    "name":"Faculty Member 469",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000470",
+    "name":"Faculty Member 470",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000471",
+    "name":"Faculty Member 471",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000472",
+    "name":"Faculty Member 472",
+    "department":"Engineering",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000473",
+    "name":"Faculty Member 473",
+    "department":"Sciences",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000474",
+    "name":"Faculty Member 474",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000475",
+    "name":"Faculty Member 475",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000476",
+    "name":"Faculty Member 476",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000477",
+    "name":"Faculty Member 477",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000478",
+    "name":"Faculty Member 478",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000479",
+    "name":"Faculty Member 479",
+    "department":"Business",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000480",
+    "name":"Faculty Member 480",
+    "department":"Design",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000481",
+    "name":"Faculty Member 481",
+    "department":"Computing",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000482",
+    "name":"Faculty Member 482",
+    "department":"Engineering",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000483",
+    "name":"Faculty Member 483",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000484",
+    "name":"Faculty Member 484",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000485",
+    "name":"Faculty Member 485",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000486",
+    "name":"Faculty Member 486",
+    "department":"Computing",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000487",
+    "name":"Faculty Member 487",
+    "department":"Engineering",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000488",
+    "name":"Faculty Member 488",
+    "department":"Sciences",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000489",
+    "name":"Faculty Member 489",
+    "department":"Business",
+    "max_weekly_hours":8,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000490",
+    "name":"Faculty Member 490",
+    "department":"Design",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000491",
+    "name":"Faculty Member 491",
+    "department":"Computing",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000492",
+    "name":"Faculty Member 492",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000493",
+    "name":"Faculty Member 493",
+    "department":"Sciences",
+    "max_weekly_hours":10,
+    "employment_status":"ON_LEAVE"
+  },
+  {
+    "faculty_id":"FAC-000494",
+    "name":"Faculty Member 494",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000495",
+    "name":"Faculty Member 495",
+    "department":"Design",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000496",
+    "name":"Faculty Member 496",
+    "department":"Computing",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000497",
+    "name":"Faculty Member 497",
+    "department":"Engineering",
+    "max_weekly_hours":10,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000498",
+    "name":"Faculty Member 498",
+    "department":"Sciences",
+    "max_weekly_hours":14,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000499",
+    "name":"Faculty Member 499",
+    "department":"Business",
+    "max_weekly_hours":16,
+    "employment_status":"ACTIVE"
+  },
+  {
+    "faculty_id":"FAC-000500",
+    "name":"Faculty Member 500",
+    "department":"Design",
+    "max_weekly_hours":12,
+    "employment_status":"ACTIVE"
+  }
+]

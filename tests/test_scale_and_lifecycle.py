@@ -49,6 +49,16 @@ def test_custom_scale_manifest_records_configuration_and_counts(tmp_path):
     assert manifest["tables"]["student_plans"]["rows"] == 12
 
 
+def test_target_scale_room_inventory_is_realistically_scaled_but_room_scarcity_is_reproducible():
+    normal = generate_dataset(seed=20261022, scale=TARGET_SCALE)
+    scarce = generate_dataset(seed=20261022, scale=TARGET_SCALE, room_scarcity=True)
+
+    assert len(normal["rooms"]) == 120
+    assert normal["rooms"]["capacity"].ge(40).all()
+    assert len(scarce["rooms"]) == 30
+    assert scarce["rooms"]["capacity"].ge(40).sum() == 20
+
+
 def test_source_validation_rejects_unknown_and_mismatched_term_references():
     frames = generate_dataset()
     frames["registration_interests"].loc[0, "term_id"] = "2028-FALL"

@@ -1,0 +1,154 @@
+{
+  "seed": 20261022,
+  "scale": {
+    "programs": 10,
+    "courses": 100,
+    "faculty": 50,
+    "student_plans": 1000
+  },
+  "room_scarcity": false,
+  "tables": {
+    "academic_terms": {
+      "rows": 1,
+      "sha256_csv": "418cebaab26b48681f5ac2d3616b55d9980fd6920e00ef122b13c543608ddce8",
+      "columns": [
+        "term_id",
+        "start_date",
+        "end_date"
+      ]
+    },
+    "programs": {
+      "rows": 10,
+      "sha256_csv": "67b2be83f63422bdbe502b43233da4cdca737ba30c68aff7b4590e52a7d6d1ee",
+      "columns": [
+        "program_id",
+        "name",
+        "department"
+      ]
+    },
+    "courses": {
+      "rows": 100,
+      "sha256_csv": "618ea681619e24d02c45febc00e64a4f522be5568e5514fd3f713f6cb215602e",
+      "columns": [
+        "course_id",
+        "program_id",
+        "code",
+        "title",
+        "credits",
+        "course_level",
+        "is_elective"
+      ]
+    },
+    "prerequisites": {
+      "rows": 21,
+      "sha256_csv": "b36d62f2db297dc3433925e30dd8a89e74565a945f888c177d92daff6f351942",
+      "columns": [
+        "prerequisite_id",
+        "course_id",
+        "prerequisite_course_id",
+        "effective_from",
+        "effective_to"
+      ]
+    },
+    "faculty": {
+      "rows": 50,
+      "sha256_csv": "744c2f90dc2682a5286b5509287028e0840d7793a3bf5afce3c0dbbc056d04e8",
+      "columns": [
+        "faculty_id",
+        "name",
+        "department",
+        "max_weekly_hours",
+        "employment_status"
+      ]
+    },
+    "faculty_skills": {
+      "rows": 257,
+      "sha256_csv": "5abea8bea09b8e0c82c5503c611d7f61bf5e252c9eb3eca9e0f3ac49327ee45d",
+      "columns": [
+        "faculty_skill_id",
+        "faculty_id",
+        "course_id",
+        "skill_level",
+        "effective_from",
+        "effective_to"
+      ]
+    },
+    "availability": {
+      "rows": 1000,
+      "sha256_csv": "8946fc38d81ce847aa623a5d8b5a249dbd9ed35ffb8c2a9f7da743b56abe6070",
+      "columns": [
+        "availability_id",
+        "faculty_id",
+        "term_id",
+        "day_of_week",
+        "slot_id",
+        "available",
+        "effective_from",
+        "effective_to"
+      ]
+    },
+    "rooms": {
+      "rows": 30,
+      "sha256_csv": "2fa9a9963b9a96d1429cdc795a3d3e81916352f50b0180341bcba61ad90701b6",
+      "columns": [
+        "room_id",
+        "building",
+        "room_type",
+        "capacity",
+        "active"
+      ]
+    },
+    "student_plans": {
+      "rows": 1000,
+      "sha256_csv": "86a65e37e7ab701737777d7a1c06e1b0a1a5401efd2843533ebfeaeac23ac7e5",
+      "columns": [
+        "student_plan_id",
+        "student_id",
+        "program_id",
+        "term_id",
+        "year_of_study",
+        "created_at"
+      ]
+    },
+    "registration_interests": {
+      "rows": 3545,
+      "sha256_csv": "778e029abb5c484252de3f57afd5fb8f21802c09d8302bec07c04725d9702ba6",
+      "columns": [
+        "interest_id",
+        "student_plan_id",
+        "course_id",
+        "term_id",
+        "interest_status",
+        "interest_date",
+        "eligible"
+      ]
+    },
+    "student_course_completions": {
+      "rows": 368,
+      "sha256_csv": "f49d293f6ae28fcc2f48df3a5b0a5a10c15d00ddd5007c9244ec00a1a0463607",
+      "columns": [
+        "completion_id",
+        "student_plan_id",
+        "course_id",
+        "completed_on"
+      ]
+    },
+    "historical_enrollments": {
+      "rows": 300,
+      "sha256_csv": "4f9eb361c60c621892103c65efc04f057720b001f99666f5155577c69bdf08c3",
+      "columns": [
+        "historical_enrollment_id",
+        "course_id",
+        "term_id",
+        "eligible_students",
+        "registrations",
+        "enrolled",
+        "unmet_demand"
+      ]
+    }
+  },
+  "ground_truth": {
+    "rows": 5,
+    "sha256_csv": "edc53b1677867c0bb2ad583b8cf0bf6c98b3049c83d8b76967debb998c2acd1a"
+  }
+}

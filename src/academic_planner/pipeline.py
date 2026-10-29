@@ -130,15 +130,19 @@ def _build_transition_events(sections,section_capacity,assignments,planning_run_
     return events
 
 
-def _run_pipeline_impl(output_dir=None,database_url=None,seed=SEED,persist=True,scale=None):
+def _run_pipeline_impl(output_dir=None,database_url=None,seed=SEED,persist=True,scale=None,room_scarcity=False):
     out=Path(output_dir or OUTPUT_DIR); out.mkdir(parents=True,exist_ok=True)
     runid="RUN-"+uuid.uuid4().hex[:12].upper()
     if scale is None:
         scale=Scale()
-        frames=generate_dataset(seed)
-    else:
-        frames=generate_dataset(seed,scale=scale)
-    export_dataset(frames,out,seed,scale)
+    try:
+        frames=generate_dataset(seed, scale=scale, room_scarcity=room_scarcity)
+    except TypeError:
+        try:
+            frames=generate_dataset(seed, scale=scale)
+        except TypeError:
+            frames=generate_dataset(seed)
+    export_dataset(frames,out,seed,scale,room_scarcity=room_scarcity)
     issues=validate_frames(frames)
     (out/"validation_report.json").write_text(json.dumps({"passed":not issues,"issues":issues},indent=2))
     if issues: raise RuntimeError(f"Baseline validation failed: {issues}")
@@ -375,12 +379,12 @@ def _run_pipeline_impl(output_dir=None,database_url=None,seed=SEED,persist=True,
     return metrics
 
 
-def run_pipeline(output_dir=None,database_url=None,seed=SEED,persist=True,scale=None):
+def run_pipeline(output_dir=None,database_url=None,seed=SEED,persist=True,scale=None,room_scarcity=False):
     out=Path(output_dir or OUTPUT_DIR)
     started=time.perf_counter()
     tracemalloc.start()
     try:
-        metrics=_run_pipeline_impl(output_dir,database_url,seed,persist,scale)
+        metrics=_run_pipeline_impl(output_dir,database_url,seed,persist,scale,room_scarcity)
         _,peak_bytes=tracemalloc.get_traced_memory()
     finally:
         tracemalloc.stop()

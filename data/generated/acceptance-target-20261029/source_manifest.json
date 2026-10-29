@@ -6,6 +6,7 @@
     "faculty": 500,
     "student_plans": 20000
   },
+  "room_scarcity": false,
   "tables": {
     "academic_terms": {
       "rows": 1,
@@ -87,8 +88,8 @@
       ]
     },
     "rooms": {
-      "rows": 30,
-      "sha256_csv": "2fa9a9963b9a96d1429cdc795a3d3e81916352f50b0180341bcba61ad90701b6",
+      "rows": 120,
+      "sha256_csv": "0e35abe2bbce737b4c2a11b51c1c0789d1b3bc00ceb318cb3301f1f9a563af27",
       "columns": [
         "room_id",
         "building",
