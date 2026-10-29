@@ -1,6 +1,6 @@
 {
-  "planning_run_id": "RUN-DC58927F42DA",
-  "run_artifacts_path": "runs/RUN-DC58927F42DA",
+  "planning_run_id": "RUN-A13027FA785F",
+  "run_artifacts_path": "runs/RUN-A13027FA785F",
   "seed": 20261022,
   "scale": {
     "programs": 10,
@@ -98,7 +98,7 @@
     ]
   },
   "planning_validation": {
-    "planning_run_id": "RUN-DC58927F42DA",
+    "planning_run_id": "RUN-A13027FA785F",
     "passed": true,
     "invalid_section_count": 0,
     "section_issues": [],
@@ -106,7 +106,7 @@
     "assignment_issues": []
   },
   "capacity": {
-    "planning_run_id": "RUN-DC58927F42DA",
+    "planning_run_id": "RUN-A13027FA785F",
     "proposed_section_count": 215,
     "assigned_section_count": 170,
     "operational_section_count": 170,
@@ -319,8 +319,8 @@
     "issues": []
   },
   "performance": {
-    "elapsed_seconds": 30.724,
-    "python_peak_memory_bytes": 3163622,
+    "elapsed_seconds": 32.85,
+    "python_peak_memory_bytes": 3163522,
     "memory_measurement": "tracemalloc peak; excludes native allocations"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "planning_run_id": "RUN-DC58927F42DA",
+  "planning_run_id": "RUN-A13027FA785F",
   "solver_status": "OPTIMAL",
   "total_sections": 215,
   "staffed_sections": 170,
@@ -55,10 +55,10 @@
     "SEC-2027-000208"
   ],
   "sections_with_candidate_blocker": {
-    "UNAVAILABLE": 45,
-    "MISSING_SKILL": 45,
-    "FACULTY_NOT_ACTIVE": 45,
     "WORKLOAD_LIMIT": 45,
+    "FACULTY_NOT_ACTIVE": 45,
+    "MISSING_SKILL": 45,
+    "UNAVAILABLE": 45,
     "TIMETABLE_CONFLICT": 45
   },
   "candidate_blocker_occurrences": {

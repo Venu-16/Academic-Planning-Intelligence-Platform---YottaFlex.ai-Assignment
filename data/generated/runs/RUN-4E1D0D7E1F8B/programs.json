@@ -1,0 +1,52 @@
+[
+  {
+    "program_id":"PRG-000001",
+    "name":"Computing Program 01",
+    "department":"Computing"
+  },
+  {
+    "program_id":"PRG-000002",
+    "name":"Engineering Program 02",
+    "department":"Engineering"
+  },
+  {
+    "program_id":"PRG-000003",
+    "name":"Sciences Program 03",
+    "department":"Sciences"
+  },
+  {
+    "program_id":"PRG-000004",
+    "name":"Business Program 04",
+    "department":"Business"
+  },
+  {
+    "program_id":"PRG-000005",
+    "name":"Design Program 05",
+    "department":"Design"
+  },
+  {
+    "program_id":"PRG-000006",
+    "name":"Computing Program 06",
+    "department":"Computing"
+  },
+  {
+    "program_id":"PRG-000007",
+    "name":"Engineering Program 07",
+    "department":"Engineering"
+  },
+  {
+    "program_id":"PRG-000008",
+    "name":"Sciences Program 08",
+    "department":"Sciences"
+  },
+  {
+    "program_id":"PRG-000009",
+    "name":"Business Program 09",
+    "department":"Business"
+  },
+  {
+    "program_id":"PRG-000010",
+    "name":"Design Program 10",
+    "department":"Design"
+  }
+]
