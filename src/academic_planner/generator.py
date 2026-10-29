@@ -45,7 +45,15 @@ def generate_dataset(seed=20261022, scale=None):
     plans=[]
     for i in range(1,scale.student_plans+1):
         plans.append(dict(student_plan_id=f"STP-{i:07d}",student_id=f"STD-{i:07d}",program_id=programs[(i-1)%len(programs)]["program_id"],term_id=TARGET_TERM_ID,year_of_study=r.randint(1,4),created_at="2026-10-01"))
+    prerequisites_by_course={}
+    for row in prereqs:
+        prerequisites_by_course.setdefault(row["course_id"],[]).append(
+            row["prerequisite_course_id"]
+        )
+    course_by_id={course["course_id"]:course for course in courses}
+    completions=[]
     interests=[]
+    completed_courses_by_plan={}
     weights=[5 if c["is_elective"] else 1 for c in courses]
     for p in plans:
         count=r.randint(2,5); chosen=[]
@@ -53,7 +61,36 @@ def generate_dataset(seed=20261022, scale=None):
             if c not in chosen: chosen.append(c)
             if len(chosen)>=count: break
         for c in chosen:
-            eligible=p["year_of_study"]>=c["course_level"] or r.random()<.12
+            completed_for_plan=completed_courses_by_plan.setdefault(
+                p["student_plan_id"],set()
+            )
+            prerequisite_met=True
+            for prerequisite_course_id in prerequisites_by_course.get(
+                c["course_id"],[]
+            ):
+                prerequisite=course_by_id[prerequisite_course_id]
+                completed=prerequisite_course_id in completed_for_plan
+                if not completed:
+                    completed=(
+                        prerequisite["course_level"]<=p["year_of_study"]
+                        and r.random()<.8
+                    )
+                if completed:
+                    if prerequisite_course_id not in completed_for_plan:
+                        completed_for_plan.add(prerequisite_course_id)
+                        completion_id=f"CMP-{len(completions)+1:08d}"
+                        completions.append(dict(
+                            completion_id=completion_id,
+                            student_plan_id=p["student_plan_id"],
+                            course_id=prerequisite_course_id,
+                            completed_on="2026-09-01",
+                        ))
+                else:
+                    prerequisite_met=False
+            eligible=(
+                (p["year_of_study"]>=c["course_level"] or r.random()<.12)
+                and prerequisite_met
+            )
             if eligible:
                 status=r.choices(["INTERESTED","REGISTERED","WAITLISTED","WITHDRAWN"],[35,50,10,5])[0]
             else:
@@ -74,6 +111,12 @@ def generate_dataset(seed=20261022, scale=None):
       "prerequisites":pd.DataFrame(prereqs,columns=["prerequisite_id","course_id","prerequisite_course_id","effective_from","effective_to"]),
       "faculty":pd.DataFrame(faculty),"faculty_skills":pd.DataFrame(skills),"availability":pd.DataFrame(availability),
       "rooms":pd.DataFrame(rooms),"student_plans":pd.DataFrame(plans),"registration_interests":pd.DataFrame(interests),
+      "student_course_completions":pd.DataFrame(
+          completions,
+          columns=[
+              "completion_id","student_plan_id","course_id","completed_on"
+          ],
+      ),
       "historical_enrollments":pd.DataFrame(historical)
     }
 

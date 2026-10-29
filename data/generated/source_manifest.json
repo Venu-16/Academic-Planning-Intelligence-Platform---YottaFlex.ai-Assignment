@@ -1,5 +1,11 @@
 {
   "seed": 20261022,
+  "scale": {
+    "programs": 10,
+    "courses": 100,
+    "faculty": 50,
+    "student_plans": 1000
+  },
   "tables": {
     "academic_terms": {
       "rows": 1,
@@ -104,8 +110,8 @@
       ]
     },
     "registration_interests": {
-      "rows": 3463,
-      "sha256_csv": "db3bbc0fb86a75c24da4922e1b365b9669c868fc7be4640810fbb148128c8d97",
+      "rows": 3545,
+      "sha256_csv": "778e029abb5c484252de3f57afd5fb8f21802c09d8302bec07c04725d9702ba6",
       "columns": [
         "interest_id",
         "student_plan_id",
@@ -116,9 +122,19 @@
         "eligible"
       ]
     },
+    "student_course_completions": {
+      "rows": 368,
+      "sha256_csv": "f49d293f6ae28fcc2f48df3a5b0a5a10c15d00ddd5007c9244ec00a1a0463607",
+      "columns": [
+        "completion_id",
+        "student_plan_id",
+        "course_id",
+        "completed_on"
+      ]
+    },
     "historical_enrollments": {
       "rows": 300,
-      "sha256_csv": "aeb27b067679c6e5a9a56d2b75b69741479a1defdb2b1bbeaa126e23f5f5a383",
+      "sha256_csv": "4f9eb361c60c621892103c65efc04f057720b001f99666f5155577c69bdf08c3",
       "columns": [
         "historical_enrollment_id",
         "course_id",
@@ -132,6 +148,6 @@
   },
   "ground_truth": {
     "rows": 5,
-    "sha256_csv": "19060788f723792b33b0d843e11c01fcf229a931def2712d55c75f2eac718453"
+    "sha256_csv": "edc53b1677867c0bb2ad583b8cf0bf6c98b3049c83d8b76967debb998c2acd1a"
   }
 }

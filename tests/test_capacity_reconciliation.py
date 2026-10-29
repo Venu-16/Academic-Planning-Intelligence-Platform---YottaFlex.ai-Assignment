@@ -255,3 +255,21 @@ def test_summary_metrics_are_repeatable_for_identical_final_ledger():
     )
 
     assert first==second
+
+
+def test_capacity_summary_counts_unstaffed_final_lifecycle_state():
+    sections=pd.DataFrame([section("SEC-U","CRS-1")])
+    capacities=section_capacity(sections.to_dict("records"),[])
+    unmet=pd.DataFrame(columns=[
+        "forecast_demand","unmet","operationally_covered"
+    ])
+
+    summary=summarize_capacity_metrics(
+        sections,capacities,unmet,pd.DataFrame(),{"sections":[]},
+        {"issues":[]},{"issues":[]},"RUN-TEST",
+    )
+
+    assert summary["section_status_counts"]["UNSTAFFED"]==1
+    assert summary["sections_unstaffed"]==1
+    assert summary["operational_section_count"]==0
+    assert summary["operational_capacity"]==0

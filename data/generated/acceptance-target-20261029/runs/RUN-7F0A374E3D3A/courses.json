@@ -1,0 +1,9002 @@
+[
+  {
+    "course_id":"CRS-000001",
+    "program_id":"PRG-000001",
+    "code":"0001",
+    "title":"Foundations Course 001",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000002",
+    "program_id":"PRG-000002",
+    "code":"0002",
+    "title":"Foundations Course 002",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000003",
+    "program_id":"PRG-000003",
+    "code":"0003",
+    "title":"Foundations Course 003",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000004",
+    "program_id":"PRG-000004",
+    "code":"0004",
+    "title":"Foundations Course 004",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000005",
+    "program_id":"PRG-000005",
+    "code":"0005",
+    "title":"Foundations Course 005",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000006",
+    "program_id":"PRG-000006",
+    "code":"0006",
+    "title":"Foundations Course 006",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000007",
+    "program_id":"PRG-000007",
+    "code":"0007",
+    "title":"Foundations Course 007",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000008",
+    "program_id":"PRG-000008",
+    "code":"0008",
+    "title":"Foundations Course 008",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000009",
+    "program_id":"PRG-000009",
+    "code":"0009",
+    "title":"Foundations Course 009",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000010",
+    "program_id":"PRG-000010",
+    "code":"0010",
+    "title":"Foundations Course 010",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000011",
+    "program_id":"PRG-000011",
+    "code":"0011",
+    "title":"Foundations Course 011",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000012",
+    "program_id":"PRG-000012",
+    "code":"0012",
+    "title":"Foundations Course 012",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000013",
+    "program_id":"PRG-000013",
+    "code":"0013",
+    "title":"Foundations Course 013",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000014",
+    "program_id":"PRG-000014",
+    "code":"0014",
+    "title":"Foundations Course 014",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000015",
+    "program_id":"PRG-000015",
+    "code":"0015",
+    "title":"Foundations Course 015",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000016",
+    "program_id":"PRG-000016",
+    "code":"0016",
+    "title":"Foundations Course 016",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000017",
+    "program_id":"PRG-000017",
+    "code":"0017",
+    "title":"Foundations Course 017",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000018",
+    "program_id":"PRG-000018",
+    "code":"0018",
+    "title":"Foundations Course 018",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000019",
+    "program_id":"PRG-000019",
+    "code":"0019",
+    "title":"Foundations Course 019",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000020",
+    "program_id":"PRG-000020",
+    "code":"0020",
+    "title":"Foundations Course 020",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000021",
+    "program_id":"PRG-000021",
+    "code":"0021",
+    "title":"Foundations Course 021",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000022",
+    "program_id":"PRG-000022",
+    "code":"0022",
+    "title":"Foundations Course 022",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000023",
+    "program_id":"PRG-000023",
+    "code":"0023",
+    "title":"Foundations Course 023",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000024",
+    "program_id":"PRG-000024",
+    "code":"0024",
+    "title":"Foundations Course 024",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000025",
+    "program_id":"PRG-000025",
+    "code":"0025",
+    "title":"Foundations Course 025",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000026",
+    "program_id":"PRG-000026",
+    "code":"0026",
+    "title":"Foundations Course 026",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000027",
+    "program_id":"PRG-000027",
+    "code":"0027",
+    "title":"Foundations Course 027",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000028",
+    "program_id":"PRG-000028",
+    "code":"0028",
+    "title":"Foundations Course 028",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000029",
+    "program_id":"PRG-000029",
+    "code":"0029",
+    "title":"Foundations Course 029",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000030",
+    "program_id":"PRG-000030",
+    "code":"0030",
+    "title":"Foundations Course 030",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000031",
+    "program_id":"PRG-000031",
+    "code":"0031",
+    "title":"Foundations Course 031",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000032",
+    "program_id":"PRG-000032",
+    "code":"0032",
+    "title":"Foundations Course 032",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000033",
+    "program_id":"PRG-000033",
+    "code":"0033",
+    "title":"Foundations Course 033",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000034",
+    "program_id":"PRG-000034",
+    "code":"0034",
+    "title":"Foundations Course 034",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000035",
+    "program_id":"PRG-000035",
+    "code":"0035",
+    "title":"Foundations Course 035",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000036",
+    "program_id":"PRG-000036",
+    "code":"0036",
+    "title":"Foundations Course 036",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000037",
+    "program_id":"PRG-000037",
+    "code":"0037",
+    "title":"Foundations Course 037",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000038",
+    "program_id":"PRG-000038",
+    "code":"0038",
+    "title":"Foundations Course 038",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000039",
+    "program_id":"PRG-000039",
+    "code":"0039",
+    "title":"Foundations Course 039",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000040",
+    "program_id":"PRG-000040",
+    "code":"0040",
+    "title":"Foundations Course 040",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000041",
+    "program_id":"PRG-000041",
+    "code":"0041",
+    "title":"Foundations Course 041",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000042",
+    "program_id":"PRG-000042",
+    "code":"0042",
+    "title":"Foundations Course 042",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000043",
+    "program_id":"PRG-000043",
+    "code":"0043",
+    "title":"Foundations Course 043",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000044",
+    "program_id":"PRG-000044",
+    "code":"0044",
+    "title":"Foundations Course 044",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000045",
+    "program_id":"PRG-000045",
+    "code":"0045",
+    "title":"Foundations Course 045",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000046",
+    "program_id":"PRG-000046",
+    "code":"0046",
+    "title":"Foundations Course 046",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000047",
+    "program_id":"PRG-000047",
+    "code":"0047",
+    "title":"Foundations Course 047",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000048",
+    "program_id":"PRG-000048",
+    "code":"0048",
+    "title":"Foundations Course 048",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000049",
+    "program_id":"PRG-000049",
+    "code":"0049",
+    "title":"Foundations Course 049",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000050",
+    "program_id":"PRG-000050",
+    "code":"0050",
+    "title":"Foundations Course 050",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000051",
+    "program_id":"PRG-000051",
+    "code":"0051",
+    "title":"Foundations Course 051",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000052",
+    "program_id":"PRG-000052",
+    "code":"0052",
+    "title":"Foundations Course 052",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000053",
+    "program_id":"PRG-000053",
+    "code":"0053",
+    "title":"Foundations Course 053",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000054",
+    "program_id":"PRG-000054",
+    "code":"0054",
+    "title":"Foundations Course 054",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000055",
+    "program_id":"PRG-000055",
+    "code":"0055",
+    "title":"Foundations Course 055",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000056",
+    "program_id":"PRG-000056",
+    "code":"0056",
+    "title":"Foundations Course 056",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000057",
+    "program_id":"PRG-000057",
+    "code":"0057",
+    "title":"Foundations Course 057",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000058",
+    "program_id":"PRG-000058",
+    "code":"0058",
+    "title":"Foundations Course 058",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000059",
+    "program_id":"PRG-000059",
+    "code":"0059",
+    "title":"Foundations Course 059",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000060",
+    "program_id":"PRG-000060",
+    "code":"0060",
+    "title":"Foundations Course 060",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000061",
+    "program_id":"PRG-000061",
+    "code":"0061",
+    "title":"Foundations Course 061",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000062",
+    "program_id":"PRG-000062",
+    "code":"0062",
+    "title":"Foundations Course 062",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000063",
+    "program_id":"PRG-000063",
+    "code":"0063",
+    "title":"Foundations Course 063",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000064",
+    "program_id":"PRG-000064",
+    "code":"0064",
+    "title":"Foundations Course 064",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000065",
+    "program_id":"PRG-000065",
+    "code":"0065",
+    "title":"Foundations Course 065",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000066",
+    "program_id":"PRG-000066",
+    "code":"0066",
+    "title":"Foundations Course 066",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000067",
+    "program_id":"PRG-000067",
+    "code":"0067",
+    "title":"Foundations Course 067",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000068",
+    "program_id":"PRG-000068",
+    "code":"0068",
+    "title":"Foundations Course 068",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000069",
+    "program_id":"PRG-000069",
+    "code":"0069",
+    "title":"Foundations Course 069",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000070",
+    "program_id":"PRG-000070",
+    "code":"0070",
+    "title":"Foundations Course 070",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000071",
+    "program_id":"PRG-000071",
+    "code":"0071",
+    "title":"Foundations Course 071",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000072",
+    "program_id":"PRG-000072",
+    "code":"0072",
+    "title":"Foundations Course 072",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000073",
+    "program_id":"PRG-000073",
+    "code":"0073",
+    "title":"Foundations Course 073",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000074",
+    "program_id":"PRG-000074",
+    "code":"0074",
+    "title":"Foundations Course 074",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000075",
+    "program_id":"PRG-000075",
+    "code":"0075",
+    "title":"Foundations Course 075",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000076",
+    "program_id":"PRG-000076",
+    "code":"0076",
+    "title":"Foundations Course 076",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000077",
+    "program_id":"PRG-000077",
+    "code":"0077",
+    "title":"Foundations Course 077",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000078",
+    "program_id":"PRG-000078",
+    "code":"0078",
+    "title":"Foundations Course 078",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000079",
+    "program_id":"PRG-000079",
+    "code":"0079",
+    "title":"Foundations Course 079",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000080",
+    "program_id":"PRG-000080",
+    "code":"0080",
+    "title":"Foundations Course 080",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000081",
+    "program_id":"PRG-000081",
+    "code":"0081",
+    "title":"Foundations Course 081",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000082",
+    "program_id":"PRG-000082",
+    "code":"0082",
+    "title":"Foundations Course 082",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000083",
+    "program_id":"PRG-000083",
+    "code":"0083",
+    "title":"Foundations Course 083",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000084",
+    "program_id":"PRG-000084",
+    "code":"0084",
+    "title":"Foundations Course 084",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000085",
+    "program_id":"PRG-000085",
+    "code":"0085",
+    "title":"Foundations Course 085",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000086",
+    "program_id":"PRG-000086",
+    "code":"0086",
+    "title":"Foundations Course 086",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000087",
+    "program_id":"PRG-000087",
+    "code":"0087",
+    "title":"Foundations Course 087",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000088",
+    "program_id":"PRG-000088",
+    "code":"0088",
+    "title":"Foundations Course 088",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000089",
+    "program_id":"PRG-000089",
+    "code":"0089",
+    "title":"Foundations Course 089",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000090",
+    "program_id":"PRG-000090",
+    "code":"0090",
+    "title":"Foundations Course 090",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000091",
+    "program_id":"PRG-000091",
+    "code":"0091",
+    "title":"Foundations Course 091",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000092",
+    "program_id":"PRG-000092",
+    "code":"0092",
+    "title":"Foundations Course 092",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000093",
+    "program_id":"PRG-000093",
+    "code":"0093",
+    "title":"Foundations Course 093",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000094",
+    "program_id":"PRG-000094",
+    "code":"0094",
+    "title":"Foundations Course 094",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000095",
+    "program_id":"PRG-000095",
+    "code":"0095",
+    "title":"Foundations Course 095",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000096",
+    "program_id":"PRG-000096",
+    "code":"0096",
+    "title":"Foundations Course 096",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000097",
+    "program_id":"PRG-000097",
+    "code":"0097",
+    "title":"Foundations Course 097",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000098",
+    "program_id":"PRG-000098",
+    "code":"0098",
+    "title":"Foundations Course 098",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000099",
+    "program_id":"PRG-000099",
+    "code":"0099",
+    "title":"Foundations Course 099",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000100",
+    "program_id":"PRG-000100",
+    "code":"0100",
+    "title":"Foundations Course 100",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000101",
+    "program_id":"PRG-000001",
+    "code":"0101",
+    "title":"Foundations Course 101",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000102",
+    "program_id":"PRG-000002",
+    "code":"0102",
+    "title":"Foundations Course 102",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000103",
+    "program_id":"PRG-000003",
+    "code":"0103",
+    "title":"Foundations Course 103",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000104",
+    "program_id":"PRG-000004",
+    "code":"0104",
+    "title":"Foundations Course 104",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000105",
+    "program_id":"PRG-000005",
+    "code":"0105",
+    "title":"Foundations Course 105",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000106",
+    "program_id":"PRG-000006",
+    "code":"0106",
+    "title":"Foundations Course 106",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000107",
+    "program_id":"PRG-000007",
+    "code":"0107",
+    "title":"Foundations Course 107",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000108",
+    "program_id":"PRG-000008",
+    "code":"0108",
+    "title":"Foundations Course 108",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000109",
+    "program_id":"PRG-000009",
+    "code":"0109",
+    "title":"Foundations Course 109",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000110",
+    "program_id":"PRG-000010",
+    "code":"0110",
+    "title":"Foundations Course 110",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000111",
+    "program_id":"PRG-000011",
+    "code":"0111",
+    "title":"Foundations Course 111",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000112",
+    "program_id":"PRG-000012",
+    "code":"0112",
+    "title":"Foundations Course 112",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000113",
+    "program_id":"PRG-000013",
+    "code":"0113",
+    "title":"Foundations Course 113",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000114",
+    "program_id":"PRG-000014",
+    "code":"0114",
+    "title":"Foundations Course 114",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000115",
+    "program_id":"PRG-000015",
+    "code":"0115",
+    "title":"Foundations Course 115",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000116",
+    "program_id":"PRG-000016",
+    "code":"0116",
+    "title":"Foundations Course 116",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000117",
+    "program_id":"PRG-000017",
+    "code":"0117",
+    "title":"Foundations Course 117",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000118",
+    "program_id":"PRG-000018",
+    "code":"0118",
+    "title":"Foundations Course 118",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000119",
+    "program_id":"PRG-000019",
+    "code":"0119",
+    "title":"Foundations Course 119",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000120",
+    "program_id":"PRG-000020",
+    "code":"0120",
+    "title":"Foundations Course 120",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000121",
+    "program_id":"PRG-000021",
+    "code":"0121",
+    "title":"Foundations Course 121",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000122",
+    "program_id":"PRG-000022",
+    "code":"0122",
+    "title":"Foundations Course 122",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000123",
+    "program_id":"PRG-000023",
+    "code":"0123",
+    "title":"Foundations Course 123",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000124",
+    "program_id":"PRG-000024",
+    "code":"0124",
+    "title":"Foundations Course 124",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000125",
+    "program_id":"PRG-000025",
+    "code":"0125",
+    "title":"Foundations Course 125",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000126",
+    "program_id":"PRG-000026",
+    "code":"0126",
+    "title":"Foundations Course 126",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000127",
+    "program_id":"PRG-000027",
+    "code":"0127",
+    "title":"Foundations Course 127",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000128",
+    "program_id":"PRG-000028",
+    "code":"0128",
+    "title":"Foundations Course 128",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000129",
+    "program_id":"PRG-000029",
+    "code":"0129",
+    "title":"Foundations Course 129",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000130",
+    "program_id":"PRG-000030",
+    "code":"0130",
+    "title":"Foundations Course 130",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000131",
+    "program_id":"PRG-000031",
+    "code":"0131",
+    "title":"Foundations Course 131",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000132",
+    "program_id":"PRG-000032",
+    "code":"0132",
+    "title":"Foundations Course 132",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000133",
+    "program_id":"PRG-000033",
+    "code":"0133",
+    "title":"Foundations Course 133",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000134",
+    "program_id":"PRG-000034",
+    "code":"0134",
+    "title":"Foundations Course 134",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000135",
+    "program_id":"PRG-000035",
+    "code":"0135",
+    "title":"Foundations Course 135",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000136",
+    "program_id":"PRG-000036",
+    "code":"0136",
+    "title":"Foundations Course 136",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000137",
+    "program_id":"PRG-000037",
+    "code":"0137",
+    "title":"Foundations Course 137",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000138",
+    "program_id":"PRG-000038",
+    "code":"0138",
+    "title":"Foundations Course 138",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000139",
+    "program_id":"PRG-000039",
+    "code":"0139",
+    "title":"Foundations Course 139",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000140",
+    "program_id":"PRG-000040",
+    "code":"0140",
+    "title":"Foundations Course 140",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000141",
+    "program_id":"PRG-000041",
+    "code":"0141",
+    "title":"Foundations Course 141",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000142",
+    "program_id":"PRG-000042",
+    "code":"0142",
+    "title":"Foundations Course 142",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000143",
+    "program_id":"PRG-000043",
+    "code":"0143",
+    "title":"Foundations Course 143",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000144",
+    "program_id":"PRG-000044",
+    "code":"0144",
+    "title":"Foundations Course 144",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000145",
+    "program_id":"PRG-000045",
+    "code":"0145",
+    "title":"Foundations Course 145",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000146",
+    "program_id":"PRG-000046",
+    "code":"0146",
+    "title":"Foundations Course 146",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000147",
+    "program_id":"PRG-000047",
+    "code":"0147",
+    "title":"Foundations Course 147",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000148",
+    "program_id":"PRG-000048",
+    "code":"0148",
+    "title":"Foundations Course 148",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000149",
+    "program_id":"PRG-000049",
+    "code":"0149",
+    "title":"Foundations Course 149",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000150",
+    "program_id":"PRG-000050",
+    "code":"0150",
+    "title":"Foundations Course 150",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000151",
+    "program_id":"PRG-000051",
+    "code":"0151",
+    "title":"Foundations Course 151",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000152",
+    "program_id":"PRG-000052",
+    "code":"0152",
+    "title":"Foundations Course 152",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000153",
+    "program_id":"PRG-000053",
+    "code":"0153",
+    "title":"Foundations Course 153",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000154",
+    "program_id":"PRG-000054",
+    "code":"0154",
+    "title":"Foundations Course 154",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000155",
+    "program_id":"PRG-000055",
+    "code":"0155",
+    "title":"Foundations Course 155",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000156",
+    "program_id":"PRG-000056",
+    "code":"0156",
+    "title":"Foundations Course 156",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000157",
+    "program_id":"PRG-000057",
+    "code":"0157",
+    "title":"Foundations Course 157",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000158",
+    "program_id":"PRG-000058",
+    "code":"0158",
+    "title":"Foundations Course 158",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000159",
+    "program_id":"PRG-000059",
+    "code":"0159",
+    "title":"Foundations Course 159",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000160",
+    "program_id":"PRG-000060",
+    "code":"0160",
+    "title":"Foundations Course 160",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000161",
+    "program_id":"PRG-000061",
+    "code":"0161",
+    "title":"Foundations Course 161",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000162",
+    "program_id":"PRG-000062",
+    "code":"0162",
+    "title":"Foundations Course 162",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000163",
+    "program_id":"PRG-000063",
+    "code":"0163",
+    "title":"Foundations Course 163",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000164",
+    "program_id":"PRG-000064",
+    "code":"0164",
+    "title":"Foundations Course 164",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000165",
+    "program_id":"PRG-000065",
+    "code":"0165",
+    "title":"Foundations Course 165",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000166",
+    "program_id":"PRG-000066",
+    "code":"0166",
+    "title":"Foundations Course 166",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000167",
+    "program_id":"PRG-000067",
+    "code":"0167",
+    "title":"Foundations Course 167",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000168",
+    "program_id":"PRG-000068",
+    "code":"0168",
+    "title":"Foundations Course 168",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000169",
+    "program_id":"PRG-000069",
+    "code":"0169",
+    "title":"Foundations Course 169",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000170",
+    "program_id":"PRG-000070",
+    "code":"0170",
+    "title":"Foundations Course 170",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000171",
+    "program_id":"PRG-000071",
+    "code":"0171",
+    "title":"Foundations Course 171",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000172",
+    "program_id":"PRG-000072",
+    "code":"0172",
+    "title":"Foundations Course 172",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000173",
+    "program_id":"PRG-000073",
+    "code":"0173",
+    "title":"Foundations Course 173",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000174",
+    "program_id":"PRG-000074",
+    "code":"0174",
+    "title":"Foundations Course 174",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000175",
+    "program_id":"PRG-000075",
+    "code":"0175",
+    "title":"Foundations Course 175",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000176",
+    "program_id":"PRG-000076",
+    "code":"0176",
+    "title":"Foundations Course 176",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000177",
+    "program_id":"PRG-000077",
+    "code":"0177",
+    "title":"Foundations Course 177",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000178",
+    "program_id":"PRG-000078",
+    "code":"0178",
+    "title":"Foundations Course 178",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000179",
+    "program_id":"PRG-000079",
+    "code":"0179",
+    "title":"Foundations Course 179",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000180",
+    "program_id":"PRG-000080",
+    "code":"0180",
+    "title":"Foundations Course 180",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000181",
+    "program_id":"PRG-000081",
+    "code":"0181",
+    "title":"Foundations Course 181",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000182",
+    "program_id":"PRG-000082",
+    "code":"0182",
+    "title":"Foundations Course 182",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000183",
+    "program_id":"PRG-000083",
+    "code":"0183",
+    "title":"Foundations Course 183",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000184",
+    "program_id":"PRG-000084",
+    "code":"0184",
+    "title":"Foundations Course 184",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000185",
+    "program_id":"PRG-000085",
+    "code":"0185",
+    "title":"Foundations Course 185",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000186",
+    "program_id":"PRG-000086",
+    "code":"0186",
+    "title":"Foundations Course 186",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000187",
+    "program_id":"PRG-000087",
+    "code":"0187",
+    "title":"Foundations Course 187",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000188",
+    "program_id":"PRG-000088",
+    "code":"0188",
+    "title":"Foundations Course 188",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000189",
+    "program_id":"PRG-000089",
+    "code":"0189",
+    "title":"Foundations Course 189",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000190",
+    "program_id":"PRG-000090",
+    "code":"0190",
+    "title":"Foundations Course 190",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000191",
+    "program_id":"PRG-000091",
+    "code":"0191",
+    "title":"Foundations Course 191",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000192",
+    "program_id":"PRG-000092",
+    "code":"0192",
+    "title":"Foundations Course 192",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000193",
+    "program_id":"PRG-000093",
+    "code":"0193",
+    "title":"Foundations Course 193",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000194",
+    "program_id":"PRG-000094",
+    "code":"0194",
+    "title":"Foundations Course 194",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000195",
+    "program_id":"PRG-000095",
+    "code":"0195",
+    "title":"Foundations Course 195",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000196",
+    "program_id":"PRG-000096",
+    "code":"0196",
+    "title":"Foundations Course 196",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000197",
+    "program_id":"PRG-000097",
+    "code":"0197",
+    "title":"Foundations Course 197",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000198",
+    "program_id":"PRG-000098",
+    "code":"0198",
+    "title":"Foundations Course 198",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000199",
+    "program_id":"PRG-000099",
+    "code":"0199",
+    "title":"Foundations Course 199",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000200",
+    "program_id":"PRG-000100",
+    "code":"0200",
+    "title":"Foundations Course 200",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000201",
+    "program_id":"PRG-000001",
+    "code":"0201",
+    "title":"Foundations Course 201",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000202",
+    "program_id":"PRG-000002",
+    "code":"0202",
+    "title":"Foundations Course 202",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000203",
+    "program_id":"PRG-000003",
+    "code":"0203",
+    "title":"Foundations Course 203",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000204",
+    "program_id":"PRG-000004",
+    "code":"0204",
+    "title":"Foundations Course 204",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000205",
+    "program_id":"PRG-000005",
+    "code":"0205",
+    "title":"Foundations Course 205",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000206",
+    "program_id":"PRG-000006",
+    "code":"0206",
+    "title":"Foundations Course 206",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000207",
+    "program_id":"PRG-000007",
+    "code":"0207",
+    "title":"Foundations Course 207",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000208",
+    "program_id":"PRG-000008",
+    "code":"0208",
+    "title":"Foundations Course 208",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000209",
+    "program_id":"PRG-000009",
+    "code":"0209",
+    "title":"Foundations Course 209",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000210",
+    "program_id":"PRG-000010",
+    "code":"0210",
+    "title":"Foundations Course 210",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000211",
+    "program_id":"PRG-000011",
+    "code":"0211",
+    "title":"Foundations Course 211",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000212",
+    "program_id":"PRG-000012",
+    "code":"0212",
+    "title":"Foundations Course 212",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000213",
+    "program_id":"PRG-000013",
+    "code":"0213",
+    "title":"Foundations Course 213",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000214",
+    "program_id":"PRG-000014",
+    "code":"0214",
+    "title":"Foundations Course 214",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000215",
+    "program_id":"PRG-000015",
+    "code":"0215",
+    "title":"Foundations Course 215",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000216",
+    "program_id":"PRG-000016",
+    "code":"0216",
+    "title":"Foundations Course 216",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000217",
+    "program_id":"PRG-000017",
+    "code":"0217",
+    "title":"Foundations Course 217",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000218",
+    "program_id":"PRG-000018",
+    "code":"0218",
+    "title":"Foundations Course 218",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000219",
+    "program_id":"PRG-000019",
+    "code":"0219",
+    "title":"Foundations Course 219",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000220",
+    "program_id":"PRG-000020",
+    "code":"0220",
+    "title":"Foundations Course 220",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000221",
+    "program_id":"PRG-000021",
+    "code":"0221",
+    "title":"Foundations Course 221",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000222",
+    "program_id":"PRG-000022",
+    "code":"0222",
+    "title":"Foundations Course 222",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000223",
+    "program_id":"PRG-000023",
+    "code":"0223",
+    "title":"Foundations Course 223",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000224",
+    "program_id":"PRG-000024",
+    "code":"0224",
+    "title":"Foundations Course 224",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000225",
+    "program_id":"PRG-000025",
+    "code":"0225",
+    "title":"Foundations Course 225",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000226",
+    "program_id":"PRG-000026",
+    "code":"0226",
+    "title":"Foundations Course 226",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000227",
+    "program_id":"PRG-000027",
+    "code":"0227",
+    "title":"Foundations Course 227",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000228",
+    "program_id":"PRG-000028",
+    "code":"0228",
+    "title":"Foundations Course 228",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000229",
+    "program_id":"PRG-000029",
+    "code":"0229",
+    "title":"Foundations Course 229",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000230",
+    "program_id":"PRG-000030",
+    "code":"0230",
+    "title":"Foundations Course 230",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000231",
+    "program_id":"PRG-000031",
+    "code":"0231",
+    "title":"Foundations Course 231",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000232",
+    "program_id":"PRG-000032",
+    "code":"0232",
+    "title":"Foundations Course 232",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000233",
+    "program_id":"PRG-000033",
+    "code":"0233",
+    "title":"Foundations Course 233",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000234",
+    "program_id":"PRG-000034",
+    "code":"0234",
+    "title":"Foundations Course 234",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000235",
+    "program_id":"PRG-000035",
+    "code":"0235",
+    "title":"Foundations Course 235",
+    "credits":4,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000236",
+    "program_id":"PRG-000036",
+    "code":"0236",
+    "title":"Foundations Course 236",
+    "credits":4,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000237",
+    "program_id":"PRG-000037",
+    "code":"0237",
+    "title":"Foundations Course 237",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000238",
+    "program_id":"PRG-000038",
+    "code":"0238",
+    "title":"Foundations Course 238",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000239",
+    "program_id":"PRG-000039",
+    "code":"0239",
+    "title":"Foundations Course 239",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000240",
+    "program_id":"PRG-000040",
+    "code":"0240",
+    "title":"Foundations Course 240",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000241",
+    "program_id":"PRG-000041",
+    "code":"0241",
+    "title":"Foundations Course 241",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000242",
+    "program_id":"PRG-000042",
+    "code":"0242",
+    "title":"Foundations Course 242",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000243",
+    "program_id":"PRG-000043",
+    "code":"0243",
+    "title":"Foundations Course 243",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000244",
+    "program_id":"PRG-000044",
+    "code":"0244",
+    "title":"Foundations Course 244",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000245",
+    "program_id":"PRG-000045",
+    "code":"0245",
+    "title":"Foundations Course 245",
+    "credits":2,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000246",
+    "program_id":"PRG-000046",
+    "code":"0246",
+    "title":"Foundations Course 246",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000247",
+    "program_id":"PRG-000047",
+    "code":"0247",
+    "title":"Foundations Course 247",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000248",
+    "program_id":"PRG-000048",
+    "code":"0248",
+    "title":"Foundations Course 248",
+    "credits":2,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000249",
+    "program_id":"PRG-000049",
+    "code":"0249",
+    "title":"Foundations Course 249",
+    "credits":3,
+    "course_level":1,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000250",
+    "program_id":"PRG-000050",
+    "code":"0250",
+    "title":"Foundations Course 250",
+    "credits":3,
+    "course_level":1,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000251",
+    "program_id":"PRG-000051",
+    "code":"0251",
+    "title":"Applied Course 251",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000252",
+    "program_id":"PRG-000052",
+    "code":"0252",
+    "title":"Applied Course 252",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000253",
+    "program_id":"PRG-000053",
+    "code":"0253",
+    "title":"Applied Course 253",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000254",
+    "program_id":"PRG-000054",
+    "code":"0254",
+    "title":"Applied Course 254",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000255",
+    "program_id":"PRG-000055",
+    "code":"0255",
+    "title":"Applied Course 255",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000256",
+    "program_id":"PRG-000056",
+    "code":"0256",
+    "title":"Applied Course 256",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000257",
+    "program_id":"PRG-000057",
+    "code":"0257",
+    "title":"Applied Course 257",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000258",
+    "program_id":"PRG-000058",
+    "code":"0258",
+    "title":"Applied Course 258",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000259",
+    "program_id":"PRG-000059",
+    "code":"0259",
+    "title":"Applied Course 259",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000260",
+    "program_id":"PRG-000060",
+    "code":"0260",
+    "title":"Applied Course 260",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000261",
+    "program_id":"PRG-000061",
+    "code":"0261",
+    "title":"Applied Course 261",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000262",
+    "program_id":"PRG-000062",
+    "code":"0262",
+    "title":"Applied Course 262",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000263",
+    "program_id":"PRG-000063",
+    "code":"0263",
+    "title":"Applied Course 263",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000264",
+    "program_id":"PRG-000064",
+    "code":"0264",
+    "title":"Applied Course 264",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000265",
+    "program_id":"PRG-000065",
+    "code":"0265",
+    "title":"Applied Course 265",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000266",
+    "program_id":"PRG-000066",
+    "code":"0266",
+    "title":"Applied Course 266",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000267",
+    "program_id":"PRG-000067",
+    "code":"0267",
+    "title":"Applied Course 267",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000268",
+    "program_id":"PRG-000068",
+    "code":"0268",
+    "title":"Applied Course 268",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000269",
+    "program_id":"PRG-000069",
+    "code":"0269",
+    "title":"Applied Course 269",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000270",
+    "program_id":"PRG-000070",
+    "code":"0270",
+    "title":"Applied Course 270",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000271",
+    "program_id":"PRG-000071",
+    "code":"0271",
+    "title":"Applied Course 271",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000272",
+    "program_id":"PRG-000072",
+    "code":"0272",
+    "title":"Applied Course 272",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000273",
+    "program_id":"PRG-000073",
+    "code":"0273",
+    "title":"Applied Course 273",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000274",
+    "program_id":"PRG-000074",
+    "code":"0274",
+    "title":"Applied Course 274",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000275",
+    "program_id":"PRG-000075",
+    "code":"0275",
+    "title":"Applied Course 275",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000276",
+    "program_id":"PRG-000076",
+    "code":"0276",
+    "title":"Applied Course 276",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000277",
+    "program_id":"PRG-000077",
+    "code":"0277",
+    "title":"Applied Course 277",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000278",
+    "program_id":"PRG-000078",
+    "code":"0278",
+    "title":"Applied Course 278",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000279",
+    "program_id":"PRG-000079",
+    "code":"0279",
+    "title":"Applied Course 279",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000280",
+    "program_id":"PRG-000080",
+    "code":"0280",
+    "title":"Applied Course 280",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000281",
+    "program_id":"PRG-000081",
+    "code":"0281",
+    "title":"Applied Course 281",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000282",
+    "program_id":"PRG-000082",
+    "code":"0282",
+    "title":"Applied Course 282",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000283",
+    "program_id":"PRG-000083",
+    "code":"0283",
+    "title":"Applied Course 283",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000284",
+    "program_id":"PRG-000084",
+    "code":"0284",
+    "title":"Applied Course 284",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000285",
+    "program_id":"PRG-000085",
+    "code":"0285",
+    "title":"Applied Course 285",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000286",
+    "program_id":"PRG-000086",
+    "code":"0286",
+    "title":"Applied Course 286",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000287",
+    "program_id":"PRG-000087",
+    "code":"0287",
+    "title":"Applied Course 287",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000288",
+    "program_id":"PRG-000088",
+    "code":"0288",
+    "title":"Applied Course 288",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000289",
+    "program_id":"PRG-000089",
+    "code":"0289",
+    "title":"Applied Course 289",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000290",
+    "program_id":"PRG-000090",
+    "code":"0290",
+    "title":"Applied Course 290",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000291",
+    "program_id":"PRG-000091",
+    "code":"0291",
+    "title":"Applied Course 291",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000292",
+    "program_id":"PRG-000092",
+    "code":"0292",
+    "title":"Applied Course 292",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000293",
+    "program_id":"PRG-000093",
+    "code":"0293",
+    "title":"Applied Course 293",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000294",
+    "program_id":"PRG-000094",
+    "code":"0294",
+    "title":"Applied Course 294",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000295",
+    "program_id":"PRG-000095",
+    "code":"0295",
+    "title":"Applied Course 295",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000296",
+    "program_id":"PRG-000096",
+    "code":"0296",
+    "title":"Applied Course 296",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000297",
+    "program_id":"PRG-000097",
+    "code":"0297",
+    "title":"Applied Course 297",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000298",
+    "program_id":"PRG-000098",
+    "code":"0298",
+    "title":"Applied Course 298",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000299",
+    "program_id":"PRG-000099",
+    "code":"0299",
+    "title":"Applied Course 299",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000300",
+    "program_id":"PRG-000100",
+    "code":"0300",
+    "title":"Applied Course 300",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000301",
+    "program_id":"PRG-000001",
+    "code":"0301",
+    "title":"Applied Course 301",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000302",
+    "program_id":"PRG-000002",
+    "code":"0302",
+    "title":"Applied Course 302",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000303",
+    "program_id":"PRG-000003",
+    "code":"0303",
+    "title":"Applied Course 303",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000304",
+    "program_id":"PRG-000004",
+    "code":"0304",
+    "title":"Applied Course 304",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000305",
+    "program_id":"PRG-000005",
+    "code":"0305",
+    "title":"Applied Course 305",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000306",
+    "program_id":"PRG-000006",
+    "code":"0306",
+    "title":"Applied Course 306",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000307",
+    "program_id":"PRG-000007",
+    "code":"0307",
+    "title":"Applied Course 307",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000308",
+    "program_id":"PRG-000008",
+    "code":"0308",
+    "title":"Applied Course 308",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000309",
+    "program_id":"PRG-000009",
+    "code":"0309",
+    "title":"Applied Course 309",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000310",
+    "program_id":"PRG-000010",
+    "code":"0310",
+    "title":"Applied Course 310",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000311",
+    "program_id":"PRG-000011",
+    "code":"0311",
+    "title":"Applied Course 311",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000312",
+    "program_id":"PRG-000012",
+    "code":"0312",
+    "title":"Applied Course 312",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000313",
+    "program_id":"PRG-000013",
+    "code":"0313",
+    "title":"Applied Course 313",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000314",
+    "program_id":"PRG-000014",
+    "code":"0314",
+    "title":"Applied Course 314",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000315",
+    "program_id":"PRG-000015",
+    "code":"0315",
+    "title":"Applied Course 315",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000316",
+    "program_id":"PRG-000016",
+    "code":"0316",
+    "title":"Applied Course 316",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000317",
+    "program_id":"PRG-000017",
+    "code":"0317",
+    "title":"Applied Course 317",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000318",
+    "program_id":"PRG-000018",
+    "code":"0318",
+    "title":"Applied Course 318",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000319",
+    "program_id":"PRG-000019",
+    "code":"0319",
+    "title":"Applied Course 319",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000320",
+    "program_id":"PRG-000020",
+    "code":"0320",
+    "title":"Applied Course 320",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000321",
+    "program_id":"PRG-000021",
+    "code":"0321",
+    "title":"Applied Course 321",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000322",
+    "program_id":"PRG-000022",
+    "code":"0322",
+    "title":"Applied Course 322",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000323",
+    "program_id":"PRG-000023",
+    "code":"0323",
+    "title":"Applied Course 323",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000324",
+    "program_id":"PRG-000024",
+    "code":"0324",
+    "title":"Applied Course 324",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000325",
+    "program_id":"PRG-000025",
+    "code":"0325",
+    "title":"Applied Course 325",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000326",
+    "program_id":"PRG-000026",
+    "code":"0326",
+    "title":"Applied Course 326",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000327",
+    "program_id":"PRG-000027",
+    "code":"0327",
+    "title":"Applied Course 327",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000328",
+    "program_id":"PRG-000028",
+    "code":"0328",
+    "title":"Applied Course 328",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000329",
+    "program_id":"PRG-000029",
+    "code":"0329",
+    "title":"Applied Course 329",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000330",
+    "program_id":"PRG-000030",
+    "code":"0330",
+    "title":"Applied Course 330",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000331",
+    "program_id":"PRG-000031",
+    "code":"0331",
+    "title":"Applied Course 331",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000332",
+    "program_id":"PRG-000032",
+    "code":"0332",
+    "title":"Applied Course 332",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000333",
+    "program_id":"PRG-000033",
+    "code":"0333",
+    "title":"Applied Course 333",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000334",
+    "program_id":"PRG-000034",
+    "code":"0334",
+    "title":"Applied Course 334",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000335",
+    "program_id":"PRG-000035",
+    "code":"0335",
+    "title":"Applied Course 335",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000336",
+    "program_id":"PRG-000036",
+    "code":"0336",
+    "title":"Applied Course 336",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000337",
+    "program_id":"PRG-000037",
+    "code":"0337",
+    "title":"Applied Course 337",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000338",
+    "program_id":"PRG-000038",
+    "code":"0338",
+    "title":"Applied Course 338",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000339",
+    "program_id":"PRG-000039",
+    "code":"0339",
+    "title":"Applied Course 339",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000340",
+    "program_id":"PRG-000040",
+    "code":"0340",
+    "title":"Applied Course 340",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000341",
+    "program_id":"PRG-000041",
+    "code":"0341",
+    "title":"Applied Course 341",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000342",
+    "program_id":"PRG-000042",
+    "code":"0342",
+    "title":"Applied Course 342",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000343",
+    "program_id":"PRG-000043",
+    "code":"0343",
+    "title":"Applied Course 343",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000344",
+    "program_id":"PRG-000044",
+    "code":"0344",
+    "title":"Applied Course 344",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000345",
+    "program_id":"PRG-000045",
+    "code":"0345",
+    "title":"Applied Course 345",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000346",
+    "program_id":"PRG-000046",
+    "code":"0346",
+    "title":"Applied Course 346",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000347",
+    "program_id":"PRG-000047",
+    "code":"0347",
+    "title":"Applied Course 347",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000348",
+    "program_id":"PRG-000048",
+    "code":"0348",
+    "title":"Applied Course 348",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000349",
+    "program_id":"PRG-000049",
+    "code":"0349",
+    "title":"Applied Course 349",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000350",
+    "program_id":"PRG-000050",
+    "code":"0350",
+    "title":"Applied Course 350",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000351",
+    "program_id":"PRG-000051",
+    "code":"0351",
+    "title":"Applied Course 351",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000352",
+    "program_id":"PRG-000052",
+    "code":"0352",
+    "title":"Applied Course 352",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000353",
+    "program_id":"PRG-000053",
+    "code":"0353",
+    "title":"Applied Course 353",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000354",
+    "program_id":"PRG-000054",
+    "code":"0354",
+    "title":"Applied Course 354",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000355",
+    "program_id":"PRG-000055",
+    "code":"0355",
+    "title":"Applied Course 355",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000356",
+    "program_id":"PRG-000056",
+    "code":"0356",
+    "title":"Applied Course 356",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000357",
+    "program_id":"PRG-000057",
+    "code":"0357",
+    "title":"Applied Course 357",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000358",
+    "program_id":"PRG-000058",
+    "code":"0358",
+    "title":"Applied Course 358",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000359",
+    "program_id":"PRG-000059",
+    "code":"0359",
+    "title":"Applied Course 359",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000360",
+    "program_id":"PRG-000060",
+    "code":"0360",
+    "title":"Applied Course 360",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000361",
+    "program_id":"PRG-000061",
+    "code":"0361",
+    "title":"Applied Course 361",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000362",
+    "program_id":"PRG-000062",
+    "code":"0362",
+    "title":"Applied Course 362",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000363",
+    "program_id":"PRG-000063",
+    "code":"0363",
+    "title":"Applied Course 363",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000364",
+    "program_id":"PRG-000064",
+    "code":"0364",
+    "title":"Applied Course 364",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000365",
+    "program_id":"PRG-000065",
+    "code":"0365",
+    "title":"Applied Course 365",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000366",
+    "program_id":"PRG-000066",
+    "code":"0366",
+    "title":"Applied Course 366",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000367",
+    "program_id":"PRG-000067",
+    "code":"0367",
+    "title":"Applied Course 367",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000368",
+    "program_id":"PRG-000068",
+    "code":"0368",
+    "title":"Applied Course 368",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000369",
+    "program_id":"PRG-000069",
+    "code":"0369",
+    "title":"Applied Course 369",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000370",
+    "program_id":"PRG-000070",
+    "code":"0370",
+    "title":"Applied Course 370",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000371",
+    "program_id":"PRG-000071",
+    "code":"0371",
+    "title":"Applied Course 371",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000372",
+    "program_id":"PRG-000072",
+    "code":"0372",
+    "title":"Applied Course 372",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000373",
+    "program_id":"PRG-000073",
+    "code":"0373",
+    "title":"Applied Course 373",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000374",
+    "program_id":"PRG-000074",
+    "code":"0374",
+    "title":"Applied Course 374",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000375",
+    "program_id":"PRG-000075",
+    "code":"0375",
+    "title":"Applied Course 375",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000376",
+    "program_id":"PRG-000076",
+    "code":"0376",
+    "title":"Applied Course 376",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000377",
+    "program_id":"PRG-000077",
+    "code":"0377",
+    "title":"Applied Course 377",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000378",
+    "program_id":"PRG-000078",
+    "code":"0378",
+    "title":"Applied Course 378",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000379",
+    "program_id":"PRG-000079",
+    "code":"0379",
+    "title":"Applied Course 379",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000380",
+    "program_id":"PRG-000080",
+    "code":"0380",
+    "title":"Applied Course 380",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000381",
+    "program_id":"PRG-000081",
+    "code":"0381",
+    "title":"Applied Course 381",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000382",
+    "program_id":"PRG-000082",
+    "code":"0382",
+    "title":"Applied Course 382",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000383",
+    "program_id":"PRG-000083",
+    "code":"0383",
+    "title":"Applied Course 383",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000384",
+    "program_id":"PRG-000084",
+    "code":"0384",
+    "title":"Applied Course 384",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000385",
+    "program_id":"PRG-000085",
+    "code":"0385",
+    "title":"Applied Course 385",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000386",
+    "program_id":"PRG-000086",
+    "code":"0386",
+    "title":"Applied Course 386",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000387",
+    "program_id":"PRG-000087",
+    "code":"0387",
+    "title":"Applied Course 387",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000388",
+    "program_id":"PRG-000088",
+    "code":"0388",
+    "title":"Applied Course 388",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000389",
+    "program_id":"PRG-000089",
+    "code":"0389",
+    "title":"Applied Course 389",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000390",
+    "program_id":"PRG-000090",
+    "code":"0390",
+    "title":"Applied Course 390",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000391",
+    "program_id":"PRG-000091",
+    "code":"0391",
+    "title":"Applied Course 391",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000392",
+    "program_id":"PRG-000092",
+    "code":"0392",
+    "title":"Applied Course 392",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000393",
+    "program_id":"PRG-000093",
+    "code":"0393",
+    "title":"Applied Course 393",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000394",
+    "program_id":"PRG-000094",
+    "code":"0394",
+    "title":"Applied Course 394",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000395",
+    "program_id":"PRG-000095",
+    "code":"0395",
+    "title":"Applied Course 395",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000396",
+    "program_id":"PRG-000096",
+    "code":"0396",
+    "title":"Applied Course 396",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000397",
+    "program_id":"PRG-000097",
+    "code":"0397",
+    "title":"Applied Course 397",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000398",
+    "program_id":"PRG-000098",
+    "code":"0398",
+    "title":"Applied Course 398",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000399",
+    "program_id":"PRG-000099",
+    "code":"0399",
+    "title":"Applied Course 399",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000400",
+    "program_id":"PRG-000100",
+    "code":"0400",
+    "title":"Applied Course 400",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000401",
+    "program_id":"PRG-000001",
+    "code":"0401",
+    "title":"Applied Course 401",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000402",
+    "program_id":"PRG-000002",
+    "code":"0402",
+    "title":"Applied Course 402",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000403",
+    "program_id":"PRG-000003",
+    "code":"0403",
+    "title":"Applied Course 403",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000404",
+    "program_id":"PRG-000004",
+    "code":"0404",
+    "title":"Applied Course 404",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000405",
+    "program_id":"PRG-000005",
+    "code":"0405",
+    "title":"Applied Course 405",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000406",
+    "program_id":"PRG-000006",
+    "code":"0406",
+    "title":"Applied Course 406",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000407",
+    "program_id":"PRG-000007",
+    "code":"0407",
+    "title":"Applied Course 407",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000408",
+    "program_id":"PRG-000008",
+    "code":"0408",
+    "title":"Applied Course 408",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000409",
+    "program_id":"PRG-000009",
+    "code":"0409",
+    "title":"Applied Course 409",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000410",
+    "program_id":"PRG-000010",
+    "code":"0410",
+    "title":"Applied Course 410",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000411",
+    "program_id":"PRG-000011",
+    "code":"0411",
+    "title":"Applied Course 411",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000412",
+    "program_id":"PRG-000012",
+    "code":"0412",
+    "title":"Applied Course 412",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000413",
+    "program_id":"PRG-000013",
+    "code":"0413",
+    "title":"Applied Course 413",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000414",
+    "program_id":"PRG-000014",
+    "code":"0414",
+    "title":"Applied Course 414",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000415",
+    "program_id":"PRG-000015",
+    "code":"0415",
+    "title":"Applied Course 415",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000416",
+    "program_id":"PRG-000016",
+    "code":"0416",
+    "title":"Applied Course 416",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000417",
+    "program_id":"PRG-000017",
+    "code":"0417",
+    "title":"Applied Course 417",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000418",
+    "program_id":"PRG-000018",
+    "code":"0418",
+    "title":"Applied Course 418",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000419",
+    "program_id":"PRG-000019",
+    "code":"0419",
+    "title":"Applied Course 419",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000420",
+    "program_id":"PRG-000020",
+    "code":"0420",
+    "title":"Applied Course 420",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000421",
+    "program_id":"PRG-000021",
+    "code":"0421",
+    "title":"Applied Course 421",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000422",
+    "program_id":"PRG-000022",
+    "code":"0422",
+    "title":"Applied Course 422",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000423",
+    "program_id":"PRG-000023",
+    "code":"0423",
+    "title":"Applied Course 423",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000424",
+    "program_id":"PRG-000024",
+    "code":"0424",
+    "title":"Applied Course 424",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000425",
+    "program_id":"PRG-000025",
+    "code":"0425",
+    "title":"Applied Course 425",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000426",
+    "program_id":"PRG-000026",
+    "code":"0426",
+    "title":"Applied Course 426",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000427",
+    "program_id":"PRG-000027",
+    "code":"0427",
+    "title":"Applied Course 427",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000428",
+    "program_id":"PRG-000028",
+    "code":"0428",
+    "title":"Applied Course 428",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000429",
+    "program_id":"PRG-000029",
+    "code":"0429",
+    "title":"Applied Course 429",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000430",
+    "program_id":"PRG-000030",
+    "code":"0430",
+    "title":"Applied Course 430",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000431",
+    "program_id":"PRG-000031",
+    "code":"0431",
+    "title":"Applied Course 431",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000432",
+    "program_id":"PRG-000032",
+    "code":"0432",
+    "title":"Applied Course 432",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000433",
+    "program_id":"PRG-000033",
+    "code":"0433",
+    "title":"Applied Course 433",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000434",
+    "program_id":"PRG-000034",
+    "code":"0434",
+    "title":"Applied Course 434",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000435",
+    "program_id":"PRG-000035",
+    "code":"0435",
+    "title":"Applied Course 435",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000436",
+    "program_id":"PRG-000036",
+    "code":"0436",
+    "title":"Applied Course 436",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000437",
+    "program_id":"PRG-000037",
+    "code":"0437",
+    "title":"Applied Course 437",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000438",
+    "program_id":"PRG-000038",
+    "code":"0438",
+    "title":"Applied Course 438",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000439",
+    "program_id":"PRG-000039",
+    "code":"0439",
+    "title":"Applied Course 439",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000440",
+    "program_id":"PRG-000040",
+    "code":"0440",
+    "title":"Applied Course 440",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000441",
+    "program_id":"PRG-000041",
+    "code":"0441",
+    "title":"Applied Course 441",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000442",
+    "program_id":"PRG-000042",
+    "code":"0442",
+    "title":"Applied Course 442",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000443",
+    "program_id":"PRG-000043",
+    "code":"0443",
+    "title":"Applied Course 443",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000444",
+    "program_id":"PRG-000044",
+    "code":"0444",
+    "title":"Applied Course 444",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000445",
+    "program_id":"PRG-000045",
+    "code":"0445",
+    "title":"Applied Course 445",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000446",
+    "program_id":"PRG-000046",
+    "code":"0446",
+    "title":"Applied Course 446",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000447",
+    "program_id":"PRG-000047",
+    "code":"0447",
+    "title":"Applied Course 447",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000448",
+    "program_id":"PRG-000048",
+    "code":"0448",
+    "title":"Applied Course 448",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000449",
+    "program_id":"PRG-000049",
+    "code":"0449",
+    "title":"Applied Course 449",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000450",
+    "program_id":"PRG-000050",
+    "code":"0450",
+    "title":"Applied Course 450",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000451",
+    "program_id":"PRG-000051",
+    "code":"0451",
+    "title":"Applied Course 451",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000452",
+    "program_id":"PRG-000052",
+    "code":"0452",
+    "title":"Applied Course 452",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000453",
+    "program_id":"PRG-000053",
+    "code":"0453",
+    "title":"Applied Course 453",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000454",
+    "program_id":"PRG-000054",
+    "code":"0454",
+    "title":"Applied Course 454",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000455",
+    "program_id":"PRG-000055",
+    "code":"0455",
+    "title":"Applied Course 455",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000456",
+    "program_id":"PRG-000056",
+    "code":"0456",
+    "title":"Applied Course 456",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000457",
+    "program_id":"PRG-000057",
+    "code":"0457",
+    "title":"Applied Course 457",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000458",
+    "program_id":"PRG-000058",
+    "code":"0458",
+    "title":"Applied Course 458",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000459",
+    "program_id":"PRG-000059",
+    "code":"0459",
+    "title":"Applied Course 459",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000460",
+    "program_id":"PRG-000060",
+    "code":"0460",
+    "title":"Applied Course 460",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000461",
+    "program_id":"PRG-000061",
+    "code":"0461",
+    "title":"Applied Course 461",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000462",
+    "program_id":"PRG-000062",
+    "code":"0462",
+    "title":"Applied Course 462",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000463",
+    "program_id":"PRG-000063",
+    "code":"0463",
+    "title":"Applied Course 463",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000464",
+    "program_id":"PRG-000064",
+    "code":"0464",
+    "title":"Applied Course 464",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000465",
+    "program_id":"PRG-000065",
+    "code":"0465",
+    "title":"Applied Course 465",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000466",
+    "program_id":"PRG-000066",
+    "code":"0466",
+    "title":"Applied Course 466",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000467",
+    "program_id":"PRG-000067",
+    "code":"0467",
+    "title":"Applied Course 467",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000468",
+    "program_id":"PRG-000068",
+    "code":"0468",
+    "title":"Applied Course 468",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000469",
+    "program_id":"PRG-000069",
+    "code":"0469",
+    "title":"Applied Course 469",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000470",
+    "program_id":"PRG-000070",
+    "code":"0470",
+    "title":"Applied Course 470",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000471",
+    "program_id":"PRG-000071",
+    "code":"0471",
+    "title":"Applied Course 471",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000472",
+    "program_id":"PRG-000072",
+    "code":"0472",
+    "title":"Applied Course 472",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000473",
+    "program_id":"PRG-000073",
+    "code":"0473",
+    "title":"Applied Course 473",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000474",
+    "program_id":"PRG-000074",
+    "code":"0474",
+    "title":"Applied Course 474",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000475",
+    "program_id":"PRG-000075",
+    "code":"0475",
+    "title":"Applied Course 475",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000476",
+    "program_id":"PRG-000076",
+    "code":"0476",
+    "title":"Applied Course 476",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000477",
+    "program_id":"PRG-000077",
+    "code":"0477",
+    "title":"Applied Course 477",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000478",
+    "program_id":"PRG-000078",
+    "code":"0478",
+    "title":"Applied Course 478",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000479",
+    "program_id":"PRG-000079",
+    "code":"0479",
+    "title":"Applied Course 479",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000480",
+    "program_id":"PRG-000080",
+    "code":"0480",
+    "title":"Applied Course 480",
+    "credits":4,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000481",
+    "program_id":"PRG-000081",
+    "code":"0481",
+    "title":"Applied Course 481",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000482",
+    "program_id":"PRG-000082",
+    "code":"0482",
+    "title":"Applied Course 482",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000483",
+    "program_id":"PRG-000083",
+    "code":"0483",
+    "title":"Applied Course 483",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000484",
+    "program_id":"PRG-000084",
+    "code":"0484",
+    "title":"Applied Course 484",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000485",
+    "program_id":"PRG-000085",
+    "code":"0485",
+    "title":"Applied Course 485",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000486",
+    "program_id":"PRG-000086",
+    "code":"0486",
+    "title":"Applied Course 486",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000487",
+    "program_id":"PRG-000087",
+    "code":"0487",
+    "title":"Applied Course 487",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000488",
+    "program_id":"PRG-000088",
+    "code":"0488",
+    "title":"Applied Course 488",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000489",
+    "program_id":"PRG-000089",
+    "code":"0489",
+    "title":"Applied Course 489",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000490",
+    "program_id":"PRG-000090",
+    "code":"0490",
+    "title":"Applied Course 490",
+    "credits":3,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000491",
+    "program_id":"PRG-000091",
+    "code":"0491",
+    "title":"Applied Course 491",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000492",
+    "program_id":"PRG-000092",
+    "code":"0492",
+    "title":"Applied Course 492",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000493",
+    "program_id":"PRG-000093",
+    "code":"0493",
+    "title":"Applied Course 493",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000494",
+    "program_id":"PRG-000094",
+    "code":"0494",
+    "title":"Applied Course 494",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000495",
+    "program_id":"PRG-000095",
+    "code":"0495",
+    "title":"Applied Course 495",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000496",
+    "program_id":"PRG-000096",
+    "code":"0496",
+    "title":"Applied Course 496",
+    "credits":2,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000497",
+    "program_id":"PRG-000097",
+    "code":"0497",
+    "title":"Applied Course 497",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000498",
+    "program_id":"PRG-000098",
+    "code":"0498",
+    "title":"Applied Course 498",
+    "credits":3,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000499",
+    "program_id":"PRG-000099",
+    "code":"0499",
+    "title":"Applied Course 499",
+    "credits":4,
+    "course_level":2,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000500",
+    "program_id":"PRG-000100",
+    "code":"0500",
+    "title":"Applied Course 500",
+    "credits":2,
+    "course_level":2,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000501",
+    "program_id":"PRG-000001",
+    "code":"0501",
+    "title":"Advanced Course 501",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000502",
+    "program_id":"PRG-000002",
+    "code":"0502",
+    "title":"Advanced Course 502",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000503",
+    "program_id":"PRG-000003",
+    "code":"0503",
+    "title":"Advanced Course 503",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000504",
+    "program_id":"PRG-000004",
+    "code":"0504",
+    "title":"Advanced Course 504",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000505",
+    "program_id":"PRG-000005",
+    "code":"0505",
+    "title":"Advanced Course 505",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000506",
+    "program_id":"PRG-000006",
+    "code":"0506",
+    "title":"Advanced Course 506",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000507",
+    "program_id":"PRG-000007",
+    "code":"0507",
+    "title":"Advanced Course 507",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000508",
+    "program_id":"PRG-000008",
+    "code":"0508",
+    "title":"Advanced Course 508",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000509",
+    "program_id":"PRG-000009",
+    "code":"0509",
+    "title":"Advanced Course 509",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000510",
+    "program_id":"PRG-000010",
+    "code":"0510",
+    "title":"Advanced Course 510",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000511",
+    "program_id":"PRG-000011",
+    "code":"0511",
+    "title":"Advanced Course 511",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000512",
+    "program_id":"PRG-000012",
+    "code":"0512",
+    "title":"Advanced Course 512",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000513",
+    "program_id":"PRG-000013",
+    "code":"0513",
+    "title":"Advanced Course 513",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000514",
+    "program_id":"PRG-000014",
+    "code":"0514",
+    "title":"Advanced Course 514",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000515",
+    "program_id":"PRG-000015",
+    "code":"0515",
+    "title":"Advanced Course 515",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000516",
+    "program_id":"PRG-000016",
+    "code":"0516",
+    "title":"Advanced Course 516",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000517",
+    "program_id":"PRG-000017",
+    "code":"0517",
+    "title":"Advanced Course 517",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000518",
+    "program_id":"PRG-000018",
+    "code":"0518",
+    "title":"Advanced Course 518",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000519",
+    "program_id":"PRG-000019",
+    "code":"0519",
+    "title":"Advanced Course 519",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000520",
+    "program_id":"PRG-000020",
+    "code":"0520",
+    "title":"Advanced Course 520",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000521",
+    "program_id":"PRG-000021",
+    "code":"0521",
+    "title":"Advanced Course 521",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000522",
+    "program_id":"PRG-000022",
+    "code":"0522",
+    "title":"Advanced Course 522",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000523",
+    "program_id":"PRG-000023",
+    "code":"0523",
+    "title":"Advanced Course 523",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000524",
+    "program_id":"PRG-000024",
+    "code":"0524",
+    "title":"Advanced Course 524",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000525",
+    "program_id":"PRG-000025",
+    "code":"0525",
+    "title":"Advanced Course 525",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000526",
+    "program_id":"PRG-000026",
+    "code":"0526",
+    "title":"Advanced Course 526",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000527",
+    "program_id":"PRG-000027",
+    "code":"0527",
+    "title":"Advanced Course 527",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000528",
+    "program_id":"PRG-000028",
+    "code":"0528",
+    "title":"Advanced Course 528",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000529",
+    "program_id":"PRG-000029",
+    "code":"0529",
+    "title":"Advanced Course 529",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000530",
+    "program_id":"PRG-000030",
+    "code":"0530",
+    "title":"Advanced Course 530",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000531",
+    "program_id":"PRG-000031",
+    "code":"0531",
+    "title":"Advanced Course 531",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000532",
+    "program_id":"PRG-000032",
+    "code":"0532",
+    "title":"Advanced Course 532",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000533",
+    "program_id":"PRG-000033",
+    "code":"0533",
+    "title":"Advanced Course 533",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000534",
+    "program_id":"PRG-000034",
+    "code":"0534",
+    "title":"Advanced Course 534",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000535",
+    "program_id":"PRG-000035",
+    "code":"0535",
+    "title":"Advanced Course 535",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000536",
+    "program_id":"PRG-000036",
+    "code":"0536",
+    "title":"Advanced Course 536",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000537",
+    "program_id":"PRG-000037",
+    "code":"0537",
+    "title":"Advanced Course 537",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000538",
+    "program_id":"PRG-000038",
+    "code":"0538",
+    "title":"Advanced Course 538",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000539",
+    "program_id":"PRG-000039",
+    "code":"0539",
+    "title":"Advanced Course 539",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000540",
+    "program_id":"PRG-000040",
+    "code":"0540",
+    "title":"Advanced Course 540",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000541",
+    "program_id":"PRG-000041",
+    "code":"0541",
+    "title":"Advanced Course 541",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000542",
+    "program_id":"PRG-000042",
+    "code":"0542",
+    "title":"Advanced Course 542",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000543",
+    "program_id":"PRG-000043",
+    "code":"0543",
+    "title":"Advanced Course 543",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000544",
+    "program_id":"PRG-000044",
+    "code":"0544",
+    "title":"Advanced Course 544",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000545",
+    "program_id":"PRG-000045",
+    "code":"0545",
+    "title":"Advanced Course 545",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000546",
+    "program_id":"PRG-000046",
+    "code":"0546",
+    "title":"Advanced Course 546",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000547",
+    "program_id":"PRG-000047",
+    "code":"0547",
+    "title":"Advanced Course 547",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000548",
+    "program_id":"PRG-000048",
+    "code":"0548",
+    "title":"Advanced Course 548",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000549",
+    "program_id":"PRG-000049",
+    "code":"0549",
+    "title":"Advanced Course 549",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000550",
+    "program_id":"PRG-000050",
+    "code":"0550",
+    "title":"Advanced Course 550",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000551",
+    "program_id":"PRG-000051",
+    "code":"0551",
+    "title":"Advanced Course 551",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000552",
+    "program_id":"PRG-000052",
+    "code":"0552",
+    "title":"Advanced Course 552",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000553",
+    "program_id":"PRG-000053",
+    "code":"0553",
+    "title":"Advanced Course 553",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000554",
+    "program_id":"PRG-000054",
+    "code":"0554",
+    "title":"Advanced Course 554",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000555",
+    "program_id":"PRG-000055",
+    "code":"0555",
+    "title":"Advanced Course 555",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000556",
+    "program_id":"PRG-000056",
+    "code":"0556",
+    "title":"Advanced Course 556",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000557",
+    "program_id":"PRG-000057",
+    "code":"0557",
+    "title":"Advanced Course 557",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000558",
+    "program_id":"PRG-000058",
+    "code":"0558",
+    "title":"Advanced Course 558",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000559",
+    "program_id":"PRG-000059",
+    "code":"0559",
+    "title":"Advanced Course 559",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000560",
+    "program_id":"PRG-000060",
+    "code":"0560",
+    "title":"Advanced Course 560",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000561",
+    "program_id":"PRG-000061",
+    "code":"0561",
+    "title":"Advanced Course 561",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000562",
+    "program_id":"PRG-000062",
+    "code":"0562",
+    "title":"Advanced Course 562",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000563",
+    "program_id":"PRG-000063",
+    "code":"0563",
+    "title":"Advanced Course 563",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000564",
+    "program_id":"PRG-000064",
+    "code":"0564",
+    "title":"Advanced Course 564",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000565",
+    "program_id":"PRG-000065",
+    "code":"0565",
+    "title":"Advanced Course 565",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000566",
+    "program_id":"PRG-000066",
+    "code":"0566",
+    "title":"Advanced Course 566",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000567",
+    "program_id":"PRG-000067",
+    "code":"0567",
+    "title":"Advanced Course 567",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000568",
+    "program_id":"PRG-000068",
+    "code":"0568",
+    "title":"Advanced Course 568",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000569",
+    "program_id":"PRG-000069",
+    "code":"0569",
+    "title":"Advanced Course 569",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000570",
+    "program_id":"PRG-000070",
+    "code":"0570",
+    "title":"Advanced Course 570",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000571",
+    "program_id":"PRG-000071",
+    "code":"0571",
+    "title":"Advanced Course 571",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000572",
+    "program_id":"PRG-000072",
+    "code":"0572",
+    "title":"Advanced Course 572",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000573",
+    "program_id":"PRG-000073",
+    "code":"0573",
+    "title":"Advanced Course 573",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000574",
+    "program_id":"PRG-000074",
+    "code":"0574",
+    "title":"Advanced Course 574",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000575",
+    "program_id":"PRG-000075",
+    "code":"0575",
+    "title":"Advanced Course 575",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000576",
+    "program_id":"PRG-000076",
+    "code":"0576",
+    "title":"Advanced Course 576",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000577",
+    "program_id":"PRG-000077",
+    "code":"0577",
+    "title":"Advanced Course 577",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000578",
+    "program_id":"PRG-000078",
+    "code":"0578",
+    "title":"Advanced Course 578",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000579",
+    "program_id":"PRG-000079",
+    "code":"0579",
+    "title":"Advanced Course 579",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000580",
+    "program_id":"PRG-000080",
+    "code":"0580",
+    "title":"Advanced Course 580",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000581",
+    "program_id":"PRG-000081",
+    "code":"0581",
+    "title":"Advanced Course 581",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000582",
+    "program_id":"PRG-000082",
+    "code":"0582",
+    "title":"Advanced Course 582",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000583",
+    "program_id":"PRG-000083",
+    "code":"0583",
+    "title":"Advanced Course 583",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000584",
+    "program_id":"PRG-000084",
+    "code":"0584",
+    "title":"Advanced Course 584",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000585",
+    "program_id":"PRG-000085",
+    "code":"0585",
+    "title":"Advanced Course 585",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000586",
+    "program_id":"PRG-000086",
+    "code":"0586",
+    "title":"Advanced Course 586",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000587",
+    "program_id":"PRG-000087",
+    "code":"0587",
+    "title":"Advanced Course 587",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000588",
+    "program_id":"PRG-000088",
+    "code":"0588",
+    "title":"Advanced Course 588",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000589",
+    "program_id":"PRG-000089",
+    "code":"0589",
+    "title":"Advanced Course 589",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000590",
+    "program_id":"PRG-000090",
+    "code":"0590",
+    "title":"Advanced Course 590",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000591",
+    "program_id":"PRG-000091",
+    "code":"0591",
+    "title":"Advanced Course 591",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000592",
+    "program_id":"PRG-000092",
+    "code":"0592",
+    "title":"Advanced Course 592",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000593",
+    "program_id":"PRG-000093",
+    "code":"0593",
+    "title":"Advanced Course 593",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000594",
+    "program_id":"PRG-000094",
+    "code":"0594",
+    "title":"Advanced Course 594",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000595",
+    "program_id":"PRG-000095",
+    "code":"0595",
+    "title":"Advanced Course 595",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000596",
+    "program_id":"PRG-000096",
+    "code":"0596",
+    "title":"Advanced Course 596",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000597",
+    "program_id":"PRG-000097",
+    "code":"0597",
+    "title":"Advanced Course 597",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000598",
+    "program_id":"PRG-000098",
+    "code":"0598",
+    "title":"Advanced Course 598",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000599",
+    "program_id":"PRG-000099",
+    "code":"0599",
+    "title":"Advanced Course 599",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000600",
+    "program_id":"PRG-000100",
+    "code":"0600",
+    "title":"Advanced Course 600",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000601",
+    "program_id":"PRG-000001",
+    "code":"0601",
+    "title":"Advanced Course 601",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000602",
+    "program_id":"PRG-000002",
+    "code":"0602",
+    "title":"Advanced Course 602",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000603",
+    "program_id":"PRG-000003",
+    "code":"0603",
+    "title":"Advanced Course 603",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000604",
+    "program_id":"PRG-000004",
+    "code":"0604",
+    "title":"Advanced Course 604",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000605",
+    "program_id":"PRG-000005",
+    "code":"0605",
+    "title":"Advanced Course 605",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000606",
+    "program_id":"PRG-000006",
+    "code":"0606",
+    "title":"Advanced Course 606",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000607",
+    "program_id":"PRG-000007",
+    "code":"0607",
+    "title":"Advanced Course 607",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000608",
+    "program_id":"PRG-000008",
+    "code":"0608",
+    "title":"Advanced Course 608",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000609",
+    "program_id":"PRG-000009",
+    "code":"0609",
+    "title":"Advanced Course 609",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000610",
+    "program_id":"PRG-000010",
+    "code":"0610",
+    "title":"Advanced Course 610",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000611",
+    "program_id":"PRG-000011",
+    "code":"0611",
+    "title":"Advanced Course 611",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000612",
+    "program_id":"PRG-000012",
+    "code":"0612",
+    "title":"Advanced Course 612",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000613",
+    "program_id":"PRG-000013",
+    "code":"0613",
+    "title":"Advanced Course 613",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000614",
+    "program_id":"PRG-000014",
+    "code":"0614",
+    "title":"Advanced Course 614",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000615",
+    "program_id":"PRG-000015",
+    "code":"0615",
+    "title":"Advanced Course 615",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000616",
+    "program_id":"PRG-000016",
+    "code":"0616",
+    "title":"Advanced Course 616",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000617",
+    "program_id":"PRG-000017",
+    "code":"0617",
+    "title":"Advanced Course 617",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000618",
+    "program_id":"PRG-000018",
+    "code":"0618",
+    "title":"Advanced Course 618",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000619",
+    "program_id":"PRG-000019",
+    "code":"0619",
+    "title":"Advanced Course 619",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000620",
+    "program_id":"PRG-000020",
+    "code":"0620",
+    "title":"Advanced Course 620",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000621",
+    "program_id":"PRG-000021",
+    "code":"0621",
+    "title":"Advanced Course 621",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000622",
+    "program_id":"PRG-000022",
+    "code":"0622",
+    "title":"Advanced Course 622",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000623",
+    "program_id":"PRG-000023",
+    "code":"0623",
+    "title":"Advanced Course 623",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000624",
+    "program_id":"PRG-000024",
+    "code":"0624",
+    "title":"Advanced Course 624",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000625",
+    "program_id":"PRG-000025",
+    "code":"0625",
+    "title":"Advanced Course 625",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000626",
+    "program_id":"PRG-000026",
+    "code":"0626",
+    "title":"Advanced Course 626",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000627",
+    "program_id":"PRG-000027",
+    "code":"0627",
+    "title":"Advanced Course 627",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000628",
+    "program_id":"PRG-000028",
+    "code":"0628",
+    "title":"Advanced Course 628",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000629",
+    "program_id":"PRG-000029",
+    "code":"0629",
+    "title":"Advanced Course 629",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000630",
+    "program_id":"PRG-000030",
+    "code":"0630",
+    "title":"Advanced Course 630",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000631",
+    "program_id":"PRG-000031",
+    "code":"0631",
+    "title":"Advanced Course 631",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000632",
+    "program_id":"PRG-000032",
+    "code":"0632",
+    "title":"Advanced Course 632",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000633",
+    "program_id":"PRG-000033",
+    "code":"0633",
+    "title":"Advanced Course 633",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000634",
+    "program_id":"PRG-000034",
+    "code":"0634",
+    "title":"Advanced Course 634",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000635",
+    "program_id":"PRG-000035",
+    "code":"0635",
+    "title":"Advanced Course 635",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000636",
+    "program_id":"PRG-000036",
+    "code":"0636",
+    "title":"Advanced Course 636",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000637",
+    "program_id":"PRG-000037",
+    "code":"0637",
+    "title":"Advanced Course 637",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000638",
+    "program_id":"PRG-000038",
+    "code":"0638",
+    "title":"Advanced Course 638",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000639",
+    "program_id":"PRG-000039",
+    "code":"0639",
+    "title":"Advanced Course 639",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000640",
+    "program_id":"PRG-000040",
+    "code":"0640",
+    "title":"Advanced Course 640",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000641",
+    "program_id":"PRG-000041",
+    "code":"0641",
+    "title":"Advanced Course 641",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000642",
+    "program_id":"PRG-000042",
+    "code":"0642",
+    "title":"Advanced Course 642",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000643",
+    "program_id":"PRG-000043",
+    "code":"0643",
+    "title":"Advanced Course 643",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000644",
+    "program_id":"PRG-000044",
+    "code":"0644",
+    "title":"Advanced Course 644",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000645",
+    "program_id":"PRG-000045",
+    "code":"0645",
+    "title":"Advanced Course 645",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000646",
+    "program_id":"PRG-000046",
+    "code":"0646",
+    "title":"Advanced Course 646",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000647",
+    "program_id":"PRG-000047",
+    "code":"0647",
+    "title":"Advanced Course 647",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000648",
+    "program_id":"PRG-000048",
+    "code":"0648",
+    "title":"Advanced Course 648",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000649",
+    "program_id":"PRG-000049",
+    "code":"0649",
+    "title":"Advanced Course 649",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000650",
+    "program_id":"PRG-000050",
+    "code":"0650",
+    "title":"Advanced Course 650",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000651",
+    "program_id":"PRG-000051",
+    "code":"0651",
+    "title":"Advanced Course 651",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000652",
+    "program_id":"PRG-000052",
+    "code":"0652",
+    "title":"Advanced Course 652",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000653",
+    "program_id":"PRG-000053",
+    "code":"0653",
+    "title":"Advanced Course 653",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000654",
+    "program_id":"PRG-000054",
+    "code":"0654",
+    "title":"Advanced Course 654",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000655",
+    "program_id":"PRG-000055",
+    "code":"0655",
+    "title":"Advanced Course 655",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000656",
+    "program_id":"PRG-000056",
+    "code":"0656",
+    "title":"Advanced Course 656",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000657",
+    "program_id":"PRG-000057",
+    "code":"0657",
+    "title":"Advanced Course 657",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000658",
+    "program_id":"PRG-000058",
+    "code":"0658",
+    "title":"Advanced Course 658",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000659",
+    "program_id":"PRG-000059",
+    "code":"0659",
+    "title":"Advanced Course 659",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000660",
+    "program_id":"PRG-000060",
+    "code":"0660",
+    "title":"Advanced Course 660",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000661",
+    "program_id":"PRG-000061",
+    "code":"0661",
+    "title":"Advanced Course 661",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000662",
+    "program_id":"PRG-000062",
+    "code":"0662",
+    "title":"Advanced Course 662",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000663",
+    "program_id":"PRG-000063",
+    "code":"0663",
+    "title":"Advanced Course 663",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000664",
+    "program_id":"PRG-000064",
+    "code":"0664",
+    "title":"Advanced Course 664",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000665",
+    "program_id":"PRG-000065",
+    "code":"0665",
+    "title":"Advanced Course 665",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000666",
+    "program_id":"PRG-000066",
+    "code":"0666",
+    "title":"Advanced Course 666",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000667",
+    "program_id":"PRG-000067",
+    "code":"0667",
+    "title":"Advanced Course 667",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000668",
+    "program_id":"PRG-000068",
+    "code":"0668",
+    "title":"Advanced Course 668",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000669",
+    "program_id":"PRG-000069",
+    "code":"0669",
+    "title":"Advanced Course 669",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000670",
+    "program_id":"PRG-000070",
+    "code":"0670",
+    "title":"Advanced Course 670",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000671",
+    "program_id":"PRG-000071",
+    "code":"0671",
+    "title":"Advanced Course 671",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000672",
+    "program_id":"PRG-000072",
+    "code":"0672",
+    "title":"Advanced Course 672",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000673",
+    "program_id":"PRG-000073",
+    "code":"0673",
+    "title":"Advanced Course 673",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000674",
+    "program_id":"PRG-000074",
+    "code":"0674",
+    "title":"Advanced Course 674",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000675",
+    "program_id":"PRG-000075",
+    "code":"0675",
+    "title":"Advanced Course 675",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000676",
+    "program_id":"PRG-000076",
+    "code":"0676",
+    "title":"Advanced Course 676",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000677",
+    "program_id":"PRG-000077",
+    "code":"0677",
+    "title":"Advanced Course 677",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000678",
+    "program_id":"PRG-000078",
+    "code":"0678",
+    "title":"Advanced Course 678",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000679",
+    "program_id":"PRG-000079",
+    "code":"0679",
+    "title":"Advanced Course 679",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000680",
+    "program_id":"PRG-000080",
+    "code":"0680",
+    "title":"Advanced Course 680",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000681",
+    "program_id":"PRG-000081",
+    "code":"0681",
+    "title":"Advanced Course 681",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000682",
+    "program_id":"PRG-000082",
+    "code":"0682",
+    "title":"Advanced Course 682",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000683",
+    "program_id":"PRG-000083",
+    "code":"0683",
+    "title":"Advanced Course 683",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000684",
+    "program_id":"PRG-000084",
+    "code":"0684",
+    "title":"Advanced Course 684",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000685",
+    "program_id":"PRG-000085",
+    "code":"0685",
+    "title":"Advanced Course 685",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000686",
+    "program_id":"PRG-000086",
+    "code":"0686",
+    "title":"Advanced Course 686",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000687",
+    "program_id":"PRG-000087",
+    "code":"0687",
+    "title":"Advanced Course 687",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000688",
+    "program_id":"PRG-000088",
+    "code":"0688",
+    "title":"Advanced Course 688",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000689",
+    "program_id":"PRG-000089",
+    "code":"0689",
+    "title":"Advanced Course 689",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000690",
+    "program_id":"PRG-000090",
+    "code":"0690",
+    "title":"Advanced Course 690",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000691",
+    "program_id":"PRG-000091",
+    "code":"0691",
+    "title":"Advanced Course 691",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000692",
+    "program_id":"PRG-000092",
+    "code":"0692",
+    "title":"Advanced Course 692",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000693",
+    "program_id":"PRG-000093",
+    "code":"0693",
+    "title":"Advanced Course 693",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000694",
+    "program_id":"PRG-000094",
+    "code":"0694",
+    "title":"Advanced Course 694",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000695",
+    "program_id":"PRG-000095",
+    "code":"0695",
+    "title":"Advanced Course 695",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000696",
+    "program_id":"PRG-000096",
+    "code":"0696",
+    "title":"Advanced Course 696",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000697",
+    "program_id":"PRG-000097",
+    "code":"0697",
+    "title":"Advanced Course 697",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000698",
+    "program_id":"PRG-000098",
+    "code":"0698",
+    "title":"Advanced Course 698",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000699",
+    "program_id":"PRG-000099",
+    "code":"0699",
+    "title":"Advanced Course 699",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000700",
+    "program_id":"PRG-000100",
+    "code":"0700",
+    "title":"Advanced Course 700",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000701",
+    "program_id":"PRG-000001",
+    "code":"0701",
+    "title":"Advanced Course 701",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000702",
+    "program_id":"PRG-000002",
+    "code":"0702",
+    "title":"Advanced Course 702",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000703",
+    "program_id":"PRG-000003",
+    "code":"0703",
+    "title":"Advanced Course 703",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000704",
+    "program_id":"PRG-000004",
+    "code":"0704",
+    "title":"Advanced Course 704",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000705",
+    "program_id":"PRG-000005",
+    "code":"0705",
+    "title":"Advanced Course 705",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000706",
+    "program_id":"PRG-000006",
+    "code":"0706",
+    "title":"Advanced Course 706",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000707",
+    "program_id":"PRG-000007",
+    "code":"0707",
+    "title":"Advanced Course 707",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000708",
+    "program_id":"PRG-000008",
+    "code":"0708",
+    "title":"Advanced Course 708",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000709",
+    "program_id":"PRG-000009",
+    "code":"0709",
+    "title":"Advanced Course 709",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000710",
+    "program_id":"PRG-000010",
+    "code":"0710",
+    "title":"Advanced Course 710",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000711",
+    "program_id":"PRG-000011",
+    "code":"0711",
+    "title":"Advanced Course 711",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000712",
+    "program_id":"PRG-000012",
+    "code":"0712",
+    "title":"Advanced Course 712",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000713",
+    "program_id":"PRG-000013",
+    "code":"0713",
+    "title":"Advanced Course 713",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000714",
+    "program_id":"PRG-000014",
+    "code":"0714",
+    "title":"Advanced Course 714",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000715",
+    "program_id":"PRG-000015",
+    "code":"0715",
+    "title":"Advanced Course 715",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000716",
+    "program_id":"PRG-000016",
+    "code":"0716",
+    "title":"Advanced Course 716",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000717",
+    "program_id":"PRG-000017",
+    "code":"0717",
+    "title":"Advanced Course 717",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000718",
+    "program_id":"PRG-000018",
+    "code":"0718",
+    "title":"Advanced Course 718",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000719",
+    "program_id":"PRG-000019",
+    "code":"0719",
+    "title":"Advanced Course 719",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000720",
+    "program_id":"PRG-000020",
+    "code":"0720",
+    "title":"Advanced Course 720",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000721",
+    "program_id":"PRG-000021",
+    "code":"0721",
+    "title":"Advanced Course 721",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000722",
+    "program_id":"PRG-000022",
+    "code":"0722",
+    "title":"Advanced Course 722",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000723",
+    "program_id":"PRG-000023",
+    "code":"0723",
+    "title":"Advanced Course 723",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000724",
+    "program_id":"PRG-000024",
+    "code":"0724",
+    "title":"Advanced Course 724",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000725",
+    "program_id":"PRG-000025",
+    "code":"0725",
+    "title":"Advanced Course 725",
+    "credits":2,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000726",
+    "program_id":"PRG-000026",
+    "code":"0726",
+    "title":"Advanced Course 726",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000727",
+    "program_id":"PRG-000027",
+    "code":"0727",
+    "title":"Advanced Course 727",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000728",
+    "program_id":"PRG-000028",
+    "code":"0728",
+    "title":"Advanced Course 728",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000729",
+    "program_id":"PRG-000029",
+    "code":"0729",
+    "title":"Advanced Course 729",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000730",
+    "program_id":"PRG-000030",
+    "code":"0730",
+    "title":"Advanced Course 730",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000731",
+    "program_id":"PRG-000031",
+    "code":"0731",
+    "title":"Advanced Course 731",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000732",
+    "program_id":"PRG-000032",
+    "code":"0732",
+    "title":"Advanced Course 732",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000733",
+    "program_id":"PRG-000033",
+    "code":"0733",
+    "title":"Advanced Course 733",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000734",
+    "program_id":"PRG-000034",
+    "code":"0734",
+    "title":"Advanced Course 734",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000735",
+    "program_id":"PRG-000035",
+    "code":"0735",
+    "title":"Advanced Course 735",
+    "credits":3,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000736",
+    "program_id":"PRG-000036",
+    "code":"0736",
+    "title":"Advanced Course 736",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000737",
+    "program_id":"PRG-000037",
+    "code":"0737",
+    "title":"Advanced Course 737",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000738",
+    "program_id":"PRG-000038",
+    "code":"0738",
+    "title":"Advanced Course 738",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000739",
+    "program_id":"PRG-000039",
+    "code":"0739",
+    "title":"Advanced Course 739",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000740",
+    "program_id":"PRG-000040",
+    "code":"0740",
+    "title":"Advanced Course 740",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000741",
+    "program_id":"PRG-000041",
+    "code":"0741",
+    "title":"Advanced Course 741",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000742",
+    "program_id":"PRG-000042",
+    "code":"0742",
+    "title":"Advanced Course 742",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000743",
+    "program_id":"PRG-000043",
+    "code":"0743",
+    "title":"Advanced Course 743",
+    "credits":4,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000744",
+    "program_id":"PRG-000044",
+    "code":"0744",
+    "title":"Advanced Course 744",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000745",
+    "program_id":"PRG-000045",
+    "code":"0745",
+    "title":"Advanced Course 745",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000746",
+    "program_id":"PRG-000046",
+    "code":"0746",
+    "title":"Advanced Course 746",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000747",
+    "program_id":"PRG-000047",
+    "code":"0747",
+    "title":"Advanced Course 747",
+    "credits":2,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000748",
+    "program_id":"PRG-000048",
+    "code":"0748",
+    "title":"Advanced Course 748",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000749",
+    "program_id":"PRG-000049",
+    "code":"0749",
+    "title":"Advanced Course 749",
+    "credits":3,
+    "course_level":3,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000750",
+    "program_id":"PRG-000050",
+    "code":"0750",
+    "title":"Advanced Course 750",
+    "credits":4,
+    "course_level":3,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000751",
+    "program_id":"PRG-000051",
+    "code":"0751",
+    "title":"Special Topics Course 751",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000752",
+    "program_id":"PRG-000052",
+    "code":"0752",
+    "title":"Special Topics Course 752",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000753",
+    "program_id":"PRG-000053",
+    "code":"0753",
+    "title":"Special Topics Course 753",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000754",
+    "program_id":"PRG-000054",
+    "code":"0754",
+    "title":"Special Topics Course 754",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000755",
+    "program_id":"PRG-000055",
+    "code":"0755",
+    "title":"Special Topics Course 755",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000756",
+    "program_id":"PRG-000056",
+    "code":"0756",
+    "title":"Special Topics Course 756",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000757",
+    "program_id":"PRG-000057",
+    "code":"0757",
+    "title":"Special Topics Course 757",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000758",
+    "program_id":"PRG-000058",
+    "code":"0758",
+    "title":"Special Topics Course 758",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000759",
+    "program_id":"PRG-000059",
+    "code":"0759",
+    "title":"Special Topics Course 759",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000760",
+    "program_id":"PRG-000060",
+    "code":"0760",
+    "title":"Special Topics Course 760",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000761",
+    "program_id":"PRG-000061",
+    "code":"0761",
+    "title":"Special Topics Course 761",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000762",
+    "program_id":"PRG-000062",
+    "code":"0762",
+    "title":"Special Topics Course 762",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000763",
+    "program_id":"PRG-000063",
+    "code":"0763",
+    "title":"Special Topics Course 763",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000764",
+    "program_id":"PRG-000064",
+    "code":"0764",
+    "title":"Special Topics Course 764",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000765",
+    "program_id":"PRG-000065",
+    "code":"0765",
+    "title":"Special Topics Course 765",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000766",
+    "program_id":"PRG-000066",
+    "code":"0766",
+    "title":"Special Topics Course 766",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000767",
+    "program_id":"PRG-000067",
+    "code":"0767",
+    "title":"Special Topics Course 767",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000768",
+    "program_id":"PRG-000068",
+    "code":"0768",
+    "title":"Special Topics Course 768",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000769",
+    "program_id":"PRG-000069",
+    "code":"0769",
+    "title":"Special Topics Course 769",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000770",
+    "program_id":"PRG-000070",
+    "code":"0770",
+    "title":"Special Topics Course 770",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000771",
+    "program_id":"PRG-000071",
+    "code":"0771",
+    "title":"Special Topics Course 771",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000772",
+    "program_id":"PRG-000072",
+    "code":"0772",
+    "title":"Special Topics Course 772",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000773",
+    "program_id":"PRG-000073",
+    "code":"0773",
+    "title":"Special Topics Course 773",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000774",
+    "program_id":"PRG-000074",
+    "code":"0774",
+    "title":"Special Topics Course 774",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000775",
+    "program_id":"PRG-000075",
+    "code":"0775",
+    "title":"Special Topics Course 775",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000776",
+    "program_id":"PRG-000076",
+    "code":"0776",
+    "title":"Special Topics Course 776",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000777",
+    "program_id":"PRG-000077",
+    "code":"0777",
+    "title":"Special Topics Course 777",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000778",
+    "program_id":"PRG-000078",
+    "code":"0778",
+    "title":"Special Topics Course 778",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000779",
+    "program_id":"PRG-000079",
+    "code":"0779",
+    "title":"Special Topics Course 779",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000780",
+    "program_id":"PRG-000080",
+    "code":"0780",
+    "title":"Special Topics Course 780",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000781",
+    "program_id":"PRG-000081",
+    "code":"0781",
+    "title":"Special Topics Course 781",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000782",
+    "program_id":"PRG-000082",
+    "code":"0782",
+    "title":"Special Topics Course 782",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000783",
+    "program_id":"PRG-000083",
+    "code":"0783",
+    "title":"Special Topics Course 783",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000784",
+    "program_id":"PRG-000084",
+    "code":"0784",
+    "title":"Special Topics Course 784",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000785",
+    "program_id":"PRG-000085",
+    "code":"0785",
+    "title":"Special Topics Course 785",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000786",
+    "program_id":"PRG-000086",
+    "code":"0786",
+    "title":"Special Topics Course 786",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000787",
+    "program_id":"PRG-000087",
+    "code":"0787",
+    "title":"Special Topics Course 787",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000788",
+    "program_id":"PRG-000088",
+    "code":"0788",
+    "title":"Special Topics Course 788",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000789",
+    "program_id":"PRG-000089",
+    "code":"0789",
+    "title":"Special Topics Course 789",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000790",
+    "program_id":"PRG-000090",
+    "code":"0790",
+    "title":"Special Topics Course 790",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000791",
+    "program_id":"PRG-000091",
+    "code":"0791",
+    "title":"Special Topics Course 791",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000792",
+    "program_id":"PRG-000092",
+    "code":"0792",
+    "title":"Special Topics Course 792",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000793",
+    "program_id":"PRG-000093",
+    "code":"0793",
+    "title":"Special Topics Course 793",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000794",
+    "program_id":"PRG-000094",
+    "code":"0794",
+    "title":"Special Topics Course 794",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000795",
+    "program_id":"PRG-000095",
+    "code":"0795",
+    "title":"Special Topics Course 795",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000796",
+    "program_id":"PRG-000096",
+    "code":"0796",
+    "title":"Special Topics Course 796",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000797",
+    "program_id":"PRG-000097",
+    "code":"0797",
+    "title":"Special Topics Course 797",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000798",
+    "program_id":"PRG-000098",
+    "code":"0798",
+    "title":"Special Topics Course 798",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000799",
+    "program_id":"PRG-000099",
+    "code":"0799",
+    "title":"Special Topics Course 799",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000800",
+    "program_id":"PRG-000100",
+    "code":"0800",
+    "title":"Special Topics Course 800",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000801",
+    "program_id":"PRG-000001",
+    "code":"0801",
+    "title":"Special Topics Course 801",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000802",
+    "program_id":"PRG-000002",
+    "code":"0802",
+    "title":"Special Topics Course 802",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000803",
+    "program_id":"PRG-000003",
+    "code":"0803",
+    "title":"Special Topics Course 803",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000804",
+    "program_id":"PRG-000004",
+    "code":"0804",
+    "title":"Special Topics Course 804",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000805",
+    "program_id":"PRG-000005",
+    "code":"0805",
+    "title":"Special Topics Course 805",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000806",
+    "program_id":"PRG-000006",
+    "code":"0806",
+    "title":"Special Topics Course 806",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000807",
+    "program_id":"PRG-000007",
+    "code":"0807",
+    "title":"Special Topics Course 807",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000808",
+    "program_id":"PRG-000008",
+    "code":"0808",
+    "title":"Special Topics Course 808",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000809",
+    "program_id":"PRG-000009",
+    "code":"0809",
+    "title":"Special Topics Course 809",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000810",
+    "program_id":"PRG-000010",
+    "code":"0810",
+    "title":"Special Topics Course 810",
+    "credits":2,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000811",
+    "program_id":"PRG-000011",
+    "code":"0811",
+    "title":"Special Topics Course 811",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000812",
+    "program_id":"PRG-000012",
+    "code":"0812",
+    "title":"Special Topics Course 812",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000813",
+    "program_id":"PRG-000013",
+    "code":"0813",
+    "title":"Special Topics Course 813",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000814",
+    "program_id":"PRG-000014",
+    "code":"0814",
+    "title":"Special Topics Course 814",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000815",
+    "program_id":"PRG-000015",
+    "code":"0815",
+    "title":"Special Topics Course 815",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000816",
+    "program_id":"PRG-000016",
+    "code":"0816",
+    "title":"Special Topics Course 816",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000817",
+    "program_id":"PRG-000017",
+    "code":"0817",
+    "title":"Special Topics Course 817",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000818",
+    "program_id":"PRG-000018",
+    "code":"0818",
+    "title":"Special Topics Course 818",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000819",
+    "program_id":"PRG-000019",
+    "code":"0819",
+    "title":"Special Topics Course 819",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000820",
+    "program_id":"PRG-000020",
+    "code":"0820",
+    "title":"Special Topics Course 820",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000821",
+    "program_id":"PRG-000021",
+    "code":"0821",
+    "title":"Special Topics Course 821",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000822",
+    "program_id":"PRG-000022",
+    "code":"0822",
+    "title":"Special Topics Course 822",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000823",
+    "program_id":"PRG-000023",
+    "code":"0823",
+    "title":"Special Topics Course 823",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000824",
+    "program_id":"PRG-000024",
+    "code":"0824",
+    "title":"Special Topics Course 824",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000825",
+    "program_id":"PRG-000025",
+    "code":"0825",
+    "title":"Special Topics Course 825",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000826",
+    "program_id":"PRG-000026",
+    "code":"0826",
+    "title":"Special Topics Course 826",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000827",
+    "program_id":"PRG-000027",
+    "code":"0827",
+    "title":"Special Topics Course 827",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000828",
+    "program_id":"PRG-000028",
+    "code":"0828",
+    "title":"Special Topics Course 828",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000829",
+    "program_id":"PRG-000029",
+    "code":"0829",
+    "title":"Special Topics Course 829",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000830",
+    "program_id":"PRG-000030",
+    "code":"0830",
+    "title":"Special Topics Course 830",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000831",
+    "program_id":"PRG-000031",
+    "code":"0831",
+    "title":"Special Topics Course 831",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000832",
+    "program_id":"PRG-000032",
+    "code":"0832",
+    "title":"Special Topics Course 832",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000833",
+    "program_id":"PRG-000033",
+    "code":"0833",
+    "title":"Special Topics Course 833",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000834",
+    "program_id":"PRG-000034",
+    "code":"0834",
+    "title":"Special Topics Course 834",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000835",
+    "program_id":"PRG-000035",
+    "code":"0835",
+    "title":"Special Topics Course 835",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000836",
+    "program_id":"PRG-000036",
+    "code":"0836",
+    "title":"Special Topics Course 836",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000837",
+    "program_id":"PRG-000037",
+    "code":"0837",
+    "title":"Special Topics Course 837",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000838",
+    "program_id":"PRG-000038",
+    "code":"0838",
+    "title":"Special Topics Course 838",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000839",
+    "program_id":"PRG-000039",
+    "code":"0839",
+    "title":"Special Topics Course 839",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000840",
+    "program_id":"PRG-000040",
+    "code":"0840",
+    "title":"Special Topics Course 840",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000841",
+    "program_id":"PRG-000041",
+    "code":"0841",
+    "title":"Special Topics Course 841",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000842",
+    "program_id":"PRG-000042",
+    "code":"0842",
+    "title":"Special Topics Course 842",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000843",
+    "program_id":"PRG-000043",
+    "code":"0843",
+    "title":"Special Topics Course 843",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000844",
+    "program_id":"PRG-000044",
+    "code":"0844",
+    "title":"Special Topics Course 844",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000845",
+    "program_id":"PRG-000045",
+    "code":"0845",
+    "title":"Special Topics Course 845",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000846",
+    "program_id":"PRG-000046",
+    "code":"0846",
+    "title":"Special Topics Course 846",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000847",
+    "program_id":"PRG-000047",
+    "code":"0847",
+    "title":"Special Topics Course 847",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000848",
+    "program_id":"PRG-000048",
+    "code":"0848",
+    "title":"Special Topics Course 848",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000849",
+    "program_id":"PRG-000049",
+    "code":"0849",
+    "title":"Special Topics Course 849",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000850",
+    "program_id":"PRG-000050",
+    "code":"0850",
+    "title":"Special Topics Course 850",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000851",
+    "program_id":"PRG-000051",
+    "code":"0851",
+    "title":"Special Topics Course 851",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000852",
+    "program_id":"PRG-000052",
+    "code":"0852",
+    "title":"Special Topics Course 852",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000853",
+    "program_id":"PRG-000053",
+    "code":"0853",
+    "title":"Special Topics Course 853",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000854",
+    "program_id":"PRG-000054",
+    "code":"0854",
+    "title":"Special Topics Course 854",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000855",
+    "program_id":"PRG-000055",
+    "code":"0855",
+    "title":"Special Topics Course 855",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000856",
+    "program_id":"PRG-000056",
+    "code":"0856",
+    "title":"Special Topics Course 856",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000857",
+    "program_id":"PRG-000057",
+    "code":"0857",
+    "title":"Special Topics Course 857",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000858",
+    "program_id":"PRG-000058",
+    "code":"0858",
+    "title":"Special Topics Course 858",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000859",
+    "program_id":"PRG-000059",
+    "code":"0859",
+    "title":"Special Topics Course 859",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000860",
+    "program_id":"PRG-000060",
+    "code":"0860",
+    "title":"Special Topics Course 860",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000861",
+    "program_id":"PRG-000061",
+    "code":"0861",
+    "title":"Special Topics Course 861",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000862",
+    "program_id":"PRG-000062",
+    "code":"0862",
+    "title":"Special Topics Course 862",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000863",
+    "program_id":"PRG-000063",
+    "code":"0863",
+    "title":"Special Topics Course 863",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000864",
+    "program_id":"PRG-000064",
+    "code":"0864",
+    "title":"Special Topics Course 864",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000865",
+    "program_id":"PRG-000065",
+    "code":"0865",
+    "title":"Special Topics Course 865",
+    "credits":2,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000866",
+    "program_id":"PRG-000066",
+    "code":"0866",
+    "title":"Special Topics Course 866",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000867",
+    "program_id":"PRG-000067",
+    "code":"0867",
+    "title":"Special Topics Course 867",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000868",
+    "program_id":"PRG-000068",
+    "code":"0868",
+    "title":"Special Topics Course 868",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000869",
+    "program_id":"PRG-000069",
+    "code":"0869",
+    "title":"Special Topics Course 869",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000870",
+    "program_id":"PRG-000070",
+    "code":"0870",
+    "title":"Special Topics Course 870",
+    "credits":2,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000871",
+    "program_id":"PRG-000071",
+    "code":"0871",
+    "title":"Special Topics Course 871",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000872",
+    "program_id":"PRG-000072",
+    "code":"0872",
+    "title":"Special Topics Course 872",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000873",
+    "program_id":"PRG-000073",
+    "code":"0873",
+    "title":"Special Topics Course 873",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000874",
+    "program_id":"PRG-000074",
+    "code":"0874",
+    "title":"Special Topics Course 874",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000875",
+    "program_id":"PRG-000075",
+    "code":"0875",
+    "title":"Special Topics Course 875",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000876",
+    "program_id":"PRG-000076",
+    "code":"0876",
+    "title":"Special Topics Course 876",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000877",
+    "program_id":"PRG-000077",
+    "code":"0877",
+    "title":"Special Topics Course 877",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000878",
+    "program_id":"PRG-000078",
+    "code":"0878",
+    "title":"Special Topics Course 878",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000879",
+    "program_id":"PRG-000079",
+    "code":"0879",
+    "title":"Special Topics Course 879",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000880",
+    "program_id":"PRG-000080",
+    "code":"0880",
+    "title":"Special Topics Course 880",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000881",
+    "program_id":"PRG-000081",
+    "code":"0881",
+    "title":"Special Topics Course 881",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000882",
+    "program_id":"PRG-000082",
+    "code":"0882",
+    "title":"Special Topics Course 882",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000883",
+    "program_id":"PRG-000083",
+    "code":"0883",
+    "title":"Special Topics Course 883",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000884",
+    "program_id":"PRG-000084",
+    "code":"0884",
+    "title":"Special Topics Course 884",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000885",
+    "program_id":"PRG-000085",
+    "code":"0885",
+    "title":"Special Topics Course 885",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000886",
+    "program_id":"PRG-000086",
+    "code":"0886",
+    "title":"Special Topics Course 886",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000887",
+    "program_id":"PRG-000087",
+    "code":"0887",
+    "title":"Special Topics Course 887",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000888",
+    "program_id":"PRG-000088",
+    "code":"0888",
+    "title":"Special Topics Course 888",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000889",
+    "program_id":"PRG-000089",
+    "code":"0889",
+    "title":"Special Topics Course 889",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000890",
+    "program_id":"PRG-000090",
+    "code":"0890",
+    "title":"Special Topics Course 890",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000891",
+    "program_id":"PRG-000091",
+    "code":"0891",
+    "title":"Special Topics Course 891",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000892",
+    "program_id":"PRG-000092",
+    "code":"0892",
+    "title":"Special Topics Course 892",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000893",
+    "program_id":"PRG-000093",
+    "code":"0893",
+    "title":"Special Topics Course 893",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000894",
+    "program_id":"PRG-000094",
+    "code":"0894",
+    "title":"Special Topics Course 894",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000895",
+    "program_id":"PRG-000095",
+    "code":"0895",
+    "title":"Special Topics Course 895",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000896",
+    "program_id":"PRG-000096",
+    "code":"0896",
+    "title":"Special Topics Course 896",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000897",
+    "program_id":"PRG-000097",
+    "code":"0897",
+    "title":"Special Topics Course 897",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000898",
+    "program_id":"PRG-000098",
+    "code":"0898",
+    "title":"Special Topics Course 898",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000899",
+    "program_id":"PRG-000099",
+    "code":"0899",
+    "title":"Special Topics Course 899",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000900",
+    "program_id":"PRG-000100",
+    "code":"0900",
+    "title":"Special Topics Course 900",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000901",
+    "program_id":"PRG-000001",
+    "code":"0901",
+    "title":"Special Topics Course 901",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000902",
+    "program_id":"PRG-000002",
+    "code":"0902",
+    "title":"Special Topics Course 902",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000903",
+    "program_id":"PRG-000003",
+    "code":"0903",
+    "title":"Special Topics Course 903",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000904",
+    "program_id":"PRG-000004",
+    "code":"0904",
+    "title":"Special Topics Course 904",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000905",
+    "program_id":"PRG-000005",
+    "code":"0905",
+    "title":"Special Topics Course 905",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000906",
+    "program_id":"PRG-000006",
+    "code":"0906",
+    "title":"Special Topics Course 906",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000907",
+    "program_id":"PRG-000007",
+    "code":"0907",
+    "title":"Special Topics Course 907",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000908",
+    "program_id":"PRG-000008",
+    "code":"0908",
+    "title":"Special Topics Course 908",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000909",
+    "program_id":"PRG-000009",
+    "code":"0909",
+    "title":"Special Topics Course 909",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000910",
+    "program_id":"PRG-000010",
+    "code":"0910",
+    "title":"Special Topics Course 910",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000911",
+    "program_id":"PRG-000011",
+    "code":"0911",
+    "title":"Special Topics Course 911",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000912",
+    "program_id":"PRG-000012",
+    "code":"0912",
+    "title":"Special Topics Course 912",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000913",
+    "program_id":"PRG-000013",
+    "code":"0913",
+    "title":"Special Topics Course 913",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000914",
+    "program_id":"PRG-000014",
+    "code":"0914",
+    "title":"Special Topics Course 914",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000915",
+    "program_id":"PRG-000015",
+    "code":"0915",
+    "title":"Special Topics Course 915",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000916",
+    "program_id":"PRG-000016",
+    "code":"0916",
+    "title":"Special Topics Course 916",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000917",
+    "program_id":"PRG-000017",
+    "code":"0917",
+    "title":"Special Topics Course 917",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000918",
+    "program_id":"PRG-000018",
+    "code":"0918",
+    "title":"Special Topics Course 918",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000919",
+    "program_id":"PRG-000019",
+    "code":"0919",
+    "title":"Special Topics Course 919",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000920",
+    "program_id":"PRG-000020",
+    "code":"0920",
+    "title":"Special Topics Course 920",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000921",
+    "program_id":"PRG-000021",
+    "code":"0921",
+    "title":"Special Topics Course 921",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000922",
+    "program_id":"PRG-000022",
+    "code":"0922",
+    "title":"Special Topics Course 922",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000923",
+    "program_id":"PRG-000023",
+    "code":"0923",
+    "title":"Special Topics Course 923",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000924",
+    "program_id":"PRG-000024",
+    "code":"0924",
+    "title":"Special Topics Course 924",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000925",
+    "program_id":"PRG-000025",
+    "code":"0925",
+    "title":"Special Topics Course 925",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000926",
+    "program_id":"PRG-000026",
+    "code":"0926",
+    "title":"Special Topics Course 926",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000927",
+    "program_id":"PRG-000027",
+    "code":"0927",
+    "title":"Special Topics Course 927",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000928",
+    "program_id":"PRG-000028",
+    "code":"0928",
+    "title":"Special Topics Course 928",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000929",
+    "program_id":"PRG-000029",
+    "code":"0929",
+    "title":"Special Topics Course 929",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000930",
+    "program_id":"PRG-000030",
+    "code":"0930",
+    "title":"Special Topics Course 930",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000931",
+    "program_id":"PRG-000031",
+    "code":"0931",
+    "title":"Special Topics Course 931",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000932",
+    "program_id":"PRG-000032",
+    "code":"0932",
+    "title":"Special Topics Course 932",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000933",
+    "program_id":"PRG-000033",
+    "code":"0933",
+    "title":"Special Topics Course 933",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000934",
+    "program_id":"PRG-000034",
+    "code":"0934",
+    "title":"Special Topics Course 934",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000935",
+    "program_id":"PRG-000035",
+    "code":"0935",
+    "title":"Special Topics Course 935",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000936",
+    "program_id":"PRG-000036",
+    "code":"0936",
+    "title":"Special Topics Course 936",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000937",
+    "program_id":"PRG-000037",
+    "code":"0937",
+    "title":"Special Topics Course 937",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000938",
+    "program_id":"PRG-000038",
+    "code":"0938",
+    "title":"Special Topics Course 938",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000939",
+    "program_id":"PRG-000039",
+    "code":"0939",
+    "title":"Special Topics Course 939",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000940",
+    "program_id":"PRG-000040",
+    "code":"0940",
+    "title":"Special Topics Course 940",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000941",
+    "program_id":"PRG-000041",
+    "code":"0941",
+    "title":"Special Topics Course 941",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000942",
+    "program_id":"PRG-000042",
+    "code":"0942",
+    "title":"Special Topics Course 942",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000943",
+    "program_id":"PRG-000043",
+    "code":"0943",
+    "title":"Special Topics Course 943",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000944",
+    "program_id":"PRG-000044",
+    "code":"0944",
+    "title":"Special Topics Course 944",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000945",
+    "program_id":"PRG-000045",
+    "code":"0945",
+    "title":"Special Topics Course 945",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000946",
+    "program_id":"PRG-000046",
+    "code":"0946",
+    "title":"Special Topics Course 946",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000947",
+    "program_id":"PRG-000047",
+    "code":"0947",
+    "title":"Special Topics Course 947",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000948",
+    "program_id":"PRG-000048",
+    "code":"0948",
+    "title":"Special Topics Course 948",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000949",
+    "program_id":"PRG-000049",
+    "code":"0949",
+    "title":"Special Topics Course 949",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000950",
+    "program_id":"PRG-000050",
+    "code":"0950",
+    "title":"Special Topics Course 950",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000951",
+    "program_id":"PRG-000051",
+    "code":"0951",
+    "title":"Special Topics Course 951",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000952",
+    "program_id":"PRG-000052",
+    "code":"0952",
+    "title":"Special Topics Course 952",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000953",
+    "program_id":"PRG-000053",
+    "code":"0953",
+    "title":"Special Topics Course 953",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000954",
+    "program_id":"PRG-000054",
+    "code":"0954",
+    "title":"Special Topics Course 954",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000955",
+    "program_id":"PRG-000055",
+    "code":"0955",
+    "title":"Special Topics Course 955",
+    "credits":2,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000956",
+    "program_id":"PRG-000056",
+    "code":"0956",
+    "title":"Special Topics Course 956",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000957",
+    "program_id":"PRG-000057",
+    "code":"0957",
+    "title":"Special Topics Course 957",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000958",
+    "program_id":"PRG-000058",
+    "code":"0958",
+    "title":"Special Topics Course 958",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000959",
+    "program_id":"PRG-000059",
+    "code":"0959",
+    "title":"Special Topics Course 959",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000960",
+    "program_id":"PRG-000060",
+    "code":"0960",
+    "title":"Special Topics Course 960",
+    "credits":2,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000961",
+    "program_id":"PRG-000061",
+    "code":"0961",
+    "title":"Special Topics Course 961",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000962",
+    "program_id":"PRG-000062",
+    "code":"0962",
+    "title":"Special Topics Course 962",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000963",
+    "program_id":"PRG-000063",
+    "code":"0963",
+    "title":"Special Topics Course 963",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000964",
+    "program_id":"PRG-000064",
+    "code":"0964",
+    "title":"Special Topics Course 964",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000965",
+    "program_id":"PRG-000065",
+    "code":"0965",
+    "title":"Special Topics Course 965",
+    "credits":2,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000966",
+    "program_id":"PRG-000066",
+    "code":"0966",
+    "title":"Special Topics Course 966",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000967",
+    "program_id":"PRG-000067",
+    "code":"0967",
+    "title":"Special Topics Course 967",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000968",
+    "program_id":"PRG-000068",
+    "code":"0968",
+    "title":"Special Topics Course 968",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000969",
+    "program_id":"PRG-000069",
+    "code":"0969",
+    "title":"Special Topics Course 969",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000970",
+    "program_id":"PRG-000070",
+    "code":"0970",
+    "title":"Special Topics Course 970",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000971",
+    "program_id":"PRG-000071",
+    "code":"0971",
+    "title":"Special Topics Course 971",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000972",
+    "program_id":"PRG-000072",
+    "code":"0972",
+    "title":"Special Topics Course 972",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000973",
+    "program_id":"PRG-000073",
+    "code":"0973",
+    "title":"Special Topics Course 973",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000974",
+    "program_id":"PRG-000074",
+    "code":"0974",
+    "title":"Special Topics Course 974",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000975",
+    "program_id":"PRG-000075",
+    "code":"0975",
+    "title":"Special Topics Course 975",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000976",
+    "program_id":"PRG-000076",
+    "code":"0976",
+    "title":"Special Topics Course 976",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000977",
+    "program_id":"PRG-000077",
+    "code":"0977",
+    "title":"Special Topics Course 977",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000978",
+    "program_id":"PRG-000078",
+    "code":"0978",
+    "title":"Special Topics Course 978",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000979",
+    "program_id":"PRG-000079",
+    "code":"0979",
+    "title":"Special Topics Course 979",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000980",
+    "program_id":"PRG-000080",
+    "code":"0980",
+    "title":"Special Topics Course 980",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000981",
+    "program_id":"PRG-000081",
+    "code":"0981",
+    "title":"Special Topics Course 981",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000982",
+    "program_id":"PRG-000082",
+    "code":"0982",
+    "title":"Special Topics Course 982",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000983",
+    "program_id":"PRG-000083",
+    "code":"0983",
+    "title":"Special Topics Course 983",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000984",
+    "program_id":"PRG-000084",
+    "code":"0984",
+    "title":"Special Topics Course 984",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000985",
+    "program_id":"PRG-000085",
+    "code":"0985",
+    "title":"Special Topics Course 985",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000986",
+    "program_id":"PRG-000086",
+    "code":"0986",
+    "title":"Special Topics Course 986",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000987",
+    "program_id":"PRG-000087",
+    "code":"0987",
+    "title":"Special Topics Course 987",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000988",
+    "program_id":"PRG-000088",
+    "code":"0988",
+    "title":"Special Topics Course 988",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000989",
+    "program_id":"PRG-000089",
+    "code":"0989",
+    "title":"Special Topics Course 989",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000990",
+    "program_id":"PRG-000090",
+    "code":"0990",
+    "title":"Special Topics Course 990",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000991",
+    "program_id":"PRG-000091",
+    "code":"0991",
+    "title":"Special Topics Course 991",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000992",
+    "program_id":"PRG-000092",
+    "code":"0992",
+    "title":"Special Topics Course 992",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000993",
+    "program_id":"PRG-000093",
+    "code":"0993",
+    "title":"Special Topics Course 993",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000994",
+    "program_id":"PRG-000094",
+    "code":"0994",
+    "title":"Special Topics Course 994",
+    "credits":2,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000995",
+    "program_id":"PRG-000095",
+    "code":"0995",
+    "title":"Special Topics Course 995",
+    "credits":3,
+    "course_level":4,
+    "is_elective":true
+  },
+  {
+    "course_id":"CRS-000996",
+    "program_id":"PRG-000096",
+    "code":"0996",
+    "title":"Special Topics Course 996",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000997",
+    "program_id":"PRG-000097",
+    "code":"0997",
+    "title":"Special Topics Course 997",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000998",
+    "program_id":"PRG-000098",
+    "code":"0998",
+    "title":"Special Topics Course 998",
+    "credits":4,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-000999",
+    "program_id":"PRG-000099",
+    "code":"0999",
+    "title":"Special Topics Course 999",
+    "credits":3,
+    "course_level":4,
+    "is_elective":false
+  },
+  {
+    "course_id":"CRS-001000",
+    "program_id":"PRG-000100",
+    "code":"1000",
+    "title":"Special Topics Course 1000",
+    "credits":4,
+    "course_level":4,
+    "is_elective":true
+  }
+]

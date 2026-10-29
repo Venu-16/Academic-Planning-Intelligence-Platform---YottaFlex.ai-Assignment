@@ -143,7 +143,12 @@ def _run_pipeline_impl(output_dir=None,database_url=None,seed=SEED,persist=True,
     (out/"validation_report.json").write_text(json.dumps({"passed":not issues,"issues":issues},indent=2))
     if issues: raise RuntimeError(f"Baseline validation failed: {issues}")
     target_term=str(frames["academic_terms"].iloc[0].term_id)
-    forecasts,fm=forecast_demand(frames["historical_enrollments"])
+    forecasts,fm=forecast_demand(
+        frames["historical_enrollments"],
+        target_term=target_term,
+        course_ids=frames["courses"]["course_id"],
+        registration_interests=frames["registration_interests"],
+    )
     forecasts["planning_run_id"]=runid
     forecasts.to_csv(out/"forecasts.csv",index=False)
     sections=propose_sections(
@@ -289,7 +294,39 @@ def _run_pipeline_impl(output_dir=None,database_url=None,seed=SEED,persist=True,
             for _,r in forecasts.iterrows():
                 if pd.isna(r.forecast_enrollment):
                     continue
-                conn.execute(text("INSERT INTO forecasts(forecast_id,planning_run_id,course_id,target_term,forecast_enrollment,model_name) VALUES(:id,:run,:course,:term,:demand,:model)"),{"id":f"{runid}-FCT-{r.course_id[-6:]}","run":runid,"course":r.course_id,"term":r.get("term_id",target_term),"demand":int(r.forecast_enrollment),"model":"RandomForestRegressor"})
+                conn.execute(text(
+                    "INSERT INTO forecasts(forecast_id,planning_run_id,course_id,"
+                    "target_term,forecast_enrollment,model_name,source_term_id,"
+                    "input_last_enrollment,input_registrations,input_unmet_demand,"
+                    "eligible_interest_count,fallback_applied,fallback_reason) "
+                    "VALUES(:id,:run,:course,:term,:demand,:model,:source_term,"
+                    ":last_enrollment,:registrations,:unmet,:interest_count,"
+                    ":fallback_applied,:fallback_reason)"
+                ),{
+                    "id":f"{runid}-FCT-{r.course_id[-6:]}",
+                    "run":runid,
+                    "course":r.course_id,
+                    "term":r.target_term,
+                    "demand":int(r.forecast_enrollment),
+                    "model":r.model_name,
+                    "source_term":(
+                        None if pd.isna(r.source_term_id) else r.source_term_id
+                    ),
+                    "last_enrollment":(
+                        None if pd.isna(r.last_enrollment)
+                        else int(r.last_enrollment)
+                    ),
+                    "registrations":(
+                        None if pd.isna(r.registrations) else int(r.registrations)
+                    ),
+                    "unmet":(
+                        None if pd.isna(r.unmet_demand_input)
+                        else int(r.unmet_demand_input)
+                    ),
+                    "interest_count":int(r.eligible_interest_count),
+                    "fallback_applied":bool(r.fallback_applied),
+                    "fallback_reason":r.fallback_reason,
+                })
             facmap=assignments.set_index("section_id").faculty_id.to_dict() if len(assignments) else {}
             db_section_ids={section_id:f"{runid}-{section_id}" for section_id in sections.section_id}
             section_capacity_by_id=section_capacity.set_index("section_id").to_dict("index")
@@ -298,7 +335,27 @@ def _run_pipeline_impl(output_dir=None,database_url=None,seed=SEED,persist=True,
                 if s.section_id in invalid_section_ids or pd.isna(s.planned_capacity):
                     continue
                 capacity=section_capacity_by_id[s.section_id]
-                conn.execute(text("INSERT INTO sections(section_id,course_id,term_id,section_number,room_id,day_of_week,slot_id,planned_capacity,operational_capacity,forecast_demand,planning_run_id,status) VALUES(:id,:course,:term,:num,:room,:day,:slot,:planned,:operational,:demand,:run,:status)"),{"id":db_section_ids[s.section_id],"course":s.course_id,"term":s.term_id,"num":int(s.section_number),"room":s.room_id if pd.notna(s.room_id) else None,"day":int(s.day_of_week),"slot":s.slot_id,"planned":int(capacity["planned_capacity"]),"operational":int(capacity["operational_capacity"]),"demand":int(s.forecast_demand),"run":runid,"status":capacity["section_status"]})
+                conn.execute(text(
+                    "INSERT INTO sections(section_id,course_id,term_id,section_number,"
+                    "room_id,day_of_week,slot_id,planned_capacity,operational_capacity,"
+                    "forecast_demand,planning_run_id,proposal_status,status) "
+                    "VALUES(:id,:course,:term,:num,:room,:day,:slot,:planned,"
+                    ":operational,:demand,:run,:proposal_status,:status)"
+                ),{
+                    "id":db_section_ids[s.section_id],
+                    "course":s.course_id,
+                    "term":s.term_id,
+                    "num":int(s.section_number),
+                    "room":s.room_id if pd.notna(s.room_id) else None,
+                    "day":int(s.day_of_week),
+                    "slot":s.slot_id,
+                    "planned":int(capacity["planned_capacity"]),
+                    "operational":int(capacity["operational_capacity"]),
+                    "demand":int(s.forecast_demand),
+                    "run":runid,
+                    "proposal_status":s.proposal_status,
+                    "status":capacity["section_status"],
+                })
             for _,a in assignments.iterrows():
                 conn.execute(text("INSERT INTO workload_assignments(workload_assignment_id,section_id,faculty_id,weekly_hours,status) VALUES(:id,:section,:faculty,:hours,:status)"),{"id":f"{runid}-{a.workload_assignment_id}","section":db_section_ids[a.section_id],"faculty":a.faculty_id,"hours":float(a.weekly_hours),"status":a.status})
             for _,u in unmet.iterrows():

@@ -79,6 +79,8 @@ The earlier starter-scale Step 6 acceptance run for seed `20261022` produced 221
 
 The target-scale remediation acceptance run used the same seed with 100 programs, 1,000 courses, 500 faculty, and 20,000 student plans. It proposed 2,126 sections; 345 were operational, while 1,726 were blocked for missing room assignments and 55 remained unstaffed. Planned capacity was 85,040 seats, operational capacity 13,800, forecast demand 66,408, covered demand 10,974, and unmet demand 55,434 across 850 courses. On its 1,000-observation `2026-FALL` holdout, the Random Forest scored MAE 7.784 / RMSE 9.657 versus baseline MAE 8.683 / RMSE 10.938. These are single-run synthetic evaluation results, not guaranteed allocations or evidence of production forecasting performance. See [the remediation acceptance report](./reports/acceptance_remediation_20261027_182020.md) for reconciliations, validation results, and limitations.
 
+The target shortfall is a resource limit, not a fabricated assignment: at the 40-seat section target, only 20 of the 30 rooms qualify. With 20 modeled weekday/slot combinations, at most 400 section placements can receive rooms; faculty eligibility, availability, and workload then limit the baseline to 345 operational placements. The remaining 55 roomed proposals are unstaffed, and 1,726 proposals have no room. Each generated proposal retains `proposal_status=PROPOSED`; final `status` distinguishes `OPERATIONAL`, `UNSTAFFED`, `BLOCKED`, and `REJECTED`. Non-operational sections provide zero seats.
+
 ## Run the dashboard
 
 After generating the default reports:
@@ -116,6 +118,27 @@ Remove-Item Env:TEST_DATABASE_URL
 ```
 
 Use temporary test infrastructure and credentials that are not production credentials. Do not point `TEST_DATABASE_URL` at the application database. The test suite does not manage or delete database volumes.
+
+For an isolated local run using Docker Desktop and the checked-in `postgres:16` image, open a fresh PowerShell session in the project directory:
+
+```powershell
+$env:POSTGRES_USER = "planner_test"
+$env:POSTGRES_PASSWORD = [guid]::NewGuid().ToString("N")
+$env:POSTGRES_DB = "academic_planner_test"
+docker run -d --name academic-planner-test-db --tmpfs /var/lib/postgresql/data -e "POSTGRES_USER=$env:POSTGRES_USER" -e "POSTGRES_PASSWORD=$env:POSTGRES_PASSWORD" -e "POSTGRES_DB=$env:POSTGRES_DB" -p 55432:5432 postgres:16
+do {
+    Start-Sleep -Seconds 2
+    docker exec academic-planner-test-db pg_isready -U $env:POSTGRES_USER -d $env:POSTGRES_DB
+} until ($LASTEXITCODE -eq 0)
+$env:TEST_DATABASE_URL = "postgresql+psycopg://$($env:POSTGRES_USER):$($env:POSTGRES_PASSWORD)@localhost:55432/$($env:POSTGRES_DB)"
+python -m pytest -q -rs tests/test_database_integration.py
+$testExitCode = $LASTEXITCODE
+docker rm -f academic-planner-test-db
+Remove-Item Env:TEST_DATABASE_URL, Env:POSTGRES_PASSWORD, Env:POSTGRES_USER, Env:POSTGRES_DB
+if ($testExitCode -ne 0) { throw "Database integration tests failed: $testExitCode" }
+```
+
+The container uses a temporary filesystem (no named volume), a dedicated test-only database, and a generated test-only password. Do not use this sample against a production database.
 
 ## Demo walkthrough
 

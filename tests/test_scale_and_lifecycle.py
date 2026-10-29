@@ -92,6 +92,58 @@ def test_source_validation_allows_fractional_workload_but_rejects_fractional_cre
     )
 
 
+def test_generated_prerequisite_completions_support_registered_interests():
+    frames=generate_dataset()
+    completions=frames["student_course_completions"]
+
+    assert not completions.duplicated(["student_plan_id","course_id"]).any()
+    assert validate_frames(frames)==[]
+
+
+def test_source_validation_rejects_registered_interest_without_prerequisite_completion():
+    frames=generate_dataset()
+    prerequisite=frames["prerequisites"].iloc[0]
+    interest_index=frames["registration_interests"].index[0]
+    plan_id=frames["registration_interests"].loc[
+        interest_index,"student_plan_id"
+    ]
+    frames["registration_interests"].loc[
+        interest_index,
+        ["course_id","eligible","interest_status"],
+    ]=[
+        prerequisite.course_id,
+        True,
+        "REGISTERED",
+    ]
+    frames["student_course_completions"]=frames[
+        "student_course_completions"
+    ].loc[
+        ~(
+            (frames["student_course_completions"].student_plan_id==plan_id)
+            &(frames["student_course_completions"].course_id
+              ==prerequisite.prerequisite_course_id)
+        )
+    ].reset_index(drop=True)
+
+    issues=validate_frames(frames)
+
+    violation=next(
+        issue for issue in issues
+        if issue["issue"]=="PREREQUISITE_SEQUENCE_VIOLATION"
+    )
+    assert violation["entity_ids"]==[
+        frames["registration_interests"].loc[interest_index,"interest_id"]
+    ]
+    assert violation["decision"]=="FLAG_INELIGIBLE"
+
+
+def test_old_source_frames_without_completion_table_remain_compatible():
+    frames=generate_dataset()
+    del frames["student_course_completions"]
+
+    assert validate_frames(frames)==[]
+
+
 def test_source_validation_rejects_prerequisite_self_references_and_cycles():
     frames = generate_dataset()
     frames["prerequisites"] = pd.DataFrame(
@@ -151,6 +203,7 @@ def test_small_pipeline_finalizes_export_statuses_and_transition_history(tmp_pat
 
     status_by_section = capacity.set_index("section_id").section_status
     assert sections.set_index("section_id").status.tolist() == status_by_section.tolist()
+    assert sections.proposal_status.eq("PROPOSED").all()
     assert not sections.status.eq("PROPOSED").any()
     assert set(sections.status).issubset(
         {"OPERATIONAL", "UNSTAFFED", "BLOCKED", "REJECTED"}
@@ -171,6 +224,12 @@ def test_small_pipeline_finalizes_export_statuses_and_transition_history(tmp_pat
         )
     ).all()
     assert not ((sections.status == "UNSTAFFED") & (sections.section_id.isin(assignments.section_id))).any()
+    assert capacity.loc[
+        capacity.section_status=="BLOCKED","operational_capacity"
+    ].eq(0).all()
+    assert capacity.loc[
+        capacity.section_status!="OPERATIONAL","operational_capacity"
+    ].eq(0).all()
     assert manifest["scale"] == scale.__dict__
     assert report["planning_run_id"] == metrics["planning_run_id"]
     assert report["performance"]["elapsed_seconds"] > 0

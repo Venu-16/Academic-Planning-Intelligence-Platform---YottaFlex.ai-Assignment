@@ -1,0 +1,101 @@
+course_id,program_id,code,title,credits,course_level,is_elective
+CRS-000001,PRG-000001,0001,Foundations Course 001,3,1,False
+CRS-000002,PRG-000002,0002,Foundations Course 002,3,1,False
+CRS-000003,PRG-000003,0003,Foundations Course 003,3,1,False
+CRS-000004,PRG-000004,0004,Foundations Course 004,2,1,False
+CRS-000005,PRG-000005,0005,Foundations Course 005,3,1,True
+CRS-000006,PRG-000006,0006,Foundations Course 006,3,1,False
+CRS-000007,PRG-000007,0007,Foundations Course 007,3,1,False
+CRS-000008,PRG-000008,0008,Foundations Course 008,2,1,False
+CRS-000009,PRG-000009,0009,Foundations Course 009,3,1,False
+CRS-000010,PRG-000010,0010,Foundations Course 010,2,1,True
+CRS-000011,PRG-000001,0011,Foundations Course 011,3,1,False
+CRS-000012,PRG-000002,0012,Foundations Course 012,3,1,False
+CRS-000013,PRG-000003,0013,Foundations Course 013,3,1,False
+CRS-000014,PRG-000004,0014,Foundations Course 014,2,1,False
+CRS-000015,PRG-000005,0015,Foundations Course 015,3,1,True
+CRS-000016,PRG-000006,0016,Foundations Course 016,3,1,False
+CRS-000017,PRG-000007,0017,Foundations Course 017,2,1,False
+CRS-000018,PRG-000008,0018,Foundations Course 018,3,1,False
+CRS-000019,PRG-000009,0019,Foundations Course 019,4,1,False
+CRS-000020,PRG-000010,0020,Foundations Course 020,2,1,True
+CRS-000021,PRG-000001,0021,Foundations Course 021,2,1,False
+CRS-000022,PRG-000002,0022,Foundations Course 022,3,1,False
+CRS-000023,PRG-000003,0023,Foundations Course 023,3,1,False
+CRS-000024,PRG-000004,0024,Foundations Course 024,3,1,False
+CRS-000025,PRG-000005,0025,Foundations Course 025,4,1,True
+CRS-000026,PRG-000006,0026,Applied Course 026,2,2,False
+CRS-000027,PRG-000007,0027,Applied Course 027,2,2,False
+CRS-000028,PRG-000008,0028,Applied Course 028,3,2,False
+CRS-000029,PRG-000009,0029,Applied Course 029,3,2,False
+CRS-000030,PRG-000010,0030,Applied Course 030,4,2,True
+CRS-000031,PRG-000001,0031,Applied Course 031,2,2,False
+CRS-000032,PRG-000002,0032,Applied Course 032,2,2,False
+CRS-000033,PRG-000003,0033,Applied Course 033,3,2,False
+CRS-000034,PRG-000004,0034,Applied Course 034,3,2,False
+CRS-000035,PRG-000005,0035,Applied Course 035,2,2,True
+CRS-000036,PRG-000006,0036,Applied Course 036,3,2,False
+CRS-000037,PRG-000007,0037,Applied Course 037,4,2,False
+CRS-000038,PRG-000008,0038,Applied Course 038,4,2,False
+CRS-000039,PRG-000009,0039,Applied Course 039,2,2,False
+CRS-000040,PRG-000010,0040,Applied Course 040,4,2,True
+CRS-000041,PRG-000001,0041,Applied Course 041,4,2,False
+CRS-000042,PRG-000002,0042,Applied Course 042,2,2,False
+CRS-000043,PRG-000003,0043,Applied Course 043,3,2,False
+CRS-000044,PRG-000004,0044,Applied Course 044,4,2,False
+CRS-000045,PRG-000005,0045,Applied Course 045,3,2,True
+CRS-000046,PRG-000006,0046,Applied Course 046,2,2,False
+CRS-000047,PRG-000007,0047,Applied Course 047,2,2,False
+CRS-000048,PRG-000008,0048,Applied Course 048,3,2,False
+CRS-000049,PRG-000009,0049,Applied Course 049,2,2,False
+CRS-000050,PRG-000010,0050,Applied Course 050,3,2,True
+CRS-000051,PRG-000001,0051,Advanced Course 051,3,3,False
+CRS-000052,PRG-000002,0052,Advanced Course 052,2,3,False
+CRS-000053,PRG-000003,0053,Advanced Course 053,2,3,False
+CRS-000054,PRG-000004,0054,Advanced Course 054,2,3,False
+CRS-000055,PRG-000005,0055,Advanced Course 055,4,3,True
+CRS-000056,PRG-000006,0056,Advanced Course 056,3,3,False
+CRS-000057,PRG-000007,0057,Advanced Course 057,4,3,False
+CRS-000058,PRG-000008,0058,Advanced Course 058,4,3,False
+CRS-000059,PRG-000009,0059,Advanced Course 059,2,3,False
+CRS-000060,PRG-000010,0060,Advanced Course 060,2,3,True
+CRS-000061,PRG-000001,0061,Advanced Course 061,3,3,False
+CRS-000062,PRG-000002,0062,Advanced Course 062,2,3,False
+CRS-000063,PRG-000003,0063,Advanced Course 063,4,3,False
+CRS-000064,PRG-000004,0064,Advanced Course 064,2,3,False
+CRS-000065,PRG-000005,0065,Advanced Course 065,4,3,True
+CRS-000066,PRG-000006,0066,Advanced Course 066,2,3,False
+CRS-000067,PRG-000007,0067,Advanced Course 067,3,3,False
+CRS-000068,PRG-000008,0068,Advanced Course 068,2,3,False
+CRS-000069,PRG-000009,0069,Advanced Course 069,3,3,False
+CRS-000070,PRG-000010,0070,Advanced Course 070,3,3,True
+CRS-000071,PRG-000001,0071,Advanced Course 071,3,3,False
+CRS-000072,PRG-000002,0072,Advanced Course 072,2,3,False
+CRS-000073,PRG-000003,0073,Advanced Course 073,3,3,False
+CRS-000074,PRG-000004,0074,Advanced Course 074,4,3,False
+CRS-000075,PRG-000005,0075,Advanced Course 075,2,3,True
+CRS-000076,PRG-000006,0076,Special Topics Course 076,2,4,False
+CRS-000077,PRG-000007,0077,Special Topics Course 077,2,4,False
+CRS-000078,PRG-000008,0078,Special Topics Course 078,3,4,False
+CRS-000079,PRG-000009,0079,Special Topics Course 079,2,4,False
+CRS-000080,PRG-000010,0080,Special Topics Course 080,2,4,True
+CRS-000081,PRG-000001,0081,Special Topics Course 081,2,4,False
+CRS-000082,PRG-000002,0082,Special Topics Course 082,4,4,False
+CRS-000083,PRG-000003,0083,Special Topics Course 083,3,4,False
+CRS-000084,PRG-000004,0084,Special Topics Course 084,4,4,False
+CRS-000085,PRG-000005,0085,Special Topics Course 085,2,4,True
+CRS-000086,PRG-000006,0086,Special Topics Course 086,4,4,False
+CRS-000087,PRG-000007,0087,Special Topics Course 087,3,4,False
+CRS-000088,PRG-000008,0088,Special Topics Course 088,3,4,False
+CRS-000089,PRG-000009,0089,Special Topics Course 089,3,4,False
+CRS-000090,PRG-000010,0090,Special Topics Course 090,4,4,True
+CRS-000091,PRG-000001,0091,Special Topics Course 091,3,4,False
+CRS-000092,PRG-000002,0092,Special Topics Course 092,3,4,False
+CRS-000093,PRG-000003,0093,Special Topics Course 093,3,4,False
+CRS-000094,PRG-000004,0094,Special Topics Course 094,4,4,False
+CRS-000095,PRG-000005,0095,Special Topics Course 095,3,4,True
+CRS-000096,PRG-000006,0096,Special Topics Course 096,3,4,False
+CRS-000097,PRG-000007,0097,Special Topics Course 097,3,4,False
+CRS-000098,PRG-000008,0098,Special Topics Course 098,3,4,False
+CRS-000099,PRG-000009,0099,Special Topics Course 099,3,4,False
+CRS-000100,PRG-000010,0100,Special Topics Course 100,4,4,True

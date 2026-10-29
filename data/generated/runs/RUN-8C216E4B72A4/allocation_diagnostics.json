@@ -1,0 +1,1361 @@
+{
+  "planning_run_id": "RUN-8C216E4B72A4",
+  "solver_status": "OPTIMAL",
+  "total_sections": 221,
+  "staffed_sections": 170,
+  "unstaffed_sections": 51,
+  "accounted_unstaffed_sections": 51,
+  "fully_accounted": true,
+  "sections_without_eligible_faculty": 51,
+  "sections_without_eligible_faculty_ids": [
+    "SEC-2027-000001",
+    "SEC-2027-000006",
+    "SEC-2027-000009",
+    "SEC-2027-000010",
+    "SEC-2027-000015",
+    "SEC-2027-000033",
+    "SEC-2027-000034",
+    "SEC-2027-000036",
+    "SEC-2027-000046",
+    "SEC-2027-000049",
+    "SEC-2027-000066",
+    "SEC-2027-000067",
+    "SEC-2027-000071",
+    "SEC-2027-000074",
+    "SEC-2027-000079",
+    "SEC-2027-000086",
+    "SEC-2027-000087",
+    "SEC-2027-000089",
+    "SEC-2027-000090",
+    "SEC-2027-000091",
+    "SEC-2027-000093",
+    "SEC-2027-000097",
+    "SEC-2027-000102",
+    "SEC-2027-000104",
+    "SEC-2027-000114",
+    "SEC-2027-000126",
+    "SEC-2027-000127",
+    "SEC-2027-000129",
+    "SEC-2027-000134",
+    "SEC-2027-000135",
+    "SEC-2027-000138",
+    "SEC-2027-000139",
+    "SEC-2027-000140",
+    "SEC-2027-000141",
+    "SEC-2027-000142",
+    "SEC-2027-000143",
+    "SEC-2027-000144",
+    "SEC-2027-000149",
+    "SEC-2027-000166",
+    "SEC-2027-000167",
+    "SEC-2027-000171",
+    "SEC-2027-000172",
+    "SEC-2027-000176",
+    "SEC-2027-000179",
+    "SEC-2027-000191",
+    "SEC-2027-000197",
+    "SEC-2027-000199",
+    "SEC-2027-000206",
+    "SEC-2027-000207",
+    "SEC-2027-000213",
+    "SEC-2027-000216"
+  ],
+  "sections_with_candidate_blocker": {
+    "UNAVAILABLE": 51,
+    "MISSING_SKILL": 51,
+    "TIMETABLE_CONFLICT": 51,
+    "WORKLOAD_LIMIT": 51,
+    "FACULTY_NOT_ACTIVE": 51
+  },
+  "candidate_blocker_occurrences": {
+    "MISSING_SKILL": 2367,
+    "UNAVAILABLE": 264,
+    "WORKLOAD_LIMIT": 2397,
+    "TIMETABLE_CONFLICT": 370,
+    "FACULTY_NOT_ACTIVE": 102
+  },
+  "assumptions": [
+    "Confirmed blockers are evaluated against the final assignments using the allocator's current hard constraints.",
+    "The allocator filters skills and availability by target term and requires effective dates to cover the full term, inclusively.",
+    "Missing term dates, qualification records, or target-term availability records do not establish eligibility.",
+    "An unstaffed section with a remaining feasible faculty candidate is unresolved, not attributed to an assumed blocker.",
+    "Room availability is not a faculty-allocation constraint in the current optimizer."
+  ],
+  "sections": [
+    {
+      "section_id": "SEC-2027-000001",
+      "course_id": "CRS-000001",
+      "day_of_week": 0,
+      "slot_id": "S1",
+      "room_id": "ROM-000027",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 10,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000006",
+      "course_id": "CRS-000004",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000027",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000009",
+      "course_id": "CRS-000005",
+      "day_of_week": 3,
+      "slot_id": "S2",
+      "room_id": "ROM-000027",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 10,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000010",
+      "course_id": "CRS-000005",
+      "day_of_week": 4,
+      "slot_id": "S2",
+      "room_id": "ROM-000027",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000015",
+      "course_id": "CRS-000008",
+      "day_of_week": 4,
+      "slot_id": "S3",
+      "room_id": "ROM-000027",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 1,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000033",
+      "course_id": "CRS-000016",
+      "day_of_week": 2,
+      "slot_id": "S3",
+      "room_id": "ROM-000021",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 45,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 8,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000034",
+      "course_id": "CRS-000016",
+      "day_of_week": 3,
+      "slot_id": "S3",
+      "room_id": "ROM-000021",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 45,
+        "UNAVAILABLE": 7,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000036",
+      "course_id": "CRS-000017",
+      "day_of_week": 0,
+      "slot_id": "S4",
+      "room_id": "ROM-000021",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 5,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 8,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000046",
+      "course_id": "CRS-000022",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000015",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 44,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000049",
+      "course_id": "CRS-000023",
+      "day_of_week": 3,
+      "slot_id": "S2",
+      "room_id": "ROM-000015",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 10,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000066",
+      "course_id": "CRS-000032",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000009",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000067",
+      "course_id": "CRS-000032",
+      "day_of_week": 1,
+      "slot_id": "S2",
+      "room_id": "ROM-000009",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000071",
+      "course_id": "CRS-000033",
+      "day_of_week": 0,
+      "slot_id": "S3",
+      "room_id": "ROM-000009",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 45,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000074",
+      "course_id": "CRS-000035",
+      "day_of_week": 3,
+      "slot_id": "S3",
+      "room_id": "ROM-000009",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 7,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000079",
+      "course_id": "CRS-000037",
+      "day_of_week": 3,
+      "slot_id": "S4",
+      "room_id": "ROM-000009",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000086",
+      "course_id": "CRS-000040",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000087",
+      "course_id": "CRS-000040",
+      "day_of_week": 1,
+      "slot_id": "S2",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000089",
+      "course_id": "CRS-000041",
+      "day_of_week": 3,
+      "slot_id": "S2",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 10,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000090",
+      "course_id": "CRS-000042",
+      "day_of_week": 4,
+      "slot_id": "S2",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000091",
+      "course_id": "CRS-000042",
+      "day_of_week": 0,
+      "slot_id": "S3",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000093",
+      "course_id": "CRS-000043",
+      "day_of_week": 2,
+      "slot_id": "S3",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 44,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 8,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000097",
+      "course_id": "CRS-000044",
+      "day_of_week": 1,
+      "slot_id": "S4",
+      "room_id": "ROM-000003",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 43,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000102",
+      "course_id": "CRS-000048",
+      "day_of_week": 1,
+      "slot_id": "S1",
+      "room_id": "ROM-000010",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000104",
+      "course_id": "CRS-000048",
+      "day_of_week": 3,
+      "slot_id": "S1",
+      "room_id": "ROM-000010",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 7,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000114",
+      "course_id": "CRS-000053",
+      "day_of_week": 3,
+      "slot_id": "S3",
+      "room_id": "ROM-000010",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 7,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000126",
+      "course_id": "CRS-000059",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000127",
+      "course_id": "CRS-000059",
+      "day_of_week": 1,
+      "slot_id": "S2",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000129",
+      "course_id": "CRS-000060",
+      "day_of_week": 3,
+      "slot_id": "S2",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 10,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000134",
+      "course_id": "CRS-000062",
+      "day_of_week": 3,
+      "slot_id": "S3",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 7,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000135",
+      "course_id": "CRS-000063",
+      "day_of_week": 4,
+      "slot_id": "S3",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 1,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000138",
+      "course_id": "CRS-000064",
+      "day_of_week": 2,
+      "slot_id": "S4",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 10,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000139",
+      "course_id": "CRS-000065",
+      "day_of_week": 3,
+      "slot_id": "S4",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000140",
+      "course_id": "CRS-000065",
+      "day_of_week": 4,
+      "slot_id": "S4",
+      "room_id": "ROM-000016",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 5,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 10,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000141",
+      "course_id": "CRS-000065",
+      "day_of_week": 0,
+      "slot_id": "S1",
+      "room_id": "ROM-000004",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 10,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000142",
+      "course_id": "CRS-000066",
+      "day_of_week": 1,
+      "slot_id": "S1",
+      "room_id": "ROM-000004",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000143",
+      "course_id": "CRS-000066",
+      "day_of_week": 2,
+      "slot_id": "S1",
+      "room_id": "ROM-000004",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 10,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000144",
+      "course_id": "CRS-000066",
+      "day_of_week": 3,
+      "slot_id": "S1",
+      "room_id": "ROM-000004",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 48,
+        "UNAVAILABLE": 7,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000149",
+      "course_id": "CRS-000069",
+      "day_of_week": 3,
+      "slot_id": "S2",
+      "room_id": "ROM-000004",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 10,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000166",
+      "course_id": "CRS-000076",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000028",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000167",
+      "course_id": "CRS-000076",
+      "day_of_week": 1,
+      "slot_id": "S2",
+      "room_id": "ROM-000028",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000171",
+      "course_id": "CRS-000078",
+      "day_of_week": 0,
+      "slot_id": "S3",
+      "room_id": "ROM-000028",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000172",
+      "course_id": "CRS-000078",
+      "day_of_week": 1,
+      "slot_id": "S3",
+      "room_id": "ROM-000028",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 10,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000176",
+      "course_id": "CRS-000080",
+      "day_of_week": 0,
+      "slot_id": "S4",
+      "room_id": "ROM-000028",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 45,
+        "UNAVAILABLE": 5,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 8,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000179",
+      "course_id": "CRS-000082",
+      "day_of_week": 3,
+      "slot_id": "S4",
+      "room_id": "ROM-000028",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 47,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000191",
+      "course_id": "CRS-000087",
+      "day_of_week": 0,
+      "slot_id": "S3",
+      "room_id": "ROM-000022",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 45,
+        "UNAVAILABLE": 4,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000197",
+      "course_id": "CRS-000089",
+      "day_of_week": 1,
+      "slot_id": "S4",
+      "room_id": "ROM-000022",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 9,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000199",
+      "course_id": "CRS-000090",
+      "day_of_week": 3,
+      "slot_id": "S4",
+      "room_id": "ROM-000022",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 45,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 7,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000206",
+      "course_id": "CRS-000094",
+      "day_of_week": 0,
+      "slot_id": "S2",
+      "room_id": "ROM-000029",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 4,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000207",
+      "course_id": "CRS-000094",
+      "day_of_week": 1,
+      "slot_id": "S2",
+      "room_id": "ROM-000029",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 6,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 6,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000213",
+      "course_id": "CRS-000097",
+      "day_of_week": 2,
+      "slot_id": "S3",
+      "room_id": "ROM-000029",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 46,
+        "UNAVAILABLE": 2,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 8,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    },
+    {
+      "section_id": "SEC-2027-000216",
+      "course_id": "CRS-000099",
+      "day_of_week": 0,
+      "slot_id": "S4",
+      "room_id": "ROM-000029",
+      "planned_capacity": 40,
+      "candidate_blocking_reasons": [
+        "FACULTY_NOT_ACTIVE",
+        "MISSING_SKILL",
+        "TIMETABLE_CONFLICT",
+        "UNAVAILABLE",
+        "WORKLOAD_LIMIT"
+      ],
+      "candidate_blocker_counts": {
+        "MISSING_SKILL": 42,
+        "UNAVAILABLE": 5,
+        "WORKLOAD_LIMIT": 47,
+        "TIMETABLE_CONFLICT": 8,
+        "FACULTY_NOT_ACTIVE": 2
+      },
+      "feasible_faculty_ids": [],
+      "accounted": true,
+      "diagnosis": "BLOCKED_BY_CONFIRMED_CONSTRAINTS"
+    }
+  ]
+}

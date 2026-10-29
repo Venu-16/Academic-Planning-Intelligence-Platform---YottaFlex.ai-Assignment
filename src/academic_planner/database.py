@@ -25,6 +25,16 @@ def initialize_database(engine):
                 "CHECK(status IN ('PROPOSED','OPERATIONAL','BLOCKED','UNSTAFFED',"
                 "'REJECTED','ALLOCATED','PARTIAL','CANCELLED'))"
             ))
+        has_proposal_check=conn.execute(text(
+            "SELECT EXISTS (SELECT 1 FROM pg_constraint "
+            "WHERE conname='sections_proposal_status_check' "
+            "AND conrelid='sections'::regclass)"
+        )).scalar_one()
+        if not has_proposal_check:
+            conn.execute(text(
+                "ALTER TABLE sections ADD CONSTRAINT sections_proposal_status_check "
+                "CHECK(proposal_status='PROPOSED')"
+            ))
         has_run_fk=conn.execute(text(
             "SELECT EXISTS (SELECT 1 FROM pg_constraint "
             "WHERE conname='sections_planning_run_id_fkey' "

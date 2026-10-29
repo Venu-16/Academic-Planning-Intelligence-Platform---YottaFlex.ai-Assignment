@@ -70,12 +70,12 @@ def rule_checker_inputs(issue_type):
     return kwargs
 
 
-def add_frame_validation_fixture(frames, issue_type):
+def add_frame_validation_fixture(frames, issue_type, entity_id):
     if issue_type == "SECTION_CAPACITY_TOO_LOW":
         frames["sections"] = pd.DataFrame(
             [
                 {
-                    "section_id": "SEC-SYNTHETIC",
+                    "section_id": entity_id,
                     "course_id": frames["courses"].iloc[0].course_id,
                     "term_id": "2027-SPRING",
                     "section_number": 1,
@@ -92,7 +92,7 @@ def add_frame_validation_fixture(frames, issue_type):
         frames["registration_interests"] = pd.DataFrame(
             [
                 {
-                    "interest_id": "INT-SYNTHETIC",
+                    "interest_id": entity_id,
                     "student_plan_id": frames["student_plans"].iloc[0].student_plan_id,
                     "course_id": frames["courses"].iloc[0].course_id,
                     "term_id": "2027-SPRING",
@@ -105,7 +105,7 @@ def add_frame_validation_fixture(frames, issue_type):
     else:
         assignment_rows = [
             {
-                "workload_assignment_id": "WLA-SYNTHETIC-1",
+                "workload_assignment_id": "WLA-SYNTHETIC-000001",
                 "section_id": "SEC-SYNTHETIC",
                 "faculty_id": frames["faculty"].iloc[0].faculty_id,
                 "weekly_hours": 6 if issue_type == "WORKLOAD_EXCEEDED" else 3,
@@ -116,7 +116,7 @@ def add_frame_validation_fixture(frames, issue_type):
             assignment_rows.append(
                 {
                     **assignment_rows[0],
-                    "workload_assignment_id": "WLA-SYNTHETIC-2",
+                    "workload_assignment_id": entity_id,
                 }
             )
         elif issue_type == "FACULTY_OUTSIDE_SKILL":
@@ -152,7 +152,25 @@ def test_ground_truth_fixture_matches_rule_checker(case):
 def test_frame_validator_detects_prerequisite_anomaly_only(case, baseline_frames):
     issue_type = case["issue_type"]
     isolated_frames = {name: frame.copy(deep=True) for name, frame in baseline_frames.items()}
-    add_frame_validation_fixture(isolated_frames, issue_type)
+    add_frame_validation_fixture(isolated_frames, issue_type, case["entity_id"])
+
+    if issue_type == "SECTION_CAPACITY_TOO_LOW":
+        assert isolated_frames["sections"].section_id.iloc[0] == case["entity_id"]
+    elif issue_type == "PREREQUISITE_SEQUENCE_VIOLATION":
+        assert (
+            isolated_frames["registration_interests"].interest_id.iloc[0]
+            == case["entity_id"]
+        )
+    elif issue_type == "DUPLICATE_SECTION_ASSIGNMENT":
+        assert case["entity_id"] in set(
+            isolated_frames["workload_assignments"].workload_assignment_id
+        )
+    elif issue_type == "FACULTY_OUTSIDE_SKILL":
+        assert case["entity_id"] == isolated_frames[
+            "workload_assignments"
+        ].workload_assignment_id.iloc[0]
+    elif issue_type == "WORKLOAD_EXCEEDED":
+        assert case["entity_id"] == isolated_frames["faculty"].faculty_id.iloc[0]
 
     actual_issues = validate_frames(isolated_frames)
 
@@ -268,8 +286,8 @@ def test_pipeline_reports_capacity_shortfall_as_existing_ground_truth_rule(
     original_propose = pipeline.propose_sections
     target_course = "CRS-000001"
 
-    def forecast_with_capacity_fixture(history):
-        forecasts, metrics = original_forecast(history)
+    def forecast_with_capacity_fixture(history, **kwargs):
+        forecasts, metrics = original_forecast(history, **kwargs)
         forecasts.loc[
             forecasts.course_id == target_course, "forecast_enrollment"
         ] = 45
@@ -305,8 +323,13 @@ def test_valid_pipeline_assignments_remain_operational(tmp_path):
     metrics = pipeline.run_pipeline(output_dir=tmp_path, persist=False)
     validation = json.loads((tmp_path / "planning_validation.json").read_text())
     capacity = pd.read_csv(tmp_path / "operational_capacity.csv")
+    forecasts = pd.read_csv(tmp_path / "forecasts.csv")
 
     assert metrics["planning_validation"]["passed"]
     assert metrics["planning_validation"]["invalid_assignment_count"] == 0
     assert validation["passed"] and validation["assignment_issues"] == []
     assert capacity.operational.sum() == metrics["allocation"]["sections_staffed"]
+    assert forecasts.target_term.eq("2027-SPRING").all()
+    assert forecasts.source_term_id.notna().all()
+    assert forecasts.model_name.notna().all()
+    assert forecasts.fallback_applied.eq(False).all()

@@ -6,6 +6,7 @@ PRIMARY_KEYS={
     "faculty_skills":"faculty_skill_id","availability":"availability_id",
     "rooms":"room_id","student_plans":"student_plan_id",
     "registration_interests":"interest_id",
+    "student_course_completions":"completion_id",
     "historical_enrollments":"historical_enrollment_id",
 }
 REQUIRED_FIELDS={
@@ -19,6 +20,7 @@ REQUIRED_FIELDS={
     "rooms":["room_id","building","room_type","capacity","active"],
     "student_plans":["student_plan_id","student_id","program_id","term_id","year_of_study","created_at"],
     "registration_interests":["interest_id","student_plan_id","course_id","term_id","interest_status","interest_date","eligible"],
+    "student_course_completions":["completion_id","student_plan_id","course_id","completed_on"],
     "historical_enrollments":["historical_enrollment_id","course_id","term_id","eligible_students","registrations","enrolled","unmet_demand"],
 }
 FK={
@@ -28,6 +30,7 @@ FK={
     "availability":[("faculty_id","faculty","faculty_id"),("term_id","academic_terms","term_id")],
     "student_plans":[("program_id","programs","program_id"),("term_id","academic_terms","term_id")],
     "registration_interests":[("student_plan_id","student_plans","student_plan_id"),("course_id","courses","course_id"),("term_id","academic_terms","term_id")],
+    "student_course_completions":[("student_plan_id","student_plans","student_plan_id"),("course_id","courses","course_id")],
     "historical_enrollments":[("course_id","courses","course_id")],
 }
 
@@ -48,6 +51,7 @@ def validate_frames(frames):
         "prerequisites":["course_id","prerequisite_course_id","effective_from"],
         "student_plans":["student_id","term_id"],
         "registration_interests":["student_plan_id","course_id","term_id"],
+        "student_course_completions":["student_plan_id","course_id"],
         "faculty_skills":["faculty_id","course_id","effective_from"],
         "historical_enrollments":["course_id","term_id"],
     }.items():
@@ -204,6 +208,98 @@ def validate_frames(frames):
                 "issue":"PREREQUISITE_SEQUENCE_VIOLATION",
                 "count":int(invalid.sum()),
                 "entity_ids":interests.loc[invalid,"interest_id"].astype(str).tolist(),
+                "decision":"FLAG_INELIGIBLE",
+            })
+    completions=frames.get("student_course_completions")
+    prerequisites=frames.get("prerequisites")
+    terms=frames.get("academic_terms")
+    plans=frames.get("student_plans")
+    if (
+        completions is not None
+        and prerequisites is not None
+        and interests is not None
+        and plans is not None
+        and terms is not None
+        and {"student_plan_id","course_id","completed_on"}.issubset(completions.columns)
+        and {"course_id","prerequisite_course_id"}.issubset(prerequisites.columns)
+        and {"student_plan_id","course_id","term_id","eligible","interest_status","interest_id"}.issubset(interests.columns)
+        and {"student_plan_id","term_id"}.issubset(plans.columns)
+        and {"term_id","start_date","end_date"}.issubset(terms.columns)
+    ):
+        completion_dates=pd.to_datetime(
+            completions.completed_on,errors="coerce"
+        )
+        plan_term=plans.set_index("student_plan_id").term_id
+        term_start=terms.set_index("term_id").start_date.map(
+            lambda value:pd.to_datetime(value,errors="coerce")
+        )
+        completion_plan_terms=completions.student_plan_id.map(plan_term)
+        completion_term_starts=completion_plan_terms.map(term_start)
+        future_completions=(
+            completion_dates.isna()
+            |completion_term_starts.isna()
+            |(completion_dates>=completion_term_starts)
+        )
+        if future_completions.any():
+            issues.append({
+                "severity":"ERROR",
+                "table":"student_course_completions",
+                "issue":"COMPLETION_NOT_BEFORE_PLAN_TERM",
+                "count":int(future_completions.sum()),
+                "entity_ids":completions.loc[
+                    future_completions,"completion_id"
+                ].astype(str).tolist(),
+            })
+
+        completion_pairs=set(zip(
+            completions.student_plan_id,
+            completions.course_id,
+        ))
+        term_ranges=terms.set_index("term_id")[["start_date","end_date"]].to_dict("index")
+        unmatched_interests=[]
+        if {"effective_from","effective_to"}.issubset(prerequisites.columns):
+            for interest in interests.itertuples(index=False):
+                term_id=interest.term_id
+                term_range=term_ranges.get(term_id)
+                if term_range is None:
+                    continue
+                start=_as_date(term_range["start_date"])
+                end=_as_date(term_range["end_date"])
+                if start is None or end is None:
+                    continue
+                course_prerequisites=prerequisites.loc[
+                    prerequisites.course_id==interest.course_id
+                ]
+                effective_from=pd.to_datetime(
+                    course_prerequisites.effective_from,errors="coerce"
+                )
+                effective_to=pd.to_datetime(
+                    course_prerequisites.effective_to,errors="coerce"
+                )
+                active=course_prerequisites.loc[
+                    effective_from.le(pd.Timestamp(start))
+                    &(effective_to.isna()|effective_to.ge(pd.Timestamp(end)))
+                ]
+                missing=[
+                    prerequisite_course_id
+                    for prerequisite_course_id in active.prerequisite_course_id
+                    if (
+                        interest.student_plan_id,
+                        prerequisite_course_id,
+                    ) not in completion_pairs
+                ]
+                if missing and (
+                    bool(interest.eligible)
+                    or interest.interest_status in {"REGISTERED","WAITLISTED"}
+                ):
+                    unmatched_interests.append(interest.interest_id)
+        if unmatched_interests:
+            issues.append({
+                "severity":"ERROR",
+                "table":"registration_interests",
+                "issue":"PREREQUISITE_SEQUENCE_VIOLATION",
+                "count":len(unmatched_interests),
+                "entity_ids":list(map(str,unmatched_interests)),
                 "decision":"FLAG_INELIGIBLE",
             })
     return issues

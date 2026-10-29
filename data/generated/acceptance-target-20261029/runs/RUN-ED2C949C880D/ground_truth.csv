@@ -1,0 +1,6 @@
+case_id,issue_type,entity_type,entity_id,description,expected_decision
+ANM-000001,FACULTY_OUTSIDE_SKILL,workload_assignment,WLA-SYNTHETIC-000001,Faculty-course pair missing from skill bridge,REJECT_ASSIGNMENT
+ANM-000002,WORKLOAD_EXCEEDED,faculty,FAC-000001,Proposed load exceeds weekly limit,REJECT_OR_REASSIGN
+ANM-000003,SECTION_CAPACITY_TOO_LOW,section,SEC-SYNTHETIC-000001,Forecast demand exceeds available seats,ADD_SECTION_OR_RECORD_UNMET
+ANM-000004,PREREQUISITE_SEQUENCE_VIOLATION,registration_interest,INT-00000001,Student has not met prerequisite,FLAG_INELIGIBLE
+ANM-000005,DUPLICATE_SECTION_ASSIGNMENT,workload_assignment,WLA-SYNTHETIC-000002,Duplicate faculty-section pair,REJECT_DUPLICATE

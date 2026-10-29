@@ -20,7 +20,7 @@ def propose_sections(forecasts,rooms,term_id="2027-SPRING",academic_terms=None):
             rows.append({"section_id":f"SEC-{term_year}-{idx:06d}","course_id":r.course_id,"term_id":term_id,
                 "section_number":i,"room_id":room_id,"day_of_week":day,"slot_id":slot,
                 "planned_capacity":cap,"forecast_demand":int(r.forecast_enrollment),
-                "status":"PROPOSED" if room_id else "PARTIAL"})
+                "proposal_status":"PROPOSED","status":"PROPOSED"})
     sections=pd.DataFrame(rows)
     if academic_terms is not None and not academic_terms.empty:
         term=academic_terms.loc[academic_terms.term_id==term_id]
@@ -196,6 +196,7 @@ def calculate_operational_capacity(sections,assignments,rooms,faculty,skills,ava
             "course_id":section.course_id,
             "term_id":section.term_id,
             "room_id":section.room_id,
+            "proposal_status":getattr(section,"proposal_status","PROPOSED"),
             "faculty_id":assignment.faculty_id if assignment is not None else None,
             "planned_capacity":planned_capacity,
             "room_capacity":room_capacity,
@@ -209,7 +210,7 @@ def calculate_operational_capacity(sections,assignments,rooms,faculty,skills,ava
             "blocking_reasons":";".join(blockers),
         })
     return pd.DataFrame(rows,columns=[
-        "section_id","course_id","term_id","room_id","faculty_id",
+        "section_id","course_id","term_id","room_id","proposal_status","faculty_id",
         "planned_capacity","room_capacity","operational_capacity",
         "operational","assignment_status","section_status","blocking_reasons",
     ])
@@ -390,7 +391,7 @@ def summarize_capacity_metrics(
         "sections_without_eligible_faculty":len(feasible_candidates),
         "sections_without_eligible_faculty_ids":sorted(feasible_candidates),
         "sections_unstaffed":int(
-            section_capacity.section_status.eq("PROPOSED").sum()
+            section_capacity.section_status.eq("UNSTAFFED").sum()
         ),
         "raw_violation_occurrences":raw_violations,
         "blocked_sections_by_rule":{

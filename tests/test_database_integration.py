@@ -60,8 +60,8 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
     first_metrics = run_pipeline(first_dir, database_url, seed=20261022, persist=True)
     forecast_function = pipeline_module.forecast_demand
 
-    def distinctive_forecast(history):
-        forecasts, report = forecast_function(history)
+    def distinctive_forecast(history, **kwargs):
+        forecasts, report = forecast_function(history, **kwargs)
         forecasts = forecasts.copy()
         forecasts.loc[forecasts.index[0], "forecast_enrollment"] += 1
         return forecasts, report
@@ -87,6 +87,8 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
             "SELECT "
             "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='sections'::regclass "
             "AND conname='sections_planning_run_id_fkey' AND contype='f' AND convalidated) AS section_run_fk,"
+            "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='sections'::regclass "
+            "AND conname='sections_proposal_status_check' AND contype='c' AND convalidated) AS proposal_status_check,"
             "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='forecasts'::regclass "
             "AND confrelid='planning_runs'::regclass AND contype='f' AND convalidated) AS forecast_run_fk,"
             "EXISTS(SELECT 1 FROM pg_constraint WHERE conrelid='unmet_demand'::regclass "
@@ -116,6 +118,8 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
             "(SELECT COUNT(*) FROM sections s WHERE s.planning_run_id=r.planning_run_id) AS sections,"
             "(SELECT COUNT(*) FROM sections s WHERE s.planning_run_id=r.planning_run_id "
             " AND s.operational_capacity>0) AS operational_sections,"
+            "(SELECT COUNT(*) FROM sections s WHERE s.planning_run_id=r.planning_run_id "
+            " AND s.proposal_status!='PROPOSED') AS invalid_proposal_states,"
             "(SELECT COALESCE(SUM(s.planned_capacity),0) FROM sections s "
             " WHERE s.planning_run_id=r.planning_run_id) AS planned_capacity,"
             "(SELECT COALESCE(SUM(s.operational_capacity),0) FROM sections s "
@@ -136,6 +140,7 @@ def test_fresh_database_pipeline_reruns_preserve_and_reconcile(
     assert counts["events"] == 4 + first_transition_count + second_transition_count
     assert counts["diagnostic_events"] == 2
     assert all(constraints.values())
+    assert all(row["invalid_proposal_states"] == 0 for row in run_rows)
     assert counts["forecasts"] == (
         first_metrics["forecast"]["courses_forecasted"]
         + second_metrics["forecast"]["courses_forecasted"]
@@ -402,7 +407,8 @@ def test_existing_schema_migration_preserves_rows(isolated_postgres):
 
     with engine.connect() as conn:
         old_section = conn.execute(text(
-            "SELECT section_id,planned_capacity,operational_capacity,planning_run_id "
+            "SELECT section_id,planned_capacity,operational_capacity,planning_run_id,"
+            "proposal_status "
             "FROM sections WHERE section_id='SEC-OLD'"
         )).mappings().one()
         old_unmet = conn.execute(text(
@@ -427,11 +433,19 @@ def test_existing_schema_migration_preserves_rows(isolated_postgres):
         academic_terms_exists = conn.execute(text(
             "SELECT to_regclass('academic_terms') IS NOT NULL"
         )).scalar_one()
+        completion_table_exists = conn.execute(text(
+            "SELECT to_regclass('student_course_completions') IS NOT NULL"
+        )).scalar_one()
+        proposal_check_exists = conn.execute(text(
+            "SELECT EXISTS(SELECT 1 FROM pg_constraint WHERE "
+            "conname='sections_proposal_status_check' AND conrelid='sections'::regclass)"
+        )).scalar_one()
 
     assert old_section["section_id"] == "SEC-OLD"
     assert old_section["planned_capacity"] == 40
     assert old_section["operational_capacity"] == 0
     assert old_section["planning_run_id"] is None
+    assert old_section["proposal_status"] == "PROPOSED"
     assert old_unmet["unmet_demand_id"] == "UMD-OLD"
     assert old_unmet["planned_capacity"] == 0
     assert old_unmet["operational_capacity"] == 0
@@ -441,6 +455,8 @@ def test_existing_schema_migration_preserves_rows(isolated_postgres):
     assert not old_unique_exists
     assert unmet_index_exists
     assert academic_terms_exists
+    assert completion_table_exists
+    assert proposal_check_exists
 
 
 def test_unknown_term_references_are_rejected_after_migration(isolated_postgres):
